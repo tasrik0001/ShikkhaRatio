@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIKKHA // THE LEDGER REPORT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Public+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --paper: #f9f7f1; /* Off-white newsprint */
+            --ink: #1a1a1a;   /* Charcoal black */
+            --ink-light: #4a4a4a;
+            --accent-crimson: #8b1e1e; /* Editorial red */
+            --line-faint: #d3d1c8;
+            --line-bold: #1a1a1a;
+        }
+
+        body {
+            background-color: var(--paper);
+            color: var(--ink);
+            font-family: 'Merriweather', serif;
+            line-height: 1.6;
+            margin: 0;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-family: 'Merriweather', serif;
+            color: var(--ink);
+        }
+
+        .sans-serif {
+            font-family: 'Public Sans', sans-serif;
+        }
+
+        /* Editorial lines */
+        .border-double-y {
+            border-top: 3px double var(--line-bold);
+            border-bottom: 3px double var(--line-bold);
+        }
+        
+        .border-thick-t {
+            border-top: 4px solid var(--line-bold);
+        }
+
+        .hairline-r { border-right: 1px solid var(--line-faint); }
+        .hairline-b { border-bottom: 1px solid var(--line-faint); }
+        .hairline-t { border-top: 1px solid var(--line-faint); }
+
+        /* Drop cap */
+        .drop-cap::first-letter {
+            float: left;
+            font-size: 4.5rem;
+            line-height: 0.8;
+            padding-right: 0.5rem;
+            padding-top: 0.3rem;
+            font-weight: 900;
+            color: var(--ink);
+        }
+
+        /* Slider styling - elegant and minimal */
+        input[type=range] {
+            -webkit-appearance: none;
+            width: 100%;
+            background: transparent;
+        }
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 16px;
+            width: 16px;
+            border-radius: 50%;
+            background: var(--ink);
+            cursor: pointer;
+            margin-top: -7px;
+            border: 2px solid var(--paper);
+            box-shadow: 0 0 0 1px var(--ink);
+        }
+        input[type=range]::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 2px;
+            background: var(--line-faint);
+        }
+        input[type=range]:focus { outline: none; }
+
+        /* Canvas Wrapper */
+        #interactive-graphic {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            background-color: var(--paper);
+            border: 1px solid var(--line-faint);
+        }
+
+        #data-canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+            /* Multiply blending for printed ink effect */
+            mix-blend-mode: multiply; 
+        }
+
+        .caption {
+            font-family: 'Public Sans', sans-serif;
+            font-size: 0.8rem;
+            color: var(--ink-light);
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8 lg:px-16 flex flex-col items-center">
+
+    <header class="w-full max-w-7xl mb-8">
+        <div class="flex justify-between items-end pb-2 hairline-b mb-1 sans-serif text-xs font-medium uppercase tracking-widest text-[var(--ink-light)]">
+            <span>Vol. CLXXII, No. 59.901</span>
+            <span>Sunday, September 13, 2026</span>
+            <span>Dhaka, Bangladesh</span>
+        </div>
+        <div class="text-center py-6 border-double-y">
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight" style="letter-spacing: -0.03em;">
+                The Shikkha Ledger.
+            </h1>
+            <p class="sans-serif text-sm md:text-base tracking-widest uppercase mt-4 text-[var(--ink-light)] font-bold">
+                An Interactive Investigation into Educational Infrastructure
+            </p>
+        </div>
+    </header>
+
+    <main class="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+        
+        <!-- Left Column: The Article -->
+        <article class="lg:col-span-5 flex flex-col">
+            <div class="hairline-b pb-6 mb-6">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4">
+                    The Missing Educators: When One Must Bear the Burden of Eighty.
+                </h2>
+                <h3 class="text-xl md:text-2xl font-light italic text-[var(--ink-light)] mb-6">
+                    Despite international guidelines capping classroom sizes, national data reveals a systemic fracture in structural teaching capacity.
+                </h3>
+                
+                <div class="flex items-center gap-4 sans-serif text-xs uppercase tracking-widest font-medium border-t border-b border-[var(--line-faint)] py-2 mb-6">
+                    <span class="font-bold text-[var(--ink)]">By The Ledger Data Desk</span>
+                    <span class="text-[var(--ink-light)]">Data Sourced: Open Ledger</span>
+                </div>
+            </div>
+
+            <div class="prose text-lg leading-relaxed text-[var(--ink)]">
+                <p class="drop-cap">A</p>
+                <p>
+                    t the core of the UNESCO educational framework lies a simple metric: 1 to 30. One trained educator for every thirty students. It is a ratio designed to guarantee baseline attention, adequate cognitive development, and classroom stability.
+                </p>
+                <p class="mt-4">
+                    Yet, analysis of the latest anonymous public ledger submissions paints a drastically divergent reality for primary education zones across the nation. The national average currently sits at a precarious <strong class="text-[var(--accent-crimson)]">1:47</strong>. 
+                </p>
+                <p class="mt-4">
+                    "We are no longer teaching; we are managing crowds," a submission from a primary school in Kurigram notes. In regions like Sunamganj and Bhola, the data shows an even sharper deviation, with single teachers frequently anchored to classrooms exceeding eighty students.
+                </p>
+                
+                <!-- Inner Data Box -->
+                <div class="my-8 p-6 bg-white border border-[var(--line-faint)] shadow-sm">
+                    <h4 class="sans-serif text-xs uppercase tracking-widest font-bold mb-4 text-[var(--ink-light)] border-b border-[var(--line-faint)] pb-2">Critical Deviation Zones</h4>
+                    <ul class="space-y-3 font-bold">
+                        <li class="flex justify-between"><span>Kurigram</span> <span class="text-[var(--accent-crimson)]">1:85</span></li>
+                        <li class="flex justify-between"><span>Sunamganj</span> <span class="text-[var(--accent-crimson)]">1:82</span></li>
+                        <li class="flex justify-between"><span>Bhola</span> <span class="text-[var(--accent-crimson)]">1:78</span></li>
+                    </ul>
+                </div>
+                
+                <p>
+                    The interactive visualization provided here illustrates the cognitive and structural strain of these escalating ratios. As the slider scales past the recommended threshold, the resulting network mapping demonstrates the impossibility of individualized educational attention.
+                </p>
+            </div>
+        </article>
+
+        <!-- Right Column: Interactive Graphic -->
+        <aside class="lg:col-span-7 flex flex-col border-thick-t pt-2 lg:border-t-0 lg:pt-0 lg:pl-6 lg:border-l lg:border-[var(--line-bold)]">
+            
+            <div class="mb-4">
+                <span class="sans-serif text-xs font-bold uppercase tracking-widest text-[var(--ink-light)] block mb-1">Figure 1.</span>
+                <h4 class="text-2xl font-bold">Classroom Load Analysis</h4>
+            </div>
+
+            <!-- Canvas Visualization -->
+            <div id="interactive-graphic" class="mb-4 shadow-[0_4px_12px_rgba(0,0,0,0.03)]">
+                <canvas id="data-canvas"></canvas>
+            </div>
+
+            <!-- Controls & Caption -->
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+                <div class="md:col-span-7 caption">
+                    <p><strong>Methodology:</strong> The simulation maps central anchor nodes (Educators, solid dots) against dependent nodes (Students, hollow circles). Tension lines illustrate the division of attention. Red hues indicate a critical failure of the 1:30 UNESCO threshold.</p>
+                </div>
+                
+                <div class="md:col-span-5 bg-white p-4 border border-[var(--line-faint)] shadow-sm">
+                    <label for="ratio-slider" class="sans-serif text-xs font-bold uppercase tracking-widest text-[var(--ink)] block mb-3 flex justify-between">
+                        <span>Adjust Data Model</span>
+                        <span id="slider-val-text" class="text-[var(--accent-crimson)]">1:47</span>
+                    </label>
+                    <input type="range" id="ratio-slider" min="10" max="100" value="47">
+                    <div class="flex justify-between mt-2 sans-serif text-[10px] text-[var(--ink-light)] font-bold uppercase">
+                        <span>Optimal (10)</span>
+                        <span>Crisis (100)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-auto pt-8">
+                 <button class="sans-serif w-full text-center py-3 border border-[var(--ink)] text-[var(--ink)] font-bold uppercase tracking-widest text-sm hover:bg-[var(--ink)] hover:text-[var(--paper)] transition-colors">
+                     Submit Anonymous Data Report
+                 </button>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <script>
+        const canvas = document.getElementById('data-canvas');
+        const ctx = canvas.getContext('2d');
+        const container = document.getElementById('interactive-graphic');
+        const slider = document.getElementById('ratio-slider');
+        const sliderValText = document.getElementById('slider-val-text');
+
+        let width, height;
+        let teachers = [];
+        let students = [];
+        const TEACHER_COUNT = 4; // Number of classroom clusters
+        let currentRatio = 47; 
+        const THRESHOLD = 30; // UNESCO standard
+
+        function resizeCanvas() {
+            width = container.clientWidth;
+            height = container.clientHeight;
+            // High DPI canvas for crisp lines like print
+            const dpr = window.devicePixelRatio || 1;
+            canvas.width = width * dpr;
+            canvas.height = height * dpr;
+            ctx.scale(dpr, dpr);
+            
+            initDataNodes();
+        }
+
+        window.addEventListener('resize', resizeCanvas);
+
+        class TeacherNode {
+            constructor(index) {
+                // Space them evenly
+                const margin = width * 0.15;
+                const usableWidth = width - (margin * 2);
+                this.x = margin + (usableWidth / (TEACHER_COUNT - 1)) * index;
+                this.y = height / 2;
+                this.radius = 6;
+                this.baseY = this.y;
+                this.phase = Math.random() * Math.PI * 2;
+            }
+            
+            update() {
+                // Subtle organic breathing motion
+                this.y = this.baseY + Math.sin(Date.now() * 0.001 + this.phase) * 5;
+            }
+
+            draw() {
+                ctx.fillStyle = currentRatio > THRESHOLD ? '#8b1e1e' : '#1a1a1a';
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        class StudentNode {
+            constructor(teacher) {
+                this.teacher = teacher;
+                // Distribute in an organic cloud around the teacher
+                this.angle = Math.random() * Math.PI * 2;
+                this.distance = 25 + Math.random() * (Math.min(width, height) * 0.35); // Spread depends on ratio length
+                
+                // Actual position
+                this.x = this.teacher.x + Math.cos(this.angle) * this.distance;
+                this.y = this.teacher.y + Math.sin(this.angle) * this.distance;
+                
+                // Movement variables
+                this.orbitSpeed = (Math.random() - 0.5) * 0.002;
+                this.radius = 2.5;
+            }
+
+            update() {
+                // Slowly orbit the teacher to represent ongoing demand/attention
+                this.angle += this.orbitSpeed;
+                
+                // Add a little randomness if overloaded
+                let stressJitterX = 0;
+                let stressJitterY = 0;
+                if (currentRatio > THRESHOLD) {
+                    const stress = (currentRatio - THRESHOLD) * 0.01;
+                    stressJitterX = (Math.random() - 0.5) * stress;
+                    stressJitterY = (Math.random() - 0.5) * stress;
+                }
+
+                this.targetX = this.teacher.x + Math.cos(this.angle) * this.distance;
+                this.targetY = this.teacher.y + Math.sin(this.angle) * this.distance;
+
+                // Ease to target
+                this.x += (this.targetX - this.x) * 0.05 + stressJitterX;
+                this.y += (this.targetY - this.y) * 0.05 + stressJitterY;
+            }
+
+            draw() {
+                ctx.strokeStyle = currentRatio > THRESHOLD ? 'rgba(139, 30, 30, 0.7)' : 'rgba(26, 26, 26, 0.7)';
+                ctx.lineWidth = 1;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                ctx.stroke();
+            }
+        }
+
+        function initDataNodes() {
+            teachers = [];
+            students = [];
+            
+            for (let i = 0; i < TEACHER_COUNT; i++) {
+                const t = new TeacherNode(i);
+                teachers.push(t);
+                
+                for(let j = 0; j < currentRatio; j++) {
+                    students.push(new StudentNode(t));
+                }
+            }
+        }
+
+        function animate() {
+            // Clear canvas
+            ctx.clearRect(0, 0, width, height);
+            
+            // Draw infographic background markings
+            ctx.strokeStyle = 'rgba(211, 209, 200, 0.5)'; // line-faint
+            ctx.lineWidth = 1;
+            
+            // Center horizontal axis
+            ctx.beginPath();
+            ctx.moveTo(20, height/2);
+            ctx.lineTo(width-20, height/2);
+            ctx.stroke();
+            
+            // Threshold ring indicator (infographic style)
+            teachers.forEach(t => {
+                ctx.setLineDash([2, 4]);
+                ctx.beginPath();
+                // 30 ratio visual limit
+                ctx.arc(t.x, t.baseY, 80, 0, Math.PI*2); 
+                ctx.stroke();
+                ctx.setLineDash([]);
+            });
+
+            // Update and draw tension lines first (so they are under nodes)
+            students.forEach(s => {
+                s.update();
+                
+                // Only draw a subset of lines to prevent total visual mess, 
+                // simulating a sampling of data connections
+                if(Math.random() > 0.3) {
+                    ctx.strokeStyle = currentRatio > THRESHOLD 
+                        ? 'rgba(139, 30, 30, 0.15)'  // Faint editorial red
+                        : 'rgba(26, 26, 26, 0.1)';   // Faint charcoal
+                    
+                    ctx.lineWidth = 0.5;
+                    ctx.beginPath();
+                    ctx.moveTo(s.teacher.x, s.teacher.y);
+                    ctx.lineTo(s.x, s.y);
+                    ctx.stroke();
+                }
+            });
+
+            // Draw Nodes
+            students.forEach(s => s.draw());
+            teachers.forEach(t => {
+                t.update();
+                t.draw();
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        slider.addEventListener('input', (e) => {
+            currentRatio = parseInt(e.target.value);
+            sliderValText.textContent = `1:${currentRatio}`;
+            
+            if(currentRatio > THRESHOLD) {
+                sliderValText.style.color = 'var(--accent-crimson)';
+            } else {
+                sliderValText.style.color = 'var(--ink)';
+            }
+            
+            initDataNodes();
+        });
+
+        // Add a single large data point (anomaly) on click to simulate an extreme classroom
+        container.addEventListener('click', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            // Adjust for DPI scale
+            const x = (e.clientX - rect.left) / (rect.width / canvas.width);
+            
+            // Find closest teacher
+            let closestTeacher = teachers[0];
+            let minDist = Infinity;
+            
+            teachers.forEach(t => {
+                const dist = Math.abs(t.x - x);
+                if(dist < minDist) {
+                    minDist = dist;
+                    closestTeacher = t;
+                }
+            });
+            
+            // Add 15 students instantly to that specific cluster to visualize a localized spike
+            for(let i=0; i<15; i++) {
+                const s = new StudentNode(closestTeacher);
+                // Force distance closer for burst effect
+                s.distance = 10 + Math.random() * 40; 
+                students.push(s);
+            }
+        });
+
+        window.onload = () => {
+            resizeCanvas();
+            animate();
+        };
+    </script>
+</body>
+</html>
