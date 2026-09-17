@@ -1,0 +1,21 @@
+Sector,Type,Rank,Division,District,TSR
+School,Lowest,1,Khulna,Jessore,20.72
+School,Lowest,2,Barishal,Jhalokati,21.08
+School,Lowest,3,Khulna,Bagerhat,21.28
+School,Lowest,4,Rangpur,Panchagarh,21.59
+School,Lowest,5,Barishal,Pirojpur,22.09
+School,Highest,1,Sylhet,Sunamganj,49.91
+School,Highest,2,Chattogram,Brahmanbaria,48.13
+School,Highest,3,Dhaka,Munshiganj,46.9
+School,Highest,4,Sylhet,Habiganj,46.67
+School,Highest,5,Dhaka,Shariatpur,44.91
+College,Lowest,1,Rajshahi,Natore,17.47
+College,Lowest,2,Dhaka,Narsingdi,18.28
+College,Lowest,3,Rajshahi,Rajshahi,20.3
+College,Lowest,4,Rajshahi,Chapainawabganj,23.56
+College,Lowest,5,Khulna,Jhenaidah,23.83
+College,Highest,1,Dhaka,Munshiganj,154.74
+College,Highest,2,Chattogram,Bandarban,77.71
+College,Highest,3,Chattogram,Cox's Bazar,75.49
+College,Highest,4,Dhaka,Narayanganj,73.73
+College,Highest,5,Sylhet,Maulvibazar,72.36
