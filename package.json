@@ -1,0 +1,18 @@
+{
+  "name": "shikkharatio-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "python -m http.server 8000 --bind 127.0.0.1",
+    "lint": "eslint app.js site.js tests.mjs pages-check.mjs",
+    "test": "node tests.mjs && node pages-check.mjs"
+  },
+  "dependencies": {
+    "leaflet": "1.9.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "eslint": "^9.0.0",
+    "globals": "^16.0.0"
+  }
+}

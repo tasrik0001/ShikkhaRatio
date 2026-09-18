@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Bangladesh's 64 districts and download the education figures you choose.">
+  <title>Explore data | ShikkhaRatio</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="node_modules/leaflet/dist/leaflet.js"></script>
+  <script defer src="site.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="edition"><span>Bangladesh · An independent student project</span><time id="today"></time></div>
+    <a class="masthead" href="index.html">Shikkha<span>Ratio</span><span class="masthead-note">Education, seen district by district.</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="explore.html" aria-current="page">Explore data</a><a href="shortage.html">Teacher shortage</a><a href="regions.html">Regional differences</a><a href="story.html">Our story</a><a href="goals.html">Goals</a><a href="sources.html">Sources</a><a href="limitations.html">Limitations</a></nav>
+  </header>
+  <main id="main">
+    <header class="article-header"><p class="eyebrow">The district drawer / 2024</p><h1>Your district. Your questions.</h1><p class="lead">Choose schools or colleges, then select a district. The map takes you there. Keep the figures you need with a personalised download.</p></header>
+    <section id="explorer" aria-labelledby="explorer-title">
+      <div class="section-heading"><h2 id="explorer-title">01 / Find your district</h2><span class="label">64 districts · 8 divisions</span></div>
+      <div class="controls"><div><label for="sector">Education sector</label><select id="sector" disabled><option value="school">Secondary schools</option><option value="college">Colleges</option></select></div><div><label for="district">District</label><select id="district" disabled><option value="all">All districts</option></select></div></div>
+      <p id="data-status" role="status">Loading education figures...</p>
+      <div class="explorer-grid">
+        <div class="map-frame"><div class="map-caption"><span class="label">Bangladesh / District boundaries</span><button id="reset-map" disabled>Show all districts</button></div><div id="map" role="region" aria-label="Bangladesh district map. You can also use the district dropdown."></div><p id="map-status" class="map-note" role="status">Loading the map...</p><p class="map-note">Select a shape to zoom to that district. The outline marks your selection.</p></div>
+        <aside class="data-panel" aria-labelledby="panel-title" aria-live="polite"><p class="eyebrow" id="panel-sector">Secondary schools / 2024</p><h2 id="panel-title">Bangladesh</h2><p id="panel-location">All 64 districts</p><div class="ratio-box"><span class="label">Students per teacher</span><strong id="ratio">...</strong><span class="small">Total students ÷ total teachers</span></div><dl class="metrics"><div><dt>Students</dt><dd id="students">...</dd></div><div><dt>Teachers</dt><dd id="teachers">...</dd></div><div><dt>Institutions</dt><dd id="institutions">...</dd></div></dl><p id="record-note" class="small"></p><a href="sources.html">Where the figures come from</a></aside>
+      </div>
+    </section>
+    <section id="download-section" aria-labelledby="download-title">
+      <div class="section-heading"><h2 id="download-title">02 / Choose your download</h2><span class="label">Opens in Excel or Google Sheets</span></div>
+      <p>Choose the sector, the districts and the information you want. The spreadsheet includes the year, source and district names so it is easy to share.</p>
+      <div class="controls"><div><label for="dl-sector">Include</label><select id="dl-sector" disabled><option value="both">Schools and colleges</option><option value="school">Secondary schools</option><option value="college">Colleges</option></select></div><div><label for="dl-district">Which districts?</label><select id="dl-district" disabled><option value="all">All 64 districts</option><option value="selected">The district shown above</option><option value="custom">Choose several districts</option></select></div></div>
+      <fieldset id="district-choices" hidden><legend>Choose districts</legend><div id="district-checkboxes" class="checkbox-grid"></div></fieldset>
+      <fieldset id="field-choices"><legend>What information do you want?</legend><div class="checkbox-grid"><label><input type="checkbox" name="field" value="Stud_Total" checked> Student count</label><label><input type="checkbox" name="field" value="Tchr_Total" checked> Teacher count</label><label><input type="checkbox" name="field" value="Inst_Total" checked> Institution count</label><label><input type="checkbox" name="field" value="TSR" checked> Students per teacher</label><label><input type="checkbox" name="field" value="Stud_Girls"> Female student count</label><label><input type="checkbox" name="field" value="Tchr_Female"> Female teacher count</label><label><input type="checkbox" name="field" value="Inst_Girls"> Girls' institution count</label><label><input type="checkbox" name="field" value="Stud_%Girls"> Female students (%)</label><label><input type="checkbox" name="field" value="Tchr_%Female"> Female teachers (%)</label></div></fieldset>
+      <button id="download" disabled>Download my spreadsheet</button><p id="download-status" role="status" class="small"></p><p class="small"><a href="sources.html#downloads">Get the complete files</a> or <a href="limitations.html">read about the measures</a>.</p>
+    </section>
+    <noscript><p>The interactive map needs JavaScript. <a href="sources.html#downloads">Download the complete figures here</a> or <a href="index.html">read the main article</a>.</p></noscript>
+  </main>
+  <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. A question about education, made visible.</p><div><a href="sources.html">Sources</a><a href="limitations.html">Limitations</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div></footer>
+</body>
+</html>
