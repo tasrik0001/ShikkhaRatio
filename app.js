@@ -3,7 +3,7 @@ const BASE = location.pathname.includes("/bn/") ? "../" : "";
 const DATA_FILES = { school: BASE + "data/school_summary.csv", college: BASE + "data/college_summary.csv" };
 const SECTOR_NAMES_EN = { school: "Secondary schools", college: "Colleges" };
 const SECTOR_NAMES_BN = { school: "মাধ্যমিক বিদ্যালয়", college: "কলেজ" };
-const GEOJSON_FILE = BASE + "data/bgd_admin_boundaries.geojson/bgd_admin2.geojson";
+const GEOJSON_FILE = BASE + "data/bgd-admin2.geojson";
 const FIELD_NAMES = { Stud_Total: "Students", Tchr_Total: "Teachers", Inst_Total: "Institutions", TSR: "Students per teacher", Stud_Girls: "Female students", Tchr_Female: "Female teachers", Inst_Girls: "Girls' institutions", "Stud_%Girls": "Female students (%)", "Tchr_%Female": "Female teachers (%)" };
 const isBN = document.documentElement.lang === "bn";
 const SECTOR_NAMES = isBN ? SECTOR_NAMES_BN : SECTOR_NAMES_EN;

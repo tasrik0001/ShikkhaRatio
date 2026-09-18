@@ -2,7 +2,7 @@ import { chromium } from "@playwright/test";
 import assert from "node:assert/strict";
 
 const BASE = "http://127.0.0.1:8000/";
-const PAGES = ["index.html", "explore.html", "shortage.html", "regions.html", "story.html", "goals.html", "sources.html", "limitations.html", "404.html"];
+const PAGES = ["index.html", "explore.html", "distribute.html", "shortage.html", "regions.html", "story.html", "goals.html", "sources.html", "limitations.html", "404.html"];
 const browser = await chromium.launch({ channel: "msedge", headless: true });
 const page = await browser.newPage();
 const errors = [];
@@ -22,7 +22,7 @@ try {
     console.log(`${path} | h1: ${heading} | date: ${date} | nav links: ${navLinks}`);
     assert.ok(heading.length > 0, `${path} has an h1`);
     assert.ok(/\d{1,2} \w+ \d{4}/.test(date), `${path} shows a formatted date`);
-    assert.equal(navLinks, 8, `${path} has 8 navigation links`);
+    assert.equal(navLinks, 9, `${path} has 9 navigation links`);
     for (const bad of ["lorem ipsum", "[object Object]", "TODO:", "placeholder"]) {
       assert.ok(!body.toLowerCase().includes(bad), `${path} must not contain ${bad}`);
     }
