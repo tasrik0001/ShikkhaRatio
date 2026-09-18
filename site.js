@@ -1,7 +1,8 @@
 const today = document.getElementById("today");
 if (today) {
   const date = new Date();
-  today.textContent = date.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  const lang = document.documentElement.lang === "bn" ? "bn-BD" : "en-GB";
+  today.textContent = date.toLocaleDateString(lang, { day: "numeric", month: "long", year: "numeric" });
   today.dateTime = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
 }
 

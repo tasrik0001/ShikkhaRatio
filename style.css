@@ -12,7 +12,9 @@ button:disabled, select:disabled, input:disabled { opacity: .5; cursor: wait; }
 .skip-link { position: absolute; top: -80px; left: 20px; z-index: 2000; background: var(--paper); padding: 12px; }
 .skip-link:focus { top: 10px; }
 .site-header, main, footer { max-width: 1320px; margin: auto; padding: 0 40px; }
-.edition { display: flex; justify-content: space-between; gap: 16px; padding: 14px 0 9px; border-bottom: 1px solid var(--ink); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
+.edition { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 14px 0 9px; border-bottom: 1px solid var(--ink); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
+.lang-toggle { border: 1px solid var(--ink); padding: 4px 12px; text-decoration: none; white-space: nowrap; }
+.lang-toggle:hover { background: var(--ink); color: var(--paper); }
 .masthead { display: block; padding: 16px 0 13px; font: bold clamp(38px, 5vw, 68px)/1.05 Georgia, serif; text-decoration: none; letter-spacing: -3px; }
 .masthead > span:first-child { color: var(--red); }
 .masthead-note { display: inline-block; margin-left: 28px; font: 12px/1.5 Arial, sans-serif; letter-spacing: .02em; color: var(--muted); }
