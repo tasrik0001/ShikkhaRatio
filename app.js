@@ -121,7 +121,7 @@ function render() {
   if (!boundaries) return;
   let selectedLayer;
   boundaries.eachLayer(layer => {
-    const selected = layer.feature.properties.adm2_name === selectedDistrict;
+    const selected = (layer.feature.properties.n || layer.feature.properties.adm2_name) === selectedDistrict;
     layer.setStyle({ color: selected ? "#171713" : "#77776f", weight: selected ? 3 : 0.8, fillColor: "#cecec6", fillOpacity: 1 });
     if (selected) { selectedLayer = layer; layer.bringToFront(); }
   });
@@ -161,28 +161,68 @@ function downloadSelection() {
 }
 
 async function loadMap() {
+  const mapEl = document.getElementById("map");
+  const debugEl = document.createElement("p");
+  debugEl.className = "small";
+  debugEl.style.cssText = "color:#a12d23;margin:6px 18px;font-size:11px;";
+  mapEl.parentNode.insertBefore(debugEl, mapEl.nextSibling);
+
+  function log(msg) { console.log("[ShikkhaRatio map]", msg); debugEl.textContent = msg; }
+
   try {
-    if (!window.L) throw new Error(MSG.mapError);
+    if (!window.L) { log("Leaflet did not load. Map unavailable."); return; }
+    log("Leaflet ready. Fetching boundaries from " + GEOJSON_FILE);
     map = L.map("map", { scrollWheelZoom: false, zoomAnimation: false });
-    const response = await fetch(GEOJSON_FILE);
-    if (!response.ok) throw new Error(MSG.mapError);
-    const geo = await response.json();
-    const names = geo.features.map(feature => feature.properties.adm2_name);
-    if (names.length !== 64 || new Set(names).size !== 64 || districtRows("school").some(row => !names.includes(row.District))) throw new Error(MSG.listMismatch);
+
+    let geo = null;
+    const attempts = [GEOJSON_FILE];
+    // If primary path fails, try alternate locations
+    if (!GEOJSON_FILE.includes("bgd-admin2")) attempts.push("data/bgd-admin2.geojson");
+    attempts.push("bgd-admin2.geojson");
+
+    for (const url of attempts) {
+      try {
+        log("Fetching " + url + " ...");
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), 30000);
+        const response = await fetch(url, { signal: controller.signal });
+        clearTimeout(timer);
+        log("HTTP " + response.status + " from " + url + " (" + (response.headers.get("content-length") || "?") + " bytes)");
+        if (!response.ok) { log("HTTP " + response.status + " from " + url); continue; }
+        geo = await response.json();
+        log("Parsed JSON: " + geo.features.length + " features from " + url);
+        break;
+      } catch (e) {
+        log("Fetch failed for " + url + ": " + e.message);
+      }
+    }
+
+    if (!geo) { log("All GeoJSON fetch attempts failed. Map unavailable — data table and downloads still work."); return; }
+
+    const names = geo.features.map(f => f.properties.n || f.properties.adm2_name);
+    if (names.length !== 64 || new Set(names).size !== 64 || districtRows("school").some(row => !names.includes(row.District))) {
+      log("Boundary names (" + names.length + ") do not match district data. First mismatch check failed.");
+      return;
+    }
+    log("Names match. Rendering " + names.length + " polygons...");
+
     boundaries = L.geoJSON(geo, {
+      style: { color: "#77776f", weight: 0.8, fillColor: "#cecec6", fillOpacity: 1 },
       onEachFeature(feature, layer) {
+        const name = feature.properties.n || feature.properties.adm2_name;
         const label = document.createElement("span");
-        label.textContent = feature.properties.adm2_name;
+        label.textContent = name;
         layer.bindTooltip(label, { sticky: true });
-        layer.on("click", () => selectDistrict(feature.properties.adm2_name));
+        layer.on("click", () => selectDistrict(name));
       }
     }).addTo(map);
     document.getElementById("reset-map").disabled = false;
     document.getElementById("reset-map").addEventListener("click", () => selectDistrict("all"));
     render();
+    log("Map ready — 64 districts loaded.");
     mapStatus.textContent = MSG.mapLoaded;
   } catch (error) {
-    mapStatus.textContent = `${error.message} ${MSG.mapError}`;
+    log("Map error: " + error.message + " — data table and downloads still work.");
   }
 }
 
