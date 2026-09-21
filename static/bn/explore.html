@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="বাংলাদেশের ৬৪টি জেলা অনুসন্ধান করুন এবং আপনার পছন্দের শিক্ষা তথ্য ডাউনলোড করুন।">
+  <title>তথ্য অনুসন্ধান | ShikkhaRatio</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="../style.css">
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script defer src="../site.js"></script>
+  <script defer src="../app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">বিষয়বস্তুতে যান</a>
+  <header class="site-header">
+    <div class="edition"><span>বাংলাদেশ · একটি স্বাধীন ছাত্র প্রকল্প</span><time id="today"></time><a href="../index.html" class="lang-toggle">English</a></div>
+    <a class="masthead" href="index.html">Shikkha<span>Ratio</span><span class="masthead-note">শিক্ষা, জেলা অনুযায়ী দেখা।</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">হোম</a><a href="explore.html" aria-current="page">তথ্য অনুসন্ধান</a><a href="distribute.html">বরাদ্দ সরঞ্জাম</a><a href="shortage.html">শিক্ষক ঘাটতি</a><a href="regions.html">আঞ্চলিক পার্থক্য</a><a href="story.html">আমাদের গল্প</a><a href="goals.html">লক্ষ্য</a><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a></nav>
+  </header>
+  <main id="main">
+    <header class="article-header"><p class="eyebrow">জেলা ড্রয়ার / ২০২৪</p><h1>আপনার জেলা। আপনার প্রশ্ন।</h1><p class="lead">বিদ্যালয় বা কলেজ নির্বাচন করুন, তারপর একটি জেলা নির্বাচন করুন। মানচিত্র আপনাকে সেখানে নিয়ে যায়। আপনার প্রয়োজনীয় সংখ্যাগুলো ব্যক্তিগতকৃত ডাউনলোডের সাথে সংরক্ষণ করুন।</p></header>
+    <section id="explorer" aria-labelledby="explorer-title">
+      <div class="section-heading"><h2 id="explorer-title">০১ / আপনার জেলা খুঁজুন</h2><span class="label">৬৪টি জেলা · ৮টি বিভাগ</span></div>
+      <div class="controls"><div><label for="sector">শিক্ষা খাত</label><select id="sector" disabled><option value="school">মাধ্যমিক বিদ্যালয়</option><option value="college">কলেজ</option></select></div><div><label for="district">জেলা</label><select id="district" disabled><option value="all">সকল জেলা</option></select></div></div>
+      <p id="data-status" role="status">শিক্ষা তথ্য লোড হচ্ছে...</p>
+      <div class="explorer-grid">
+        <div class="map-frame"><div class="map-caption"><span class="label">বাংলাদেশ / জেলা সীমানা</span><button id="reset-map" disabled>সকল জেলা দেখান</button></div><div id="map" role="region" aria-label="বাংলাদেশের জেলা মানচিত্র। আপনি জেলা ড্রপডাউনও ব্যবহার করতে পারেন।"></div><p id="map-status" class="map-note" role="status">মানচিত্র লোড হচ্ছে...</p><p class="map-note">সেই জেলায় জুম করতে একটি আকৃতি নির্বাচন করুন। আপনার নির্বাচন রেখা চিহ্নিত করে।</p></div>
+        <aside class="data-panel" aria-labelledby="panel-title" aria-live="polite"><p class="eyebrow" id="panel-sector">মাধ্যমিক বিদ্যালয় / ২০২৪</p><h2 id="panel-title">বাংলাদেশ</h2><p id="panel-location">সকল ৬৪টি জেলা</p><div class="ratio-box"><span class="label">প্রতি শিক্ষকে ছাত্র</span><strong id="ratio">...</strong><span class="small">মোট ছাত্র ÷ মোট শিক্ষক</span></div><dl class="metrics"><div><dt>ছাত্র</dt><dd id="students">...</dd></div><div><dt>শিক্ষক</dt><dd id="teachers">...</dd></div><div><dt>প্রতিষ্ঠান</dt><dd id="institutions">...</dd></div></dl><p id="record-note" class="small"></p><a href="sources.html">সংখ্যাগুলো কোথা থেকে এসেছে</a></aside>
+      </div>
+    </section>
+    <section id="download-section" aria-labelledby="download-title">
+      <div class="section-heading"><h2 id="download-title">০২ / আপনার ডাউনলোড নির্বাচন করুন</h2><span class="label">Excel বা Google Sheets-এ খোলে</span></div>
+      <p>খাত, জেলা এবং আপনার প্রয়োজনীয় তথ্য নির্বাচন করুন। স্প্রেডশিটে বছর, উৎস এবং জেলার নাম অন্তর্ভুক্ত থাকে যাতে শেয়ার করা সহজ হয়।</p>
+      <div class="controls"><div><label for="dl-sector">অন্তর্ভুক্ত করুন</label><select id="dl-sector" disabled><option value="both">বিদ্যালয় এবং কলেজ</option><option value="school">মাধ্যমিক বিদ্যালয়</option><option value="college">কলেজ</option></select></div><div><label for="dl-district">কোন জেলাগুলো?</label><select id="dl-district" disabled><option value="all">সকল ৬৪টি জেলা</option><option value="selected">উপরে প্রদর্শিত জেলা</option><option value="custom">কয়েকটি জেলা নির্বাচন করুন</option></select></div></div>
+      <fieldset id="district-choices" hidden><legend>জেলা নির্বাচন করুন</legend><div id="district-checkboxes" class="checkbox-grid"></div></fieldset>
+      <fieldset id="field-choices"><legend>আপনি কী তথ্য চান?</legend><div class="checkbox-grid"><label><input type="checkbox" name="field" value="Stud_Total" checked> ছাত্র সংখ্যা</label><label><input type="checkbox" name="field" value="Tchr_Total" checked> শিক্ষক সংখ্যা</label><label><input type="checkbox" name="field" value="Inst_Total" checked> প্রতিষ্ঠান সংখ্যা</label><label><input type="checkbox" name="field" value="TSR" checked> প্রতি শিক্ষকে ছাত্র</label><label><input type="checkbox" name="field" value="Stud_Girls"> ছাত্রী সংখ্যা</label><label><input type="checkbox" name="field" value="Tchr_Female"> মহিলা শিক্ষক সংখ্যা</label><label><input type="checkbox" name="field" value="Inst_Girls"> বালিকা প্রতিষ্ঠান সংখ্যা</label><label><input type="checkbox" name="field" value="Stud_%Girls"> ছাত্রী (%)</label><label><input type="checkbox" name="field" value="Tchr_%Female"> মহিলা শিক্ষক (%)</label></div></fieldset>
+      <button id="download" disabled>আমার স্প্রেডশিট ডাউনলোড করুন</button><p id="download-status" role="status" class="small"></p><p class="small"><a href="sources.html#downloads">সম্পূর্ণ ফাইল পান</a> অথবা <a href="limitations.html">পরিমাপ সম্পর্কে পড়ুন</a>।</p>
+    </section>
+    <noscript><p>ইন্টারেক্টিভ মানচিত্রের জন্য JavaScript প্রয়োজন। <a href="sources.html#downloads">সম্পূর্ণ সংখ্যা এখানে ডাউনলোড করুন</a> অথবা <a href="index.html">প্রধান নিবন্ধ পড়ুন</a>।</p></noscript>
+  </main>
+  <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. শিক্ষা সম্পর্কে একটি প্রশ্ন, দৃশ্যমান করা হয়েছে।</p><div><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div></footer>
+</body>
+</html>

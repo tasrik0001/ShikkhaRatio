@@ -1,0 +1,26 @@
+{
+  "buildCommand": null,
+  "outputDirectory": "static",
+  "framework": null,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" }
+      ]
+    },
+    {
+      "source": "/(.+\\.geojson)",
+      "headers": [
+        { "key": "Content-Type", "value": "application/geo+json" },
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    },
+    {
+      "source": "/(.+\\.(css|js))",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    }
+  ]
+}

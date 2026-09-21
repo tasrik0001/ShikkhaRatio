@@ -1,0 +1,99 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="What ShikkhaRatio’s district figures can tell us, how the summaries were corrected and checked, and which source and coverage questions remain open.">
+  <title>Limitations | ShikkhaRatio</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="edition"><span>Bangladesh · An independent student project</span><time id="today" datetime="2026-09-18">18 September 2026</time><a href="bn/limitations.html" class="lang-toggle">বাংলা</a></div>
+    <a class="masthead" href="index.html">Shikkha<span>Ratio</span><span class="masthead-note">Education, seen district by district.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="explore.html" data-explore>Explore data</a><a href="distribute.html">Allocation tool</a><a href="shortage.html">Teacher shortage</a><a href="regions.html">Regional differences</a><a href="story.html">Our story</a><a href="goals.html">Goals</a><a href="sources.html">Sources</a><a href="limitations.html" aria-current="page">Limitations</a>
+    </nav>
+  </header>
+  <main id="main">
+    <article aria-labelledby="article-title">
+      <header class="article-header">
+        <p class="eyebrow">Understanding the evidence / Dataset year 2024</p>
+        <h1 id="article-title">What the numbers show, and what they leave out.</h1>
+        <p class="lead">District figures are a useful starting point. Knowing how they were made, what has been checked and what still needs a closer look helps us use them well.</p>
+      </header>
+      <div class="article-grid">
+        <div class="article-body">
+          <h2 id="interpretation">A ratio is not a classroom</h2>
+          <p>Students per teacher compares reported enrolment with reported staffing. It does not measure actual class size, attendance, teaching hours, subject coverage or learning outcomes. Part-time work, shifts and differences between institutions can all affect the relationship between this ratio and a teacher’s day.</p>
+          <p>The figures do not count vacant posts or establish how many teachers a district needs. That would require institution-level information about authorised posts, subjects, grades and available staff. No universal 1:30 threshold is applied here, and no ratio guarantees adequate attention or learning. The World Bank definition is a reference for the measure, not a staffing target or certification of this dataset.</p>
+          <h2 id="coverage">Which parts of education are included?</h2>
+          <p>The two summaries follow the workbook’s secondary-school and college coverage. Some school records are labelled <code>Upgrade Govt. Primary</code>, but this does not make the dataset a census of primary schools. Colleges span several levels and are not automatically comparable with an internationally harmonised secondary-education indicator.</p>
+          <p>Keep the sectors separate when making comparisons. Neither summary represents all education in Bangladesh, and district totals can hide substantial differences between institutions. Tasrik’s <a href="story.html">primary-school memories</a> explain the project’s motivation; they are not measurements from these records.</p>
+          <h2 id="publication">Workbook checks and publication checks are different</h2>
+          <p>The corrected summaries match the local workbook’s district totals, division totals and national totals across all six counts: institutions, girls’ institutions, teachers, female teachers, students and girl students. Each sector contains 64 unique districts. The data pipeline’s 16 tests cover these checks and the known processing regressions.</p>
+          <p>The BANBEIS report link and filename were identified, but its PDF tables have not been independently inspected and reconciled with the workbook. The checks establish agreement with the workbook, not official certification or independent verification of the underlying publication’s figures.</p>
+          <h2 id="method">How the district summaries are made</h2>
+          <p><strong>Secondary schools:</strong> in <code>Sec_School_By_District</code>, each district block starts at <code>Junior Secondary School</code> with <code>Private</code> management and runs to its closing district total. The district name comes from the block’s start, rather than a closing row whose name may be wrong. This avoids the earlier dependence on a list of selected school-type labels.</p>
+          <p>The parser checks the management subtotal sequence and compares its counts with the closing total. For the two documented exceptions below, it also checks the per-type subtotals against that total. Shifted closing-total columns in Gazipur (row 295) and Sylhet (row 962) are handled explicitly and tested. All district totals are then checked against the eight division totals and national row 990.</p>
+          <p><strong>Colleges:</strong> in <code>College_By_District</code>, the summary takes one appended total for each district from rows 1074 to 1144, using the rows where level, management and area all say <code>Total:</code>. It does not add rural and urban details to their own totals. The eight division totals and national row 1146 are checked separately.</p>
+          <p>The parser rejects missing, invalid or negative counts and checks that subset counts do not exceed their totals. District student, teacher and institution totals must be positive. Source-row mappings for all 64 districts in each sector are recorded in <code>src/test_summaries.py</code>; the extraction and validation are in <code>src/<wbr>generate_summaries.py</code>.</p>
+          <p><strong>Ratios and averages:</strong> TSR is students divided by teachers, rounded to two decimal places. The national ratio uses summed counts. District means and medians use the 64 published district ratios; the final national <code>Total</code> row is excluded. A zero teacher denominator would make a ratio undefined, not zero; the current district validation rejects it.</p>
+          <div class="table-scroll">
+            <table>
+              <caption>Corrected national counts checked against the workbook</caption>
+              <thead><tr><th scope="col">Count</th><th scope="col">Secondary schools</th><th scope="col">Colleges</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Institutions</th><td>21,232</td><td>4,876</td></tr>
+                <tr><th scope="row">Girls’ institutions</th><td>3,304</td><td>792</td></tr>
+                <tr><th scope="row">Teachers</th><td>293,289</td><td>132,789</td></tr>
+                <tr><th scope="row">Female teachers</th><td>92,492</td><td>37,252</td></tr>
+                <tr><th scope="row">Students</th><td>9,063,422</td><td>4,926,266</td></tr>
+                <tr><th scope="row">Girl students</th><td>4,960,073</td><td>2,537,998</td></tr>
+                <tr><th scope="row">Students per teacher</th><td>30.90</td><td>37.10</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <h2 id="corrections">Processing problems that have been resolved</h2>
+          <p>The following findings describe the earlier summaries, not the current downloads. The summaries have been regenerated using the district-total method above. The source workbook itself has not been rewritten.</p>
+          <h3>School categories and district names</h3>
+          <p>The earlier school selection omitted records with varying type labels, including Chandpur row 128, Naogaon row 695 and Panchagarh rows 860 to 861. Its national counts were short of the workbook by 56 institutions, 818 teachers and 33,380 students. Reading complete blocks and their closing totals resolves that coverage problem, including cases with misleading closing-row names.</p>
+          <h3>College details counted alongside totals</h3>
+          <p>The earlier college selection combined detail rows with totals containing those same details. The audit found 283 overlapping groups across 39 districts; 27 district records were exactly doubled. For example, Narayanganj rows 13 and 14 sum to row 15, so adding all three counted that group twice. The current district record uses appended row 1101: 56 institutions, 1,171 teachers and 86,334 students.</p>
+          <h3>Munshiganj and malformed detail fields</h3>
+          <p>Munshiganj’s former ratio of 154.74 came from duplicated Master’s rows 9 and 10, not the full district. The corrected record uses district total row 1100: 29 institutions, 621 teachers and 35,707 students, giving 57.50 students per teacher. It was not repaired by simply halving the old record.</p>
+          <p>Malformed detail fields in Nilphamari row 871 and Panchagarh row 900 no longer feed the college summary. Their appended district totals at rows 1136 and 1137 are used instead. This resolves their effect on the summary without guessing how to reconstruct the malformed source details.</p>
+          <p>The former college national counts of 7,574 institutions, 209,064 teachers and 7,390,582 students have been replaced by the workbook-matched counts above. Current district statistics are shown on <a href="regions.html">Regional differences</a>.</p>
+          <h2 id="source-discrepancies">Two differences remain inside the school workbook</h2>
+          <p>In Cox’s Bazar and Magura, management subtotals disagree with the school-type subtotals and closing district totals. The summaries use the closing district totals, which are corroborated by the school-type subtotals. The workbook discrepancies have been documented, not repaired or explained by guesswork.</p>
+          <ul>
+            <li><strong>Cox’s Bazar, rows 150 to 162:</strong> the closing total and type subtotals give 240 institutions, 26 girls’ institutions, 3,065 teachers, 823 female teachers, 136,813 students and 78,984 girl students. Management subtotals instead sum to 249, 26, 3,312, 898, 145,900 and 83,634 respectively.</li>
+            <li><strong>Magura, rows 530 to 542:</strong> the closing total and type subtotals give 180 institutions, 38 girls’ institutions, 2,367 teachers, 678 female teachers, 57,956 students and 32,688 girl students. Management subtotals agree on the other five counts but give 58,156 students.</li>
+          </ul>
+          <p>Tests preserve these exact, known differences and reject unexpected changes. Comparing the original publication’s relevant tables remains the next source check.</p>
+          <h2 id="geography">The map has its own source questions</h2>
+          <p>The local district boundary file is <code>data/<wbr>bgd_admin_<wbr>boundaries.geojson/<wbr>bgd_admin2.geojson</code>. Four names were aligned with the education records: Chapainababganj to Chapainawabganj, Jashore to Jessore, Moulvibazar to Maulvibazar, and Netrakona to Netrokona. Matching names locates the records; it does not verify boundary accuracy.</p>
+          <p>The original boundary provider, version, licence and required attribution remain outstanding and need to be established before public redistribution. Agreement between map names and data names does not settle those rights.</p>
+          <p>The <a href="data/source_register.csv" download>source register</a> keeps the current method, historical findings and remaining checks together. Visit <a href="sources.html#downloads">Sources</a> for the workbook and full summaries.</p>
+        </div>
+        <aside class="article-aside" aria-labelledby="aside-title">
+          <p class="eyebrow">A guide to this page</p>
+          <h2 id="aside-title">Checked, corrected, still open</h2>
+          <p><strong>Checked:</strong> 64 districts per sector, six counts, division and national totals, and calculations against the workbook.</p>
+          <hr>
+          <p><strong>Corrected:</strong> school extraction, college double counting and incomplete district selection.</p>
+          <hr>
+          <p><strong>Still open:</strong> independent PDF comparison, two school workbook subtotal differences, coverage definitions and geography rights.</p>
+          <hr>
+          <p><a href="#interpretation">Reading the ratio</a><br><a href="#coverage">Education coverage</a><br><a href="#method">Method and totals</a><br><a href="#corrections">Resolved processing history</a><br><a href="#source-discrepancies">Remaining workbook differences</a><br><a href="#geography">Geography and rights</a></p>
+        </aside>
+      </div>
+      <div class="related" aria-label="Related reading"><a href="sources.html#downloads">Download the source files</a><a href="shortage.html">Why teacher availability matters</a><a href="explore.html" data-explore>Explore the district figures</a></div>
+    </article>
+  </main>
+  <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. A question about education, made visible.</p><div><a href="sources.html">Sources</a><a href="limitations.html">Limitations</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div><p class="small">Independent project. Not an official government dashboard.</p></footer>
+</body>
+</html>
