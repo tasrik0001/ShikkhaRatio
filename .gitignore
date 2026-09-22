@@ -219,3 +219,4 @@ __marimo__/
 node_modules/
 playwright-report/
 test-results/
+.vercel

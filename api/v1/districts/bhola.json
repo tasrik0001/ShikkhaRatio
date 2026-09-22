@@ -1,0 +1,56 @@
+{
+  "slug": "bhola",
+  "district": "Bhola",
+  "division": "Barishal",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Barishal",
+    "District": "Bhola",
+    "Slug": "bhola",
+    "Inst_Total": 291,
+    "Inst_Girls": 41,
+    "Tchr_Total": 2986,
+    "Tchr_Female": 602,
+    "Tchr_%Female": 20.16,
+    "Stud_Total": 110675,
+    "Stud_Girls": 63383,
+    "Stud_%Girls": 57.27,
+    "TSR": 37.06
+  },
+  "college": {
+    "Division": "Barishal",
+    "District": "Bhola",
+    "Slug": "bhola",
+    "Inst_Total": 58,
+    "Inst_Girls": 11,
+    "Tchr_Total": 1729,
+    "Tchr_Female": 335,
+    "Tchr_%Female": 19.38,
+    "Stud_Total": 51785,
+    "Stud_Girls": 26752,
+    "Stud_%Girls": 51.66,
+    "TSR": 29.95
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 19,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 44,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 37.06,
+      "difference": 6.16
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 29.95,
+      "difference": -7.15
+    }
+  }
+}

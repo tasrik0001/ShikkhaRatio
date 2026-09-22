@@ -1,0 +1,18 @@
+{
+  "site": "ShikkhaRatio",
+  "version": "0.1.0",
+  "generated": "2026-09-22T16:42:49.246Z",
+  "datasetYear": 2024,
+  "national": {
+    "schoolTsr": 30.9,
+    "collegeTsr": 37.1
+  },
+  "counts": {
+    "districts": 64,
+    "divisions": 8,
+    "schoolRows": 64,
+    "collegeRows": 64,
+    "districtFiles": 64
+  },
+  "source": "BANBEIS 2024 (Bangladesh Education Statistics 2024), Bangladesh Bureau of Educational Information and Statistics. District summaries come from the project workbook."
+}

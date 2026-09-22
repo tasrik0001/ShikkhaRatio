@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="একটি জেলা প্রোফাইল: বিদ্যালয় ও কলেজে প্রতি শিক্ষকে ছাত্র, র‍্যাংক ও জাতীয় গড়ের সাথে তুলনা।">
+  <title>জেলা প্রোফাইল | ShikkhaRatio</title>
+  <meta name="theme-color" content="#a12d23">
+  <link rel="icon" href="data:,">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../css/district-profile.css">
+  <script defer src="../site.js"></script>
+  <script defer src="../js/district-profile.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">বিষয়বস্তুতে যান</a>
+  <header class="site-header">
+    <div class="edition"><span>বাংলাদেশ · একটি স্বাধীন ছাত্র প্রকল্প</span><time id="today" datetime="2026-09-22">২২ সেপ্টেম্বর ২০২৬</time><a href="../district.html" class="lang-toggle">English</a></div>
+    <a class="masthead" href="index.html">Shikkha<span>Ratio</span><span class="masthead-note">শিক্ষা, জেলা অনুযায়ী দেখা।</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">হোম</a><a href="explore.html" data-explore>তথ্য অনুসন্ধান</a><a href="distribute.html">বরাদ্দ সরঞ্জাম</a><a href="shortage.html">শিক্ষক ঘাটতি</a><a href="regions.html">আঞ্চলিক পার্থক্য</a><a href="story.html">আমাদের গল্প</a><a href="goals.html">লক্ষ্য</a><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a></nav>
+  </header>
+  <main id="main">
+
+    <header class="article-header">
+      <p class="eyebrow">জেলা প্রোফাইল / ২০২৪</p>
+      <h1>একটি জেলা। বিদ্যালয় ও কলেজ পাশাপাশি।</h1>
+      <p class="lead">একটি জেলা বেছে নিন এবং তার ছাত্র অনুপাত, সব জেলার মধ্যে অবস্থান ও জাতীয় গড়ের সাথে তুলনা দেখুন।</p>
+    </header>
+    <section id="picker-section" aria-labelledby="picker-title">
+      <div class="section-heading"><h2 id="picker-title">০১ / আপনার জেলা বেছে নিন</h2><span class="label">৬৪ জেলা · ৮ বিভাগ</span></div>
+      <div class="picker-panel">
+        <p id="profile-status" class="status-message quiet" role="status" hidden>জেলা তথ্য লোড হচ্ছে...</p>
+        <div id="profile-panel" hidden></div>
+        <div id="picker-empty" hidden>
+          <h2 class="empty-state">প্রোফাইল দেখতে একটি জেলা বেছে নিন।</h2>
+          <p class="empty-hint">নিচের তালিকা থেকে জেলা বেছে নিন, অথবা ড্রপডাউন ব্যবহার করুন।</p>
+        </div>
+        <div class="picker-controls">
+          <div>
+            <label for="district-picker">জেলা বাছাই করুন</label>
+            <select id="district-picker"><option value="">জেলা বাছুন</option></select>
+          </div>
+        </div>
+        <p class="district-index-title">সব জেলা · বিদ্যালয়ে প্রতি শিক্ষকে ছাত্র</p>
+        <ul id="district-index" class="district-index"></ul>
+      </div>
+    </section>
+    <noscript><p>এই প্রোফাইলে JavaScript লাগে। বিকল্পভাবে <a href="explore.html" data-explore>ডাটা পৃষ্ঠায় সংখ্যা দেখুন</a>, অথবা <a href="sources.html#downloads">সম্পূর্ণ ফাইল ডাউনলোড করুন</a>।</p></noscript>
+  </main>
+  <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. শিক্ষা সম্পর্কে একটি প্রশ্ন, দৃশ্যমান করা হয়েছে।</p><div><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div><p class="small">স্বাধীন প্রকল্প। সরকারি ড্যাশবোর্ড নয়।</p></footer>
+    <script src="../js/schema.js"></script>
+  <script src="../js/pwa-register.js"></script>
+</body>
+</html>

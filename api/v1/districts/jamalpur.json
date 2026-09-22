@@ -1,0 +1,56 @@
+{
+  "slug": "jamalpur",
+  "district": "Jamalpur",
+  "division": "Mymensingh",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Mymensingh",
+    "District": "Jamalpur",
+    "Slug": "jamalpur",
+    "Inst_Total": 398,
+    "Inst_Girls": 49,
+    "Tchr_Total": 5226,
+    "Tchr_Female": 1500,
+    "Tchr_%Female": 28.7,
+    "Stud_Total": 170882,
+    "Stud_Girls": 87376,
+    "Stud_%Girls": 51.13,
+    "TSR": 32.7
+  },
+  "college": {
+    "Division": "Mymensingh",
+    "District": "Jamalpur",
+    "Slug": "jamalpur",
+    "Inst_Total": 83,
+    "Inst_Girls": 17,
+    "Tchr_Total": 2088,
+    "Tchr_Female": 561,
+    "Tchr_%Female": 26.87,
+    "Stud_Total": 71943,
+    "Stud_Girls": 37310,
+    "Stud_%Girls": 51.86,
+    "TSR": 34.46
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 27,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 37,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 32.7,
+      "difference": 1.8
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 34.46,
+      "difference": -2.64
+    }
+  }
+}

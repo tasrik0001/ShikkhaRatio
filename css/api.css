@@ -1,0 +1,67 @@
+/* Styles for the Data downloads page only. */
+
+.endpoint-table {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.endpoint-table .copy-btn {
+  font-size: 11px;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+.sample-list details {
+  border-top: 1px solid var(--line);
+  padding: 14px 0;
+}
+
+.sample-list details:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.sample-list summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.sample-list pre {
+  overflow-x: auto;
+  background: var(--white);
+  border: 1px solid var(--line);
+  padding: 16px;
+  margin: 14px 0 8px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.sample-note {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0;
+}
+
+.field-list > div {
+  display: grid;
+  grid-template-columns: minmax(160px, 220px) 1fr;
+  gap: 16px;
+  border-bottom: 1px solid var(--line);
+  padding: 9px 0;
+  font-size: 15px;
+}
+
+.field-list dt {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.field-list dd {
+  margin: 0;
+}
+
+@media (max-width: 550px) {
+  .field-list > div {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}

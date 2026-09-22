@@ -1,0 +1,56 @@
+{
+  "slug": "manikganj",
+  "district": "Manikganj",
+  "division": "Dhaka",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Dhaka",
+    "District": "Manikganj",
+    "Slug": "manikganj",
+    "Inst_Total": 181,
+    "Inst_Girls": 13,
+    "Tchr_Total": 2400,
+    "Tchr_Female": 630,
+    "Tchr_%Female": 26.25,
+    "Stud_Total": 92608,
+    "Stud_Girls": 48706,
+    "Stud_%Girls": 52.59,
+    "TSR": 38.59
+  },
+  "college": {
+    "Division": "Dhaka",
+    "District": "Manikganj",
+    "Slug": "manikganj",
+    "Inst_Total": 33,
+    "Inst_Girls": 4,
+    "Tchr_Total": 873,
+    "Tchr_Female": 241,
+    "Tchr_%Female": 27.61,
+    "Stud_Total": 51054,
+    "Stud_Girls": 26699,
+    "Stud_%Girls": 52.3,
+    "TSR": 58.48
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 16,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 13,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 38.59,
+      "difference": 7.69
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 58.48,
+      "difference": 21.38
+    }
+  }
+}

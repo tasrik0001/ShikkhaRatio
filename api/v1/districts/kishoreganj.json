@@ -1,0 +1,56 @@
+{
+  "slug": "kishoreganj",
+  "district": "Kishoreganj",
+  "division": "Dhaka",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Dhaka",
+    "District": "Kishoreganj",
+    "Slug": "kishoreganj",
+    "Inst_Total": 303,
+    "Inst_Girls": 40,
+    "Tchr_Total": 3826,
+    "Tchr_Female": 1272,
+    "Tchr_%Female": 33.25,
+    "Stud_Total": 167507,
+    "Stud_Girls": 93833,
+    "Stud_%Girls": 56.02,
+    "TSR": 43.78
+  },
+  "college": {
+    "Division": "Dhaka",
+    "District": "Kishoreganj",
+    "Slug": "kishoreganj",
+    "Inst_Total": 69,
+    "Inst_Girls": 11,
+    "Tchr_Total": 1410,
+    "Tchr_Female": 439,
+    "Tchr_%Female": 31.13,
+    "Stud_Total": 84282,
+    "Stud_Girls": 48666,
+    "Stud_%Girls": 57.74,
+    "TSR": 59.77
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 9,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 11,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 43.78,
+      "difference": 12.88
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 59.77,
+      "difference": 22.67
+    }
+  }
+}

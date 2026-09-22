@@ -1,0 +1,56 @@
+{
+  "slug": "lalmonirhat",
+  "district": "Lalmonirhat",
+  "division": "Rangpur",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Rangpur",
+    "District": "Lalmonirhat",
+    "Slug": "lalmonirhat",
+    "Inst_Total": 237,
+    "Inst_Girls": 40,
+    "Tchr_Total": 3445,
+    "Tchr_Female": 942,
+    "Tchr_%Female": 27.34,
+    "Stud_Total": 88897,
+    "Stud_Girls": 50185,
+    "Stud_%Girls": 56.45,
+    "TSR": 25.8
+  },
+  "college": {
+    "Division": "Rangpur",
+    "District": "Lalmonirhat",
+    "Slug": "lalmonirhat",
+    "Inst_Total": 59,
+    "Inst_Girls": 12,
+    "Tchr_Total": 1742,
+    "Tchr_Female": 372,
+    "Tchr_%Female": 21.35,
+    "Stud_Total": 42300,
+    "Stud_Girls": 22126,
+    "Stud_%Girls": 52.31,
+    "TSR": 24.28
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 46,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 60,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 25.8,
+      "difference": -5.1
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 24.28,
+      "difference": -12.82
+    }
+  }
+}

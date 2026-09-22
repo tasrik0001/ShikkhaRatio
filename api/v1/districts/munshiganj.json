@@ -1,0 +1,56 @@
+{
+  "slug": "munshiganj",
+  "district": "Munshiganj",
+  "division": "Dhaka",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Dhaka",
+    "District": "Munshiganj",
+    "Slug": "munshiganj",
+    "Inst_Total": 139,
+    "Inst_Girls": 12,
+    "Tchr_Total": 1985,
+    "Tchr_Female": 518,
+    "Tchr_%Female": 26.1,
+    "Stud_Total": 93090,
+    "Stud_Girls": 49435,
+    "Stud_%Girls": 53.1,
+    "TSR": 46.9
+  },
+  "college": {
+    "Division": "Dhaka",
+    "District": "Munshiganj",
+    "Slug": "munshiganj",
+    "Inst_Total": 29,
+    "Inst_Girls": 2,
+    "Tchr_Total": 621,
+    "Tchr_Female": 189,
+    "Tchr_%Female": 30.43,
+    "Stud_Total": 35707,
+    "Stud_Girls": 20607,
+    "Stud_%Girls": 57.71,
+    "TSR": 57.5
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 3,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 15,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 46.9,
+      "difference": 16
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 57.5,
+      "difference": 20.4
+    }
+  }
+}

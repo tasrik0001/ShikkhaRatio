@@ -1,0 +1,56 @@
+{
+  "slug": "chuadanga",
+  "district": "Chuadanga",
+  "division": "Khulna",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Khulna",
+    "District": "Chuadanga",
+    "Slug": "chuadanga",
+    "Inst_Total": 150,
+    "Inst_Girls": 26,
+    "Tchr_Total": 2030,
+    "Tchr_Female": 563,
+    "Tchr_%Female": 27.73,
+    "Stud_Total": 69851,
+    "Stud_Girls": 38044,
+    "Stud_%Girls": 54.46,
+    "TSR": 34.41
+  },
+  "college": {
+    "Division": "Khulna",
+    "District": "Chuadanga",
+    "Slug": "chuadanga",
+    "Inst_Total": 25,
+    "Inst_Girls": 5,
+    "Tchr_Total": 807,
+    "Tchr_Female": 200,
+    "Tchr_%Female": 24.78,
+    "Stud_Total": 32623,
+    "Stud_Girls": 16140,
+    "Stud_%Girls": 49.47,
+    "TSR": 40.43
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 21,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 28,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 34.41,
+      "difference": 3.51
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 40.43,
+      "difference": 3.33
+    }
+  }
+}

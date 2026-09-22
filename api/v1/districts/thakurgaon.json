@@ -1,0 +1,56 @@
+{
+  "slug": "thakurgaon",
+  "district": "Thakurgaon",
+  "division": "Rangpur",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Rangpur",
+    "District": "Thakurgaon",
+    "Slug": "thakurgaon",
+    "Inst_Total": 399,
+    "Inst_Girls": 95,
+    "Tchr_Total": 5203,
+    "Tchr_Female": 1289,
+    "Tchr_%Female": 24.77,
+    "Stud_Total": 116247,
+    "Stud_Girls": 62457,
+    "Stud_%Girls": 53.73,
+    "TSR": 22.34
+  },
+  "college": {
+    "Division": "Rangpur",
+    "District": "Thakurgaon",
+    "Slug": "thakurgaon",
+    "Inst_Total": 60,
+    "Inst_Girls": 8,
+    "Tchr_Total": 1495,
+    "Tchr_Female": 317,
+    "Tchr_%Female": 21.2,
+    "Stud_Total": 47412,
+    "Stud_Girls": 24004,
+    "Stud_%Girls": 50.63,
+    "TSR": 31.71
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 58,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 39,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 22.34,
+      "difference": -8.56
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 31.71,
+      "difference": -5.39
+    }
+  }
+}

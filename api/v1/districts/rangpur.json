@@ -1,0 +1,56 @@
+{
+  "slug": "rangpur",
+  "district": "Rangpur",
+  "division": "Rangpur",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Rangpur",
+    "District": "Rangpur",
+    "Slug": "rangpur",
+    "Inst_Total": 528,
+    "Inst_Girls": 101,
+    "Tchr_Total": 7452,
+    "Tchr_Female": 2140,
+    "Tchr_%Female": 28.72,
+    "Stud_Total": 185253,
+    "Stud_Girls": 100552,
+    "Stud_%Girls": 54.28,
+    "TSR": 24.86
+  },
+  "college": {
+    "Division": "Rangpur",
+    "District": "Rangpur",
+    "Slug": "rangpur",
+    "Inst_Total": 133,
+    "Inst_Girls": 25,
+    "Tchr_Total": 3876,
+    "Tchr_Female": 1014,
+    "Tchr_%Female": 26.16,
+    "Stud_Total": 118105,
+    "Stud_Girls": 61680,
+    "Stud_%Girls": 52.22,
+    "TSR": 30.47
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 49,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 42,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 24.86,
+      "difference": -6.04
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 30.47,
+      "difference": -6.63
+    }
+  }
+}

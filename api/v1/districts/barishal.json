@@ -1,0 +1,56 @@
+{
+  "slug": "barishal",
+  "district": "Barishal",
+  "division": "Barishal",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Barishal",
+    "District": "Barishal",
+    "Slug": "barishal",
+    "Inst_Total": 474,
+    "Inst_Girls": 82,
+    "Tchr_Total": 5555,
+    "Tchr_Female": 1897,
+    "Tchr_%Female": 34.15,
+    "Stud_Total": 162710,
+    "Stud_Girls": 90961,
+    "Stud_%Girls": 55.9,
+    "TSR": 29.29
+  },
+  "college": {
+    "Division": "Barishal",
+    "District": "Barishal",
+    "Slug": "barishal",
+    "Inst_Total": 104,
+    "Inst_Girls": 15,
+    "Tchr_Total": 3087,
+    "Tchr_Female": 905,
+    "Tchr_%Female": 29.32,
+    "Stud_Total": 118941,
+    "Stud_Girls": 63444,
+    "Stud_%Girls": 53.34,
+    "TSR": 38.53
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 37,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 33,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 29.29,
+      "difference": -1.61
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 38.53,
+      "difference": 1.43
+    }
+  }
+}

@@ -3,40 +3,51 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="বাংলাদেশের ৬৪টি জেলায় শিক্ষক বরাদ্দ করুন — বিভিন্ন পদ্ধতি ব্যবহার করে।">
+  <meta name="description" content="বিভিন্ন পদ্ধতিতে বাংলাদেশের ৬৪ জেলায় একটি নির্দিষ্ট সংখ্যক শিক্ষক বরাদ্দ করুন।">
   <title>বরাদ্দ সরঞ্জাম | ShikkhaRatio</title>
+  <meta name="theme-color" content="#a12d23">
   <link rel="icon" href="data:,">
+  <link rel="manifest" href="/manifest.json">
   <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../css/distribute.css">
   <script defer src="../site.js"></script>
   <script defer src="../distribute.js"></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">বিষয়বস্তুতে যান</a>
+<a class="skip-link" href="#main">বিষয়বস্তুতে যান</a>
   <header class="site-header">
-    <div class="edition"><span>বাংলাদেশ · একটি স্বাধীন ছাত্র প্রকল্প</span><time id="today"></time><a href="../distribute.html" class="lang-toggle">English</a></div>
+    <div class="edition"><span>বাংলাদেশ · একটি স্বাধীন ছাত্র প্রকল্প</span><time id="today" datetime="2026-09-22">২২ সেপ্টেম্বর ২০২৬</time><a href="../distribute.html" class="lang-toggle">English</a></div>
     <a class="masthead" href="index.html">Shikkha<span>Ratio</span><span class="masthead-note">শিক্ষা, জেলা অনুযায়ী দেখা।</span></a>
-    <nav aria-label="Main navigation"><a href="index.html">হোম</a><a href="explore.html">তথ্য অনুসন্ধান</a><a href="distribute.html" aria-current="page">বরাদ্দ সরঞ্জাম</a><a href="shortage.html">শিক্ষক ঘাটতি</a><a href="regions.html">আঞ্চলিক পার্থক্য</a><a href="story.html">আমাদের গল্প</a><a href="goals.html">লক্ষ্য</a><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a></nav>
+    <nav aria-label="Main navigation"><a href="index.html">হোম</a><a href="explore.html" data-explore>তথ্য অনুসন্ধান</a><a href="distribute.html" aria-current="page">বরাদ্দ সরঞ্জাম</a><a href="shortage.html">শিক্ষক ঘাটতি</a><a href="regions.html">আঞ্চলিক পার্থক্য</a><a href="story.html">আমাদের গল্প</a><a href="goals.html">লক্ষ্য</a><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a></nav>
   </header>
   <main id="main">
+
     <header class="article-header">
       <p class="eyebrow">বরাদ্দ সরঞ্জাম / ২০২৪ এর তথ্য</p>
-      <h1>আপনি কীভাবে শিক্ষক বরাদ্দ করবেন?</h1>
-      <p class="lead">একটি সংখ্যা লিখুন এবং একটি পদ্ধতি বাছাই করুন। সরঞ্জামটি দেখাবে প্রতিটি জেলা কত পাবে এবং ভারসায়ন কীভাবে বদলাবে।</p>
+      <h1>আপনি শিক্ষক কীভাবে ভাগ করবেন?</h1>
+      <p class="lead">শিক্ষক সংখ্যা লিখুন এবং একটি পদ্ধতি বেছে নিন। সরঞ্জাম দেখাবে প্রতিটি জেলা কত পাবে এবং ভারসায়ন কীভাবে বদলাবে।</p>
     </header>
     <section id="allocator" aria-labelledby="alloc-title">
       <div class="section-heading"><h2 id="alloc-title">০১ / সংখ্যা নির্ধারণ করুন</h2><span class="label">২০২৪ এর জেলা তথ্যের উপর ভিত্তি করে</span></div>
       <div class="controls">
         <div><label for="alloc-sector">খাত</label><select id="alloc-sector"><option value="school">মাধ্যমিক বিদ্যালয়</option><option value="college">কলেজ</option></select></div>
-        <div><label for="alloc-count">বরাদ্দ করার জন্য শিক্ষক সংখ্যা</label><input id="alloc-count" type="number" min="1" max="500000" value="50000" step="1000"></div>
+        <div><label for="alloc-count">বরাদ্দ করার মোট শিক্ষক সংখ্যা</label><input id="alloc-count" type="number" min="1" max="500000" value="50000" step="1000"></div>
         <div><label for="alloc-method">বরাদ্দ পদ্ধতি</label><select id="alloc-method">
           <option value="proportional">ছাত্র সংখ্যার সাথে সমানুপাতিক</option>
           <option value="ratio-target">লক্ষ্যমাত্রা অনুপাত</option>
-          <option value="shortage-first">অগ্রাধিকার: সবচেয়ে বেশি ঘাটতি প্রথমে</option>
-          <option value="equal">সকল জেলায় সমান ভাগ</option>
+          <option value="shortage-first">অগ্রাধিকার: সর্বোচ্চ ঘাটতি প্রথমে</option>
+          <option value="equal">সব ৬৪ জেলায় সমান ভাগ</option>
+          <option value="constraint">সর্বোচ্চ অনুপাত প্রথমে লক্ষ্যের দিকে</option>
         </select></div>
+        <div><label for="alloc-salary">প্রতি শিক্ষকের মাসিক বেতন (টাকা)</label><input id="alloc-salary" type="number" min="0" max="1000000" value="20000" step="500"></div>
       </div>
-      <div id="ratio-target-row" class="controls" style="margin-top:14px">
+      <div id="ratio-target-row" class="controls" style="margin-top:14px" hidden>
         <div><label for="alloc-target">লক্ষ্যমাত্রা: প্রতি শিক্ষকে ছাত্র</label><input id="alloc-target" type="number" min="10" max="80" value="30" step="0.5"></div>
+      </div>
+      <div id="constraint-row" class="controls" style="margin-top:14px" hidden>
+        <div><label for="alloc-goal">লক্ষ্য: প্রতি শিক্ষকে ছাত্র</label><input id="alloc-goal" type="number" min="5" max="80" value="30.9" step="0.1"></div>
+        <div><label for="alloc-floor">সর্বনিম্ন অনুপাত</label><input id="alloc-floor" type="number" min="1" max="80" value="15" step="0.5"></div>
+        <div><label for="alloc-surplus" class="surplus-label"><input id="alloc-surplus" type="checkbox"> সারপ্লাস ছাড় দিন (সর্বনিম্নের নিচে যেতে পারবে)</label></div>
       </div>
       <p id="alloc-status" role="status" class="small">শিক্ষা তথ্য লোড হচ্ছে...</p>
       <button id="run-alloc" disabled>বরাদ্দ চালান</button>
@@ -44,6 +55,8 @@
     <section id="alloc-results" hidden aria-labelledby="results-title">
       <div class="section-heading"><h2 id="results-title">০২ / ফলাফল</h2><span class="label" id="results-summary"></span></div>
       <div id="alloc-overview" class="rank-grid"></div>
+      <p id="alloc-cost" class="cost-line" role="status" hidden></p>
+      <p id="alloc-note" class="help-note" hidden></p>
       <div class="table-scroll">
         <table id="alloc-table">
           <caption>জেলা বরাদ্দ ফলাফল</caption>
@@ -60,10 +73,25 @@
           <tbody id="alloc-body"></tbody>
         </table>
       </div>
-      <button id="download-alloc" class="secondary">ফলাফল CSV ডাউনলোড করুন</button>
+      <div class="button-row">
+        <button id="download-alloc" class="secondary">ফলাফল CSV ডাউনলোড করুন</button>
+        <button id="copy-alloc" class="secondary">TSR পরিবর্তন CSV কপি করুন</button>
+        <button id="export-alloc" class="secondary">TSR পরিবর্তন CSV ডাউনলোড করুন</button>
+      </div>
     </section>
-    <noscript><p>এই সরঞ্জামের জন্য JavaScript প্রয়োজন। <a href="sources.html">উৎস</a> পৃষ্ঠায় কাঁচি জেলা তথ্য পাওয়া যাবে।</p></noscript>
+    <section id="scenarios" aria-labelledby="scenario-title">
+      <div class="section-heading"><h2 id="scenario-title">০৩ / সংরক্ষিত পরিকল্পনা</h2><span class="label">এই ডিভাইসে সংরক্ষিত</span></div>
+      <div class="controls">
+        <div><label for="scenario-name">পরিকল্পনার নাম দিন</label><input id="scenario-name" type="text" maxlength="50"></div>
+        <div><button id="save-scenario" class="secondary" disabled>পরিকল্পনা সংরক্ষণ করুন</button></div>
+      </div>
+      <div id="scenario-list" class="scenario-list"></div>
+      <div id="scenario-diff" class="scenario-diff" hidden></div>
+    </section>
+    <noscript><p>এই সরঞ্জামের জন্য JavaScript প্রয়োজন। <a href="sources.html">উৎস</a> পৃষ্ঠায় নিচে জেলা তথ্য পাওয়া যাবে।</p></noscript>
   </main>
-  <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. শিক্ষা সম্পর্কে একটি প্রশ্ন, দৃশ্যমান করা হয়েছে।</p><div><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div></footer>
+  <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. শিক্ষা সম্পর্কে একটি প্রশ্ন, দৃশ্যমান করা হয়েছে।</p><div><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div><p class="small">স্বাধীন প্রকল্প। সরকারি ড্যাশবোর্ড নয়।</p></footer>
+    <script src="../js/schema.js"></script>
+  <script src="../js/pwa-register.js"></script>
 </body>
 </html>

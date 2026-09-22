@@ -1,0 +1,56 @@
+{
+  "slug": "sunamganj",
+  "district": "Sunamganj",
+  "division": "Sylhet",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Sylhet",
+    "District": "Sunamganj",
+    "Slug": "sunamganj",
+    "Inst_Total": 278,
+    "Inst_Girls": 22,
+    "Tchr_Total": 2683,
+    "Tchr_Female": 579,
+    "Tchr_%Female": 21.58,
+    "Stud_Total": 133910,
+    "Stud_Girls": 74689,
+    "Stud_%Girls": 55.78,
+    "TSR": 49.91
+  },
+  "college": {
+    "Division": "Sylhet",
+    "District": "Sunamganj",
+    "Slug": "sunamganj",
+    "Inst_Total": 61,
+    "Inst_Girls": 5,
+    "Tchr_Total": 765,
+    "Tchr_Female": 120,
+    "Tchr_%Female": 15.69,
+    "Stud_Total": 51203,
+    "Stud_Girls": 29668,
+    "Stud_%Girls": 57.94,
+    "TSR": 66.93
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 1,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 8,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 49.91,
+      "difference": 19.01
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 66.93,
+      "difference": 29.83
+    }
+  }
+}

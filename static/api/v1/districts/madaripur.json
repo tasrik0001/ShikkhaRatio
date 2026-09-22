@@ -1,0 +1,56 @@
+{
+  "slug": "madaripur",
+  "district": "Madaripur",
+  "division": "Dhaka",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Dhaka",
+    "District": "Madaripur",
+    "Slug": "madaripur",
+    "Inst_Total": 184,
+    "Inst_Girls": 26,
+    "Tchr_Total": 2253,
+    "Tchr_Female": 611,
+    "Tchr_%Female": 27.12,
+    "Stud_Total": 76357,
+    "Stud_Girls": 41999,
+    "Stud_%Girls": 55,
+    "TSR": 33.89
+  },
+  "college": {
+    "Division": "Dhaka",
+    "District": "Madaripur",
+    "Slug": "madaripur",
+    "Inst_Total": 30,
+    "Inst_Girls": 5,
+    "Tchr_Total": 823,
+    "Tchr_Female": 220,
+    "Tchr_%Female": 26.73,
+    "Stud_Total": 42742,
+    "Stud_Girls": 24991,
+    "Stud_%Girls": 58.47,
+    "TSR": 51.93
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 23,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 18,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 33.89,
+      "difference": 2.99
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 51.93,
+      "difference": 14.83
+    }
+  }
+}

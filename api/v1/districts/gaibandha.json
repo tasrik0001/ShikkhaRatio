@@ -1,0 +1,56 @@
+{
+  "slug": "gaibandha",
+  "district": "Gaibandha",
+  "division": "Rangpur",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Rangpur",
+    "District": "Gaibandha",
+    "Slug": "gaibandha",
+    "Inst_Total": 434,
+    "Inst_Girls": 135,
+    "Tchr_Total": 6240,
+    "Tchr_Female": 1723,
+    "Tchr_%Female": 27.61,
+    "Stud_Total": 168332,
+    "Stud_Girls": 92310,
+    "Stud_%Girls": 54.84,
+    "TSR": 26.98
+  },
+  "college": {
+    "Division": "Rangpur",
+    "District": "Gaibandha",
+    "Slug": "gaibandha",
+    "Inst_Total": 82,
+    "Inst_Girls": 23,
+    "Tchr_Total": 2516,
+    "Tchr_Female": 531,
+    "Tchr_%Female": 21.1,
+    "Stud_Total": 68395,
+    "Stud_Girls": 31977,
+    "Stud_%Girls": 46.75,
+    "TSR": 27.18
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 44,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 53,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 26.98,
+      "difference": -3.92
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 27.18,
+      "difference": -9.92
+    }
+  }
+}

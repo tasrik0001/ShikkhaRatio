@@ -11,6 +11,7 @@
 
 #### Ending
 
-### Links to other posts
-### Footwear containing links to pages like github Banbeis datast wtc
+(TRY to add, data information in every page)
 
+### Links to other posts
+### Footwear containing links to pages like github Banbeis datast etc.

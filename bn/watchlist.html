@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="আপনার গুরুত্বপূর্ণ জেলাগুলো সংরক্ষণ করুন এবং তাদের বিদ্যালয় প্রতি শিক্ষকে ছাত্র দ্রুত দেখুন।">
+  <title>ওয়াচলিস্ট | ShikkhaRatio</title>
+  <meta name="theme-color" content="#a12d23">
+  <link rel="icon" href="data:,">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../css/community.css">
+  <script defer src="../site.js"></script>
+  <script defer src="../js/export.js"></script>
+  <script defer src="../js/watchlist.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">বিষয়বস্তুতে যান</a>
+  <header class="site-header">
+    <div class="edition"><span>বাংলাদেশ · একটি স্বাধীন ছাত্র প্রকল্প</span><time id="today" datetime="2026-09-22">২২ সেপ্টেম্বর ২০২৬</time><a href="../watchlist.html" class="lang-toggle">English</a></div>
+    <a class="masthead" href="index.html">Shikkha<span>Ratio</span><span class="masthead-note">শিক্ষা, জেলা অনুযায়ী দেখা।</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">হোম</a><a href="explore.html" data-explore>তথ্য অনুসন্ধান</a><a href="distribute.html">বরাদ্দ সরঞ্জাম</a><a href="shortage.html">শিক্ষক ঘাটতি</a><a href="regions.html">আঞ্চলিক পার্থক্য</a><a href="story.html">আমাদের গল্প</a><a href="goals.html">লক্ষ্য</a><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a></nav>
+  </header>
+  <main id="main">
+
+    <header class="article-header">
+      <p class="eyebrow">আপনার ওয়াচলিস্ট / BANBEIS 2024</p>
+      <h1>আপনার গুরুত্বপূর্ণ জেলাগুলো এক জায়গায় রাখুন।</h1>
+      <p class="lead">একটি জেলা যোগ করুন, পরে ফিরে আসুন, এবং জাতীয় সংখ্যার পাশে তার বিদ্যালয় অনুপাত দেখুন। তালিকাটি শুধু এই ব্রাউজারে সংরক্ষিত থাকে।</p>
+    </header>
+    <section id="add-district" aria-labelledby="add-title">
+      <div class="section-heading"><h2 id="add-title">০১ / একটি জেলা সংরক্ষণ করুন</h2><span class="label">মাধ্যমিক বিদ্যালয় / ২০২৪</span></div>
+      <div class="widget-picker">
+        <div>
+          <label for="watchlist-district">জেলার নাম</label>
+          <input id="watchlist-district" list="watchlist-districts" autocomplete="off" placeholder="নাম লিখুন, যেমন Dhaka">
+          <datalist id="watchlist-districts"></datalist>
+        </div>
+        <div><button id="watchlist-add" type="button">ওয়াচলিস্টে যোগ করুন</button></div>
+      </div>
+      <p id="watchlist-status" role="status" class="small">জেলা তথ্য লোড হচ্ছে...</p>
+    </section>
+    <section id="watchlist-view" aria-labelledby="view-title">
+      <div class="section-heading"><h2 id="view-title">০২ / আপনার সংরক্ষিত জেলা</h2><span class="label" id="watchlist-count"></span></div>
+      <div id="watchlist-empty" class="watchlist-empty">গুরুত্বপূর্ণ জেলা সংরক্ষণ করুন যাতে দ্রুত দেখা যায়।</div>
+      <div id="watchlist-table-wrap" class="table-scroll" hidden>
+        <table>
+          <caption>আপনার সংরক্ষিত জেলার বিদ্যালয় প্রতি শিক্ষকে ছাত্র</caption>
+          <thead>
+            <tr>
+              <th scope="col">জেলা</th>
+              <th scope="col">বিদ্যালয় TSR</th>
+              <th scope="col">জাতীয়ের তুলনায়</th>
+              <th scope="col">র‍্যাংক</th>
+            </tr>
+          </thead>
+          <tbody id="watchlist-body"></tbody>
+        </table>
+      </div>
+      <div class="watchlist-actions">
+        <button id="watchlist-clear" class="secondary" type="button" hidden>সব মুছুন</button>
+        <button id="watchlist-export" class="secondary" type="button" hidden>CSV ডাউনলোড</button>
+      </div>
+      <p class="widget-note">র‍্যাংক ১ মানে জেলাগুলোর মধ্যে সবচেয়ে কম প্রতি শিক্ষকে ছাত্র। জাতীয় বিদ্যালয় অনুপাত ৩০.৯০। তালিকাটি localStorage-এ থাকে, তাই প্রথম পরিদর্শনের পরে অফলাইনেও কাজ করে।</p>
+    </section>
+    <noscript><p>এই ওয়াচলিস্টে JavaScript লাগে। তবুও <a href="sources.html#downloads">সম্পূর্ণ সংখ্যা ডাউনলোড</a> বা <a href="explore.html">সব জেলা অনুসন্ধান</a> করতে পারেন।</p></noscript>
+  </main>
+  <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. শিক্ষা সম্পর্কে একটি প্রশ্ন, দৃশ্যমান করা হয়েছে।</p><div><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div><p class="small">স্বাধীন প্রকল্প। সরকারি ড্যাশবোর্ড নয়।</p></footer>
+    <script src="../js/schema.js"></script>
+  <script src="../js/pwa-register.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "slug": "satkhira",
+  "district": "Satkhira",
+  "division": "Khulna",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Khulna",
+    "District": "Satkhira",
+    "Slug": "satkhira",
+    "Inst_Total": 331,
+    "Inst_Girls": 71,
+    "Tchr_Total": 4576,
+    "Tchr_Female": 1035,
+    "Tchr_%Female": 22.62,
+    "Stud_Total": 106004,
+    "Stud_Girls": 57890,
+    "Stud_%Girls": 54.61,
+    "TSR": 23.17
+  },
+  "college": {
+    "Division": "Khulna",
+    "District": "Satkhira",
+    "Slug": "satkhira",
+    "Inst_Total": 75,
+    "Inst_Girls": 13,
+    "Tchr_Total": 2618,
+    "Tchr_Female": 452,
+    "Tchr_%Female": 17.27,
+    "Stud_Total": 65167,
+    "Stud_Girls": 28980,
+    "Stud_%Girls": 44.47,
+    "TSR": 24.89
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 54,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 59,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 23.17,
+      "difference": -7.73
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 24.89,
+      "difference": -12.21
+    }
+  }
+}

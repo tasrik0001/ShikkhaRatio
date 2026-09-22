@@ -1,0 +1,56 @@
+{
+  "slug": "faridpur",
+  "district": "Faridpur",
+  "division": "Dhaka",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Dhaka",
+    "District": "Faridpur",
+    "Slug": "faridpur",
+    "Inst_Total": 265,
+    "Inst_Girls": 20,
+    "Tchr_Total": 3655,
+    "Tchr_Female": 1049,
+    "Tchr_%Female": 28.7,
+    "Stud_Total": 116777,
+    "Stud_Girls": 64833,
+    "Stud_%Girls": 55.52,
+    "TSR": 31.95
+  },
+  "college": {
+    "Division": "Dhaka",
+    "District": "Faridpur",
+    "Slug": "faridpur",
+    "Inst_Total": 47,
+    "Inst_Girls": 9,
+    "Tchr_Total": 1391,
+    "Tchr_Female": 407,
+    "Tchr_%Female": 29.26,
+    "Stud_Total": 66747,
+    "Stud_Girls": 34367,
+    "Stud_%Girls": 51.49,
+    "TSR": 47.98
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 30,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 20,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 31.95,
+      "difference": 1.05
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 47.98,
+      "difference": 10.88
+    }
+  }
+}

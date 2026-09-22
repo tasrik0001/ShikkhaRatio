@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="বাংলাদেশের ৬৪টি জেলা অনুসন্ধান করুন এবং আপনার পছন্দের শিক্ষা তথ্য ডাউনলোড করুন।">
   <title>তথ্য অনুসন্ধান | ShikkhaRatio</title>
+  <meta name="theme-color" content="#a12d23">
   <link rel="icon" href="data:,">
+  <link rel="manifest" href="/manifest.json">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
   <link rel="stylesheet" href="../style.css">
   <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
@@ -38,8 +40,24 @@
       <fieldset id="field-choices"><legend>আপনি কী তথ্য চান?</legend><div class="checkbox-grid"><label><input type="checkbox" name="field" value="Stud_Total" checked> ছাত্র সংখ্যা</label><label><input type="checkbox" name="field" value="Tchr_Total" checked> শিক্ষক সংখ্যা</label><label><input type="checkbox" name="field" value="Inst_Total" checked> প্রতিষ্ঠান সংখ্যা</label><label><input type="checkbox" name="field" value="TSR" checked> প্রতি শিক্ষকে ছাত্র</label><label><input type="checkbox" name="field" value="Stud_Girls"> ছাত্রী সংখ্যা</label><label><input type="checkbox" name="field" value="Tchr_Female"> মহিলা শিক্ষক সংখ্যা</label><label><input type="checkbox" name="field" value="Inst_Girls"> বালিকা প্রতিষ্ঠান সংখ্যা</label><label><input type="checkbox" name="field" value="Stud_%Girls"> ছাত্রী (%)</label><label><input type="checkbox" name="field" value="Tchr_%Female"> মহিলা শিক্ষক (%)</label></div></fieldset>
       <button id="download" disabled>আমার স্প্রেডশিট ডাউনলোড করুন</button><p id="download-status" role="status" class="small"></p><p class="small"><a href="sources.html#downloads">সম্পূর্ণ ফাইল পান</a> অথবা <a href="limitations.html">পরিমাপ সম্পর্কে পড়ুন</a>।</p>
     </section>
+    <section id="tools" aria-labelledby="tools-title">
+      <div class="section-heading"><h2 id="tools-title">০৩ / আরও সরঞ্জাম</h2><span class="label">তুলনা · চার্ট · শেয়ার</span></div>
+      <p>একই ২০২৪ সালের সংখ্যাগুলোর অন্যভাবে দেখুন। প্রতিটি সরঞ্জাম নিজস্ব পাতায় চলে, তাই আপনার জেলা সামনে রাখতে পারেন।</p>
+      <div class="related">
+        <a href="compare.html">দুটি জেলা তুলনা করুন</a>
+        <a href="charts.html">সরল চার্ট</a>
+        <a href="district.html">জেলা প্রোফাইল</a>
+        <a href="metrics.html">সমতা সূচক</a>
+        <a href="watchlist.html">ওয়াচলিস্ট</a>
+        <a href="api.html">ওপেন ডেটা API</a>
+        <a href="embed.html">চার্ট এমবেড করুন</a>
+        <a href="map-viz-mount.html">মানচিত্র ভিজ্যুয়ালাইজেশন</a>
+      </div>
+    </section>
     <noscript><p>ইন্টারেক্টিভ মানচিত্রের জন্য JavaScript প্রয়োজন। <a href="sources.html#downloads">সম্পূর্ণ সংখ্যা এখানে ডাউনলোড করুন</a> অথবা <a href="index.html">প্রধান নিবন্ধ পড়ুন</a>।</p></noscript>
   </main>
   <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. শিক্ষা সম্পর্কে একটি প্রশ্ন, দৃশ্যমান করা হয়েছে।</p><div><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div></footer>
+  <script src="../js/schema.js"></script>
+  <script src="../js/pwa-register.js"></script>
 </body>
 </html>

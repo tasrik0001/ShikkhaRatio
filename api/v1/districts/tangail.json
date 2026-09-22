@@ -1,0 +1,56 @@
+{
+  "slug": "tangail",
+  "district": "Tangail",
+  "division": "Dhaka",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Dhaka",
+    "District": "Tangail",
+    "Slug": "tangail",
+    "Inst_Total": 555,
+    "Inst_Girls": 59,
+    "Tchr_Total": 7163,
+    "Tchr_Female": 1989,
+    "Tchr_%Female": 27.77,
+    "Stud_Total": 237210,
+    "Stud_Girls": 122335,
+    "Stud_%Girls": 51.57,
+    "TSR": 33.12
+  },
+  "college": {
+    "Division": "Dhaka",
+    "District": "Tangail",
+    "Slug": "tangail",
+    "Inst_Total": 106,
+    "Inst_Girls": 18,
+    "Tchr_Total": 3005,
+    "Tchr_Female": 873,
+    "Tchr_%Female": 29.05,
+    "Stud_Total": 118833,
+    "Stud_Girls": 63779,
+    "Stud_%Girls": 53.67,
+    "TSR": 39.55
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 25,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 30,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 33.12,
+      "difference": 2.22
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 39.55,
+      "difference": 2.45
+    }
+  }
+}

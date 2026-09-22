@@ -1,0 +1,56 @@
+{
+  "slug": "brahmanbaria",
+  "district": "Brahmanbaria",
+  "division": "Chattogram",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Chattogram",
+    "District": "Brahmanbaria",
+    "Slug": "brahmanbaria",
+    "Inst_Total": 298,
+    "Inst_Girls": 31,
+    "Tchr_Total": 3825,
+    "Tchr_Female": 1200,
+    "Tchr_%Female": 31.37,
+    "Stud_Total": 184080,
+    "Stud_Girls": 108772,
+    "Stud_%Girls": 59.09,
+    "TSR": 48.13
+  },
+  "college": {
+    "Division": "Chattogram",
+    "District": "Brahmanbaria",
+    "Slug": "brahmanbaria",
+    "Inst_Total": 69,
+    "Inst_Girls": 10,
+    "Tchr_Total": 1413,
+    "Tchr_Female": 350,
+    "Tchr_%Female": 24.77,
+    "Stud_Total": 64209,
+    "Stud_Girls": 41160,
+    "Stud_%Girls": 64.1,
+    "TSR": 45.44
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 2,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 23,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 48.13,
+      "difference": 17.23
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 45.44,
+      "difference": 8.34
+    }
+  }
+}

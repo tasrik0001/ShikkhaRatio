@@ -1,0 +1,56 @@
+{
+  "slug": "patuakhali",
+  "district": "Patuakhali",
+  "division": "Barishal",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Barishal",
+    "District": "Patuakhali",
+    "Slug": "patuakhali",
+    "Inst_Total": 313,
+    "Inst_Girls": 40,
+    "Tchr_Total": 3403,
+    "Tchr_Female": 891,
+    "Tchr_%Female": 26.18,
+    "Stud_Total": 94072,
+    "Stud_Girls": 50374,
+    "Stud_%Girls": 53.55,
+    "TSR": 27.64
+  },
+  "college": {
+    "Division": "Barishal",
+    "District": "Patuakhali",
+    "Slug": "patuakhali",
+    "Inst_Total": 68,
+    "Inst_Girls": 12,
+    "Tchr_Total": 1957,
+    "Tchr_Female": 529,
+    "Tchr_%Female": 27.03,
+    "Stud_Total": 55718,
+    "Stud_Girls": 27984,
+    "Stud_%Girls": 50.22,
+    "TSR": 28.47
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 42,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 47,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 27.64,
+      "difference": -3.26
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 28.47,
+      "difference": -8.63
+    }
+  }
+}

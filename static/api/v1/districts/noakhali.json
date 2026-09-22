@@ -1,0 +1,56 @@
+{
+  "slug": "noakhali",
+  "district": "Noakhali",
+  "division": "Chattogram",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Chattogram",
+    "District": "Noakhali",
+    "Slug": "noakhali",
+    "Inst_Total": 340,
+    "Inst_Girls": 41,
+    "Tchr_Total": 4200,
+    "Tchr_Female": 1121,
+    "Tchr_%Female": 26.69,
+    "Stud_Total": 184905,
+    "Stud_Girls": 109281,
+    "Stud_%Girls": 59.1,
+    "TSR": 44.02
+  },
+  "college": {
+    "Division": "Chattogram",
+    "District": "Noakhali",
+    "Slug": "noakhali",
+    "Inst_Total": 59,
+    "Inst_Girls": 6,
+    "Tchr_Total": 1302,
+    "Tchr_Female": 311,
+    "Tchr_%Female": 23.89,
+    "Stud_Total": 83951,
+    "Stud_Girls": 41755,
+    "Stud_%Girls": 49.74,
+    "TSR": 64.48
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 8,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 9,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 44.02,
+      "difference": 13.12
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 64.48,
+      "difference": 27.38
+    }
+  }
+}

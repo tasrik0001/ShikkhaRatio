@@ -1,0 +1,56 @@
+{
+  "slug": "cumilla",
+  "district": "Cumilla",
+  "division": "Chattogram",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Chattogram",
+    "District": "Cumilla",
+    "Slug": "cumilla",
+    "Inst_Total": 661,
+    "Inst_Girls": 83,
+    "Tchr_Total": 8985,
+    "Tchr_Female": 2817,
+    "Tchr_%Female": 31.35,
+    "Stud_Total": 360446,
+    "Stud_Girls": 207388,
+    "Stud_%Girls": 57.54,
+    "TSR": 40.12
+  },
+  "college": {
+    "Division": "Chattogram",
+    "District": "Cumilla",
+    "Slug": "cumilla",
+    "Inst_Total": 167,
+    "Inst_Girls": 18,
+    "Tchr_Total": 4022,
+    "Tchr_Female": 1204,
+    "Tchr_%Female": 29.94,
+    "Stud_Total": 158922,
+    "Stud_Girls": 87321,
+    "Stud_%Girls": 54.95,
+    "TSR": 39.51
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 14,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 31,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 40.12,
+      "difference": 9.22
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 39.51,
+      "difference": 2.41
+    }
+  }
+}

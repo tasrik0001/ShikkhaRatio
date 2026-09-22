@@ -1,0 +1,22 @@
+{
+  "name": "ShikkhaRatio: Bangladesh education, district by district",
+  "short_name": "ShikkhaRatio",
+  "description": "Explore Bangladesh's 2024 education figures: students per teacher, teacher shortage and regional differences across 64 districts.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f2e9",
+  "theme_color": "#a12d23",
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

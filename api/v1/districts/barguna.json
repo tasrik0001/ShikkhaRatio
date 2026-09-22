@@ -1,0 +1,56 @@
+{
+  "slug": "barguna",
+  "district": "Barguna",
+  "division": "Barishal",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Barishal",
+    "District": "Barguna",
+    "Slug": "barguna",
+    "Inst_Total": 191,
+    "Inst_Girls": 24,
+    "Tchr_Total": 2011,
+    "Tchr_Female": 533,
+    "Tchr_%Female": 26.5,
+    "Stud_Total": 56127,
+    "Stud_Girls": 31321,
+    "Stud_%Girls": 55.8,
+    "TSR": 27.91
+  },
+  "college": {
+    "Division": "Barishal",
+    "District": "Barguna",
+    "Slug": "barguna",
+    "Inst_Total": 38,
+    "Inst_Girls": 7,
+    "Tchr_Total": 878,
+    "Tchr_Female": 223,
+    "Tchr_%Female": 25.4,
+    "Stud_Total": 30988,
+    "Stud_Girls": 17228,
+    "Stud_%Girls": 55.6,
+    "TSR": 35.29
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 40,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 34,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 27.91,
+      "difference": -2.99
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 35.29,
+      "difference": -1.81
+    }
+  }
+}

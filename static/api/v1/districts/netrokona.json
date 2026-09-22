@@ -1,0 +1,56 @@
+{
+  "slug": "netrokona",
+  "district": "Netrokona",
+  "division": "Mymensingh",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Mymensingh",
+    "District": "Netrokona",
+    "Slug": "netrokona",
+    "Inst_Total": 292,
+    "Inst_Girls": 32,
+    "Tchr_Total": 3436,
+    "Tchr_Female": 941,
+    "Tchr_%Female": 27.39,
+    "Stud_Total": 114838,
+    "Stud_Girls": 56394,
+    "Stud_%Girls": 49.11,
+    "TSR": 33.42
+  },
+  "college": {
+    "Division": "Mymensingh",
+    "District": "Netrokona",
+    "Slug": "netrokona",
+    "Inst_Total": 50,
+    "Inst_Girls": 10,
+    "Tchr_Total": 1075,
+    "Tchr_Female": 284,
+    "Tchr_%Female": 26.42,
+    "Stud_Total": 60686,
+    "Stud_Girls": 32321,
+    "Stud_%Girls": 53.26,
+    "TSR": 56.45
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 24,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 16,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 33.42,
+      "difference": 2.52
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 56.45,
+      "difference": 19.35
+    }
+  }
+}

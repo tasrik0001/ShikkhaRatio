@@ -1,0 +1,56 @@
+{
+  "slug": "narail",
+  "district": "Narail",
+  "division": "Khulna",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Khulna",
+    "District": "Narail",
+    "Slug": "narail",
+    "Inst_Total": 134,
+    "Inst_Girls": 24,
+    "Tchr_Total": 1840,
+    "Tchr_Female": 582,
+    "Tchr_%Female": 31.63,
+    "Stud_Total": 47628,
+    "Stud_Girls": 25644,
+    "Stud_%Girls": 53.84,
+    "TSR": 25.88
+  },
+  "college": {
+    "Division": "Khulna",
+    "District": "Narail",
+    "Slug": "narail",
+    "Inst_Total": 24,
+    "Inst_Girls": 3,
+    "Tchr_Total": 612,
+    "Tchr_Female": 155,
+    "Tchr_%Female": 25.33,
+    "Stud_Total": 23798,
+    "Stud_Girls": 11139,
+    "Stud_%Girls": 46.81,
+    "TSR": 38.89
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 45,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 32,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 25.88,
+      "difference": -5.02
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 38.89,
+      "difference": 1.79
+    }
+  }
+}

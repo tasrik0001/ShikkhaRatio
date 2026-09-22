@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Explore Bangladesh's 64 districts and download the education figures you choose.">
   <title>Explore data | ShikkhaRatio</title>
+  <meta name="theme-color" content="#a12d23">
   <link rel="icon" href="data:,">
+  <link rel="manifest" href="/manifest.json">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
   <link rel="stylesheet" href="style.css">
   <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
@@ -38,8 +40,24 @@
       <fieldset id="field-choices"><legend>What information do you want?</legend><div class="checkbox-grid"><label><input type="checkbox" name="field" value="Stud_Total" checked> Student count</label><label><input type="checkbox" name="field" value="Tchr_Total" checked> Teacher count</label><label><input type="checkbox" name="field" value="Inst_Total" checked> Institution count</label><label><input type="checkbox" name="field" value="TSR" checked> Students per teacher</label><label><input type="checkbox" name="field" value="Stud_Girls"> Female student count</label><label><input type="checkbox" name="field" value="Tchr_Female"> Female teacher count</label><label><input type="checkbox" name="field" value="Inst_Girls"> Girls' institution count</label><label><input type="checkbox" name="field" value="Stud_%Girls"> Female students (%)</label><label><input type="checkbox" name="field" value="Tchr_%Female"> Female teachers (%)</label></div></fieldset>
       <button id="download" disabled>Download my spreadsheet</button><p id="download-status" role="status" class="small"></p><p class="small"><a href="sources.html#downloads">Get the complete files</a> or <a href="limitations.html">read about the measures</a>.</p>
     </section>
+    <section id="tools" aria-labelledby="tools-title">
+      <div class="section-heading"><h2 id="tools-title">03 / More tools</h2><span class="label">Compare · charts · share</span></div>
+      <p>Open another view of the same 2024 figures. Each tool works on its own page, so you can keep the district you care about in front of you.</p>
+      <div class="related">
+        <a href="compare.html">Compare two districts</a>
+        <a href="charts.html">Plain charts</a>
+        <a href="district.html">District profiles</a>
+        <a href="metrics.html">Equity metrics</a>
+        <a href="watchlist.html">Watchlist</a>
+        <a href="api.html">Open data API</a>
+        <a href="embed.html">Embed a chart</a>
+        <a href="map-viz-mount.html">Map visualisation</a>
+      </div>
+    </section>
     <noscript><p>The interactive map needs JavaScript. <a href="sources.html#downloads">Download the complete figures here</a> or <a href="index.html">read the main article</a>.</p></noscript>
   </main>
   <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. A question about education, made visible.</p><div><a href="sources.html">Sources</a><a href="limitations.html">Limitations</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div></footer>
+  <script src="js/schema.js"></script>
+  <script src="js/pwa-register.js"></script>
 </body>
 </html>

@@ -1,0 +1,16 @@
+[
+  {
+    "Sector": "School",
+    "Min": 20.72,
+    "Max": 49.91,
+    "Median": 31.47,
+    "Mean": 32.16
+  },
+  {
+    "Sector": "College",
+    "Min": 17.47,
+    "Max": 77.71,
+    "Median": 38.71,
+    "Mean": 41.89
+  }
+]

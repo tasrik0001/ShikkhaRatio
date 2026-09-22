@@ -1,0 +1,56 @@
+{
+  "slug": "joypurhat",
+  "district": "Joypurhat",
+  "division": "Rajshahi",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Rajshahi",
+    "District": "Joypurhat",
+    "Slug": "joypurhat",
+    "Inst_Total": 165,
+    "Inst_Girls": 31,
+    "Tchr_Total": 2122,
+    "Tchr_Female": 591,
+    "Tchr_%Female": 27.85,
+    "Stud_Total": 52962,
+    "Stud_Girls": 28087,
+    "Stud_%Girls": 53.03,
+    "TSR": 24.96
+  },
+  "college": {
+    "Division": "Rajshahi",
+    "District": "Joypurhat",
+    "Slug": "joypurhat",
+    "Inst_Total": 33,
+    "Inst_Girls": 7,
+    "Tchr_Total": 1135,
+    "Tchr_Female": 257,
+    "Tchr_%Female": 22.64,
+    "Stud_Total": 32315,
+    "Stud_Girls": 15828,
+    "Stud_%Girls": 48.98,
+    "TSR": 28.47
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 48,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 47,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 24.96,
+      "difference": -5.94
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 28.47,
+      "difference": -8.63
+    }
+  }
+}

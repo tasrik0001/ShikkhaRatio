@@ -1,0 +1,56 @@
+{
+  "slug": "feni",
+  "district": "Feni",
+  "division": "Chattogram",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Chattogram",
+    "District": "Feni",
+    "Slug": "feni",
+    "Inst_Total": 210,
+    "Inst_Girls": 23,
+    "Tchr_Total": 2541,
+    "Tchr_Female": 738,
+    "Tchr_%Female": 29.04,
+    "Stud_Total": 96898,
+    "Stud_Girls": 55654,
+    "Stud_%Girls": 57.44,
+    "TSR": 38.13
+  },
+  "college": {
+    "Division": "Chattogram",
+    "District": "Feni",
+    "Slug": "feni",
+    "Inst_Total": 42,
+    "Inst_Girls": 8,
+    "Tchr_Total": 768,
+    "Tchr_Female": 226,
+    "Tchr_%Female": 29.43,
+    "Stud_Total": 48854,
+    "Stud_Girls": 27313,
+    "Stud_%Girls": 55.91,
+    "TSR": 63.61
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 18,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 10,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 38.13,
+      "difference": 7.23
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 63.61,
+      "difference": 26.51
+    }
+  }
+}

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Five plain charts of Bangladesh's 2024 school and college figures: crowding, rankings, division averages, gender balance and a district drawer.">
+  <title>Charts | ShikkhaRatio</title>
+  <meta name="theme-color" content="#a12d23">
+  <link rel="icon" href="data:,">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/charts.css">
+  <script defer src="site.js"></script>
+  <script defer src="js/charts.js"></script>
+  <script>
+    const BASE = location.pathname.includes("/bn/") ? "../" : "";
+    const isBN = document.documentElement.lang === "bn";
+    const nf = new Intl.NumberFormat(isBN ? "bn-BD" : "en-GB", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    const TEXT = {
+      scatter: "Each dot is one district. Move right and there are more students. Move up and every teacher carries more of them. The dashed line sits at the national figure of 30.90. Bigger dots stand for more teachers.",
+      topBars: "The 15 districts with the highest school ratio, busiest first. The dashed line is the national figure, so the gap is easy to see.",
+      smallMultiples: "Each division as one small bar, averaged across its districts and sorted from high to low.",
+      genderSplit: "National shares for secondary schools. One bar for teachers, one for students. Every segment carries its own number.",
+      districtCompare: "Pick a district to compare four measures with the national picture. Solid bars show the district. Dashed outlines show the nation."
+    };
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("[data-caption]").forEach(function (el) {
+        const key = el.getAttribute("data-caption");
+        if (TEXT[key]) el.textContent = TEXT[key];
+      });
+      document.querySelectorAll("[data-fact]").forEach(function (el) {
+        const value = Number(el.getAttribute("data-fact"));
+        if (Number.isFinite(value)) el.textContent = nf.format(value);
+      });
+    });
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="edition"><span>Bangladesh · An independent student project</span><time id="today"></time><a href="bn/charts.html" class="lang-toggle">বাংলা</a></div>
+    <a class="masthead" href="index.html">Shikkha<span>Ratio</span><span class="masthead-note">Education, seen district by district.</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="explore.html">Explore data</a><a href="distribute.html">Allocation tool</a><a href="shortage.html">Teacher shortage</a><a href="regions.html">Regional differences</a><a href="story.html">Our story</a><a href="goals.html">Goals</a><a href="sources.html">Sources</a><a href="limitations.html">Limitations</a></nav>
+  </header>
+  <main id="main">
+    <header class="article-header">
+      <p class="eyebrow">Charts / Bangladesh, 2024</p>
+      <h1>The same figures, drawn five ways.</h1>
+      <p class="lead">Plain charts for a wide audience. Thick lines, clear labels and a number on every bar, so the picture never depends on colour alone.</p>
+    </header>
+
+    <div class="chart-facts">
+      <div class="chart-fact"><span class="label">Secondary schools</span><strong data-fact="30.9">30.90</strong><span>students per teacher</span></div>
+      <div class="chart-fact"><span class="label">Colleges</span><strong data-fact="37.1">37.10</strong><span>students per teacher</span></div>
+    </div>
+
+    <div class="chart-legend-key" aria-label="Colour key for pressure levels">
+      <span><i class="key-green"></i>Below 27 students per teacher</span>
+      <span><i class="key-amber"></i>27 to 35 students per teacher</span>
+      <span><i class="key-red"></i>Above 35 students per teacher</span>
+    </div>
+
+    <section aria-labelledby="scatter-title">
+      <div class="section-heading"><h2 id="scatter-title">01 / Where classrooms are most crowded</h2><span class="label">64 districts</span></div>
+      <div class="chart-panel">
+        <p class="chart-caption" data-caption="scatter">Each dot is one district. Move right and there are more students. Move up and every teacher carries more of them. The dashed line sits at the national figure of 30.90. Bigger dots stand for more teachers.</p>
+        <div data-chart="scatter" role="img" aria-label="Scatter plot of students against students per teacher for every district"></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="topbars-title">
+      <div class="section-heading"><h2 id="topbars-title">02 / Districts under the most pressure</h2><span class="label">Top 15</span></div>
+      <div class="chart-panel">
+        <p class="chart-caption" data-caption="topBars">The 15 districts with the highest school ratio, busiest first. The dashed line is the national figure, so the gap is easy to see.</p>
+        <div data-chart="top-bars" data-limit="15" role="img" aria-label="Ranked horizontal bars of the fifteen districts with the highest students per teacher"></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="divisions-title">
+      <div class="section-heading"><h2 id="divisions-title">03 / Division averages</h2><span class="label">All divisions</span></div>
+      <div class="chart-panel">
+        <p class="chart-caption" data-caption="smallMultiples">Each division as one small bar, averaged across its districts and sorted from high to low.</p>
+        <div data-chart="small-multiples" role="img" aria-label="Small bar chart of average students per teacher for each division"></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="gender-title">
+      <div class="section-heading"><h2 id="gender-title">04 / Who teaches, who learns</h2><span class="label">Nationwide</span></div>
+      <div class="chart-panel">
+        <p class="chart-caption" data-caption="genderSplit">National shares for secondary schools. One bar for teachers, one for students. Every segment carries its own number.</p>
+        <div data-chart="gender-split" role="img" aria-label="Stacked bars showing the share of female teachers and girl students nationwide"></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="drawer-title">
+      <div class="section-heading"><h2 id="drawer-title">05 / One district beside the nation</h2><span class="label">District drawer</span></div>
+      <div class="chart-panel">
+        <p class="chart-caption" data-caption="districtCompare">Pick a district to compare four measures with the national picture. Solid bars show the district. Dashed outlines show the nation.</p>
+        <div class="chart-picker">
+          <label for="district-pick">District</label>
+          <select id="district-pick"></select>
+        </div>
+        <div data-chart="district-compare" data-district="Sunamganj" data-picker="district-pick" role="img" aria-label="Mini bars comparing one district with national figures"></div>
+      </div>
+    </section>
+
+    <p class="chart-note">Figures: BANBEIS 2024. Students per teacher is total students divided by total teachers. Ratios describe whole districts, not single schools. <a href="sources.html">Where the figures come from</a> · <a href="limitations.html">How to read them</a>.</p>
+    <noscript><p>These charts need JavaScript. The same figures are on the <a href="explore.html">Explore data</a> page and the <a href="sources.html">Sources</a> page.</p></noscript>
+  </main>
+  <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. A question about education, made visible.</p><div><a href="sources.html">Sources</a><a href="limitations.html">Limitations</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div></footer>
+  <script src="js/schema.js"></script>
+  <script src="js/pwa-register.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "slug": "gopalganj",
+  "district": "Gopalganj",
+  "division": "Dhaka",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Dhaka",
+    "District": "Gopalganj",
+    "Slug": "gopalganj",
+    "Inst_Total": 211,
+    "Inst_Girls": 18,
+    "Tchr_Total": 2730,
+    "Tchr_Female": 707,
+    "Tchr_%Female": 25.9,
+    "Stud_Total": 80113,
+    "Stud_Girls": 41482,
+    "Stud_%Girls": 51.78,
+    "TSR": 29.35
+  },
+  "college": {
+    "Division": "Dhaka",
+    "District": "Gopalganj",
+    "Slug": "gopalganj",
+    "Inst_Total": 42,
+    "Inst_Girls": 3,
+    "Tchr_Total": 971,
+    "Tchr_Female": 225,
+    "Tchr_%Female": 23.17,
+    "Stud_Total": 52027,
+    "Stud_Girls": 25094,
+    "Stud_%Girls": 48.23,
+    "TSR": 53.58
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 36,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 17,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 29.35,
+      "difference": -1.55
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 53.58,
+      "difference": 16.48
+    }
+  }
+}

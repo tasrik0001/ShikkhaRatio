@@ -1,0 +1,216 @@
+/* Styles for the ShikkhaRatio map visualization module.
+   Every rule sits under #map-viz or a .map-viz- class so nothing here
+   competes with style.css. Thick borders and solid offset shadows,
+   neo-brutalist, matching the rest of the site. */
+
+#map-viz {
+  position: relative;
+  margin: 20px 0;
+  border: 2px solid #25241f;
+  background: #e8e7e0;
+  box-shadow: 6px 6px 0 #25241f;
+}
+
+#map-viz .map-viz-canvas {
+  height: 520px;
+  width: 100%;
+  background: #e8e7e0;
+}
+
+.map-viz-bar {
+  padding: 12px 14px;
+  background: #fffdf8;
+  border-bottom: 2px solid #25241f;
+}
+
+.map-viz-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+}
+
+.map-viz-toggle {
+  display: flex;
+  border: 2px solid #25241f;
+  background: #fffdf8;
+  box-shadow: 3px 3px 0 #25241f;
+}
+
+.map-viz-controls .map-viz-toggle button {
+  margin: 0;
+  padding: 8px 14px;
+  border: 0;
+  border-right: 2px solid #25241f;
+  border-radius: 0;
+  background: #fffdf8;
+  color: #25241f;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: .04em;
+  cursor: pointer;
+}
+
+.map-viz-controls .map-viz-toggle button:last-child {
+  border-right: 0;
+}
+
+.map-viz-controls .map-viz-toggle button:hover {
+  background: #e6e1d3;
+  color: #25241f;
+}
+
+.map-viz-controls .map-viz-toggle button[aria-pressed="true"] {
+  background: #25241f;
+  color: #f5f2e9;
+}
+
+.map-viz-controls .map-viz-toggle button[aria-pressed="true"]:hover {
+  background: #25241f;
+  color: #f5f2e9;
+}
+
+.map-viz-badge {
+  margin: 0;
+  padding: 6px 10px;
+  border: 2px solid #25241f;
+  background: #a12d23;
+  color: #fffdf8;
+  box-shadow: 3px 3px 0 #25241f;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: .03em;
+}
+
+.map-viz-badge[hidden] {
+  display: none;
+}
+
+.map-viz-status {
+  margin: 0 0 0 auto;
+  font-size: 11px;
+  color: #625f56;
+}
+
+/* Hover card */
+
+.map-viz-tip.leaflet-tooltip {
+  padding: 9px 12px;
+  border: 2px solid #25241f;
+  border-radius: 0;
+  background: #fffdf8;
+  color: #25241f;
+  box-shadow: 4px 4px 0 #25241f;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.map-viz-tip.leaflet-tooltip::before {
+  display: none;
+}
+
+.map-viz-tip-name {
+  display: block;
+  font: bold 14px Georgia, serif;
+}
+
+.map-viz-tip-value {
+  display: block;
+  font: bold 28px/1.15 Arial, sans-serif;
+  letter-spacing: -1px;
+}
+
+.map-viz-tip-label {
+  display: block;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #625f56;
+}
+
+.map-viz-tip-vs {
+  display: block;
+  margin-top: 4px;
+  font-size: 11px;
+}
+
+/* Legend */
+
+.map-viz-legend {
+  min-width: 250px;
+  max-width: 300px;
+  padding: 10px 12px;
+  border: 2px solid #25241f;
+  background: #fffdf8;
+  box-shadow: 4px 4px 0 #25241f;
+  color: #25241f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.map-viz-legend-title {
+  margin: 0 0 8px;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.map-viz-swatches {
+  display: flex;
+  border: 2px solid #25241f;
+}
+
+.map-viz-swatch {
+  flex: 1;
+  height: 14px;
+  border-right: 1px solid #25241f;
+}
+
+.map-viz-swatch:last-child {
+  border-right: 0;
+}
+
+.map-viz-legend-scale {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  font-size: 11px;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+}
+
+.map-viz-legend-labels {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: 7px;
+  font-size: 11px;
+}
+
+.map-viz-legend-labels span {
+  max-width: 47%;
+}
+
+.map-viz-legend-note {
+  margin: 8px 0 0;
+  padding-top: 7px;
+  border-top: 1px solid #c8c4b9;
+  font-size: 10px;
+  color: #625f56;
+}
+
+@media (max-width: 550px) {
+  #map-viz .map-viz-canvas {
+    height: 440px;
+  }
+  .map-viz-status {
+    margin-left: 0;
+    flex-basis: 100%;
+  }
+  .map-viz-legend {
+    min-width: 0;
+    max-width: calc(100vw - 70px);
+  }
+}

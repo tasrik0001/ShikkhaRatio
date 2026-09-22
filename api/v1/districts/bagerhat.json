@@ -1,0 +1,56 @@
+{
+  "slug": "bagerhat",
+  "district": "Bagerhat",
+  "division": "Khulna",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Khulna",
+    "District": "Bagerhat",
+    "Slug": "bagerhat",
+    "Inst_Total": 338,
+    "Inst_Girls": 73,
+    "Tchr_Total": 3999,
+    "Tchr_Female": 1130,
+    "Tchr_%Female": 28.26,
+    "Stud_Total": 85107,
+    "Stud_Girls": 48313,
+    "Stud_%Girls": 56.77,
+    "TSR": 21.28
+  },
+  "college": {
+    "Division": "Khulna",
+    "District": "Bagerhat",
+    "Slug": "bagerhat",
+    "Inst_Total": 47,
+    "Inst_Girls": 10,
+    "Tchr_Total": 1380,
+    "Tchr_Female": 378,
+    "Tchr_%Female": 27.39,
+    "Stud_Total": 38976,
+    "Stud_Girls": 20444,
+    "Stud_%Girls": 52.45,
+    "TSR": 28.24
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 62,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 50,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 21.28,
+      "difference": -9.62
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 28.24,
+      "difference": -8.86
+    }
+  }
+}

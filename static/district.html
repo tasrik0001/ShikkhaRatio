@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A single district profile: students per teacher for schools and colleges, rank among all districts, and how the figures compare with the national average.">
+  <title>District profile | ShikkhaRatio</title>
+  <meta name="theme-color" content="#a12d23">
+  <link rel="icon" href="data:,">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/district-profile.css">
+  <script defer src="site.js"></script>
+  <script defer src="js/district-profile.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="edition"><span>Bangladesh · An independent student project</span><time id="today" datetime="2026-09-22">22 September 2026</time><a href="bn/district.html" class="lang-toggle">বাংলা</a></div>
+    <a class="masthead" href="index.html">Shikkha<span>Ratio</span><span class="masthead-note">Education, seen district by district.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="explore.html" data-explore>Explore data</a><a href="distribute.html">Allocation tool</a><a href="shortage.html">Teacher shortage</a><a href="regions.html">Regional differences</a><a href="story.html">Our story</a><a href="goals.html">Goals</a><a href="sources.html">Sources</a><a href="limitations.html">Limitations</a>
+    </nav>
+  </header>
+  <main id="main">
+    <header class="article-header">
+      <p class="eyebrow">District profile / 2024</p>
+      <h1>One district. Schools and colleges side by side.</h1>
+      <p class="lead">Pick a district to see its student ratio, its place among all districts, and how it sits against the national average.</p>
+    </header>
+    <section id="picker-section" aria-labelledby="picker-title">
+      <div class="section-heading"><h2 id="picker-title">01 / Choose your district</h2><span class="label">64 districts · 8 divisions</span></div>
+      <div class="picker-panel">
+        <p id="profile-status" class="status-message quiet" role="status" hidden>Loading district figures...</p>
+        <div id="profile-panel" hidden></div>
+        <div id="picker-empty" hidden>
+          <h2 class="empty-state">Pick a district to see its profile.</h2>
+          <p class="empty-hint">Choose a district from the list below, or use the dropdown.</p>
+        </div>
+        <div class="picker-controls">
+          <div>
+            <label for="district-picker">Choose a district</label>
+            <select id="district-picker"><option value="">Pick a district</option></select>
+          </div>
+        </div>
+        <p class="district-index-title">All districts · students per teacher in schools</p>
+        <ul id="district-index" class="district-index"></ul>
+      </div>
+    </section>
+    <noscript><p>This profile needs JavaScript. <a href="explore.html" data-explore>Explore the figures</a> on the data page instead, or <a href="sources.html#downloads">download the complete files</a>.</p></noscript>
+  </main>
+  <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. A question about education, made visible.</p><div><a href="sources.html">Sources</a><a href="limitations.html">Limitations</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div><p class="small">Independent project. Not an official government dashboard.</p></footer>
+  <script src="js/schema.js"></script>
+  <script src="js/pwa-register.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "slug": "dinajpur",
+  "district": "Dinajpur",
+  "division": "Rangpur",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Rangpur",
+    "District": "Dinajpur",
+    "Slug": "dinajpur",
+    "Inst_Total": 719,
+    "Inst_Girls": 118,
+    "Tchr_Total": 9464,
+    "Tchr_Female": 2454,
+    "Tchr_%Female": 25.93,
+    "Stud_Total": 219102,
+    "Stud_Girls": 116206,
+    "Stud_%Girls": 53.04,
+    "TSR": 23.15
+  },
+  "college": {
+    "Division": "Rangpur",
+    "District": "Dinajpur",
+    "Slug": "dinajpur",
+    "Inst_Total": 137,
+    "Inst_Girls": 26,
+    "Tchr_Total": 3784,
+    "Tchr_Female": 959,
+    "Tchr_%Female": 25.34,
+    "Stud_Total": 104969,
+    "Stud_Girls": 52895,
+    "Stud_%Girls": 50.39,
+    "TSR": 27.74
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 55,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 51,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 23.15,
+      "difference": -7.75
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 27.74,
+      "difference": -9.36
+    }
+  }
+}

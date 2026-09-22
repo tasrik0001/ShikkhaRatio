@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="বাংলাদেশের ২০২৪ সালের বিদ্যালয় ও কলেজ সংখ্যার পাঁচটি সরল চার্ট।">
+  <title>চার্ট | ShikkhaRatio</title>
+  <meta name="theme-color" content="#a12d23">
+  <link rel="icon" href="data:,">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../css/charts.css">
+  <script defer src="../site.js"></script>
+  <script defer src="../js/charts.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">বিষয়বস্তুতে যান</a>
+  <header class="site-header">
+    <div class="edition"><span>বাংলাদেশ · একটি স্বাধীন ছাত্র প্রকল্প</span><time id="today" datetime="2026-09-22">২২ সেপ্টেম্বর ২০২৬</time><a href="../charts.html" class="lang-toggle">English</a></div>
+    <a class="masthead" href="index.html">Shikkha<span>Ratio</span><span class="masthead-note">শিক্ষা, জেলা অনুযায়ী দেখা।</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">হোম</a><a href="explore.html" data-explore>তথ্য অনুসন্ধান</a><a href="distribute.html">বরাদ্দ সরঞ্জাম</a><a href="shortage.html">শিক্ষক ঘাটতি</a><a href="regions.html">আঞ্চলিক পার্থক্য</a><a href="story.html">আমাদের গল্প</a><a href="goals.html">লক্ষ্য</a><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a></nav>
+  </header>
+  <main id="main">
+
+    <header class="article-header">
+      <p class="eyebrow">চার্ট / বাংলাদেশ, ২০২৪</p>
+      <h1>একই সংখ্যা, পাঁচভাবে আঁকা।</h1>
+      <p class="lead">সবার জন্য সরল চার্ট। মোটা লাইন, স্পষ্ট লেবেল এবং প্রতিটি বারে একটি সংখ্যা, যাতে ছবি শুধু রং দিয়ে নির্ভর না করে।</p>
+    </header>
+    <div class="chart-facts">
+      <div class="chart-fact"><span class="label">মাধ্যমিক বিদ্যালয়</span><strong data-fact="30.9">30.90</strong><span>প্রতি শিক্ষকে ছাত্র</span></div>
+      <div class="chart-fact"><span class="label">কলেজ</span><strong data-fact="37.1">37.10</strong><span>প্রতি শিক্ষকে ছাত্র</span></div>
+    </div>
+    <div class="chart-legend-key" aria-label="চাপের স্তরের রং-কী">
+      <span><i class="key-green"></i>প্রতি শিক্ষকে ২৭-এর নিচে ছাত্র</span>
+      <span><i class="key-amber"></i>প্রতি শিক্ষকে ২৭ থেকে ৩৫ ছাত্র</span>
+      <span><i class="key-red"></i>প্রতি শিক্ষকে ৩৫-এর বেশি ছাত্র</span>
+    </div>
+    <section aria-labelledby="scatter-title">
+      <div class="section-heading"><h2 id="scatter-title">০১ / কোথায় শ্রেণিকক্ষ সবচেয়ে ভিড়</h2><span class="label">৬৪ জেলা</span></div>
+      <div class="chart-panel">
+        <p class="chart-caption" data-caption="scatter">প্রতিটি বিন্দু একটি জেলা। ডানে যান ছাত্র বাড়ে। উপরে যান প্রতি শিক্ষকের হাতে আরও ছাত্র থাকে। হালকা রেখা জাতীয় সংখ্যা ৩০.৯০-এ। বড় বিন্দু বেশি শিক্ষক দেখায়।</p>
+        <div data-chart="scatter" role="img" aria-label="প্রতি শিক্ষকে ছাত্র বনাম মোট ছাত্রের বিন্দু-ছবি"></div>
+      </div>
+    </section>
+    <section aria-labelledby="topbars-title">
+      <div class="section-heading"><h2 id="topbars-title">০২ / সর্বাধিক চাপের জেলা</h2><span class="label">শীর্ষ ১৫</span></div>
+      <div class="chart-panel">
+        <p class="chart-caption" data-caption="topBars">সর্বোচ্চ বিদ্যালয় অনুপাতের ১৫টি জেলা, ব্যস্ততম আগে। হালকা রেখা জাতীয় সংখ্যা, তাই ফাঁকা সহজে দেখা যায়।</p>
+        <div data-chart="top-bars" data-limit="15" role="img" aria-label="সর্বোচ্চ প্রতি শিক্ষকে ছাত্রের ১৫ জেলার বার"></div>
+      </div>
+    </section>
+    <section aria-labelledby="divisions-title">
+      <div class="section-heading"><h2 id="divisions-title">০৩ / বিভাগের গড়</h2><span class="label">সব বিভাগ</span></div>
+      <div class="chart-panel">
+        <p class="chart-caption" data-caption="smallMultiples">প্রতিটি বিভাগ একটি ছোট বার, জেলাগুলোর গড়ে, উচ্চ থেকে নিম্ন সাজানো।</p>
+        <div data-chart="small-multiples" role="img" aria-label="প্রতি বিভাগের গড় প্রতি শিক্ষকে ছাত্রের ছোট বার চার্ট"></div>
+      </div>
+    </section>
+    <section aria-labelledby="gender-title">
+      <div class="section-heading"><h2 id="gender-title">০৪ / কে পড়ায়, কে পড়ে</h2><span class="label">দেশব্যাপী</span></div>
+      <div class="chart-panel">
+        <p class="chart-caption" data-caption="genderSplit">মাধ্যমিক বিদ্যালয়ের জাতীয় অংশ। একটি বার শিক্ষক, একটি ছাত্র। প্রতিটি অংশে নিজের সংখ্যা আছে।</p>
+        <div data-chart="gender-split" role="img" aria-label="নারী শিক্ষক ও মেয়ে ছাত্রের অংশের স্তরযুক্ত বার"></div>
+      </div>
+    </section>
+    <section aria-labelledby="drawer-title">
+      <div class="section-heading"><h2 id="drawer-title">০৫ / একটি জেলা দেশের পাশে</h2><span class="label">জেলা ড্রয়ার</span></div>
+      <div class="chart-panel">
+        <p class="chart-caption" data-caption="districtCompare">একটি জেলা বেছে নিন এবং চারটি পরিমাপ জাতীয় চিত্রের সাথে তুলনা করুন। পূর্ণ বার জেলা, হালকা রেখা দেশ।</p>
+        <div class="chart-picker">
+          <label for="district-pick">জেলা</label>
+          <select id="district-pick"></select>
+        </div>
+        <div data-chart="district-compare" data-district="Sunamganj" data-picker="district-pick" role="img" aria-label="একটি জেলা ও জাতীয় সংখ্যার তুলনা"></div>
+      </div>
+    </section>
+    <p class="chart-note">তথ্য: BANBEIS 2024। প্রতি শিক্ষকে ছাত্র = মোট ছাত্র / মোট শিক্ষক। অনুপাত পুরো জেলার, একক বিদ্যালয়ের নয়। <a href="sources.html">তথ্য কোথা থেকে</a> · <a href="limitations.html">কীভাবে পড়বেন</a>।</p>
+    <noscript><p>এই চার্টে JavaScript লাগে। একই সংখ্যা <a href="explore.html">তথ্য অনুসন্ধান</a> এবং <a href="sources.html">উৎস</a> পৃষ্ঠায় আছে।</p></noscript>
+  </main>
+  <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. শিক্ষা সম্পর্কে একটি প্রশ্ন, দৃশ্যমান করা হয়েছে।</p><div><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div><p class="small">স্বাধীন প্রকল্প। সরকারি ড্যাশবোর্ড নয়।</p></footer>
+    <script src="../js/schema.js"></script>
+  <script src="../js/pwa-register.js"></script>
+</body>
+</html>

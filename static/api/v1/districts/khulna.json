@@ -1,0 +1,56 @@
+{
+  "slug": "khulna",
+  "district": "Khulna",
+  "division": "Khulna",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Khulna",
+    "District": "Khulna",
+    "Slug": "khulna",
+    "Inst_Total": 438,
+    "Inst_Girls": 85,
+    "Tchr_Total": 6144,
+    "Tchr_Female": 1966,
+    "Tchr_%Female": 32,
+    "Stud_Total": 136755,
+    "Stud_Girls": 72581,
+    "Stud_%Girls": 53.07,
+    "TSR": 22.26
+  },
+  "college": {
+    "Division": "Khulna",
+    "District": "Khulna",
+    "Slug": "khulna",
+    "Inst_Total": 103,
+    "Inst_Girls": 22,
+    "Tchr_Total": 3318,
+    "Tchr_Female": 909,
+    "Tchr_%Female": 27.4,
+    "Stud_Total": 115035,
+    "Stud_Girls": 56267,
+    "Stud_%Girls": 48.91,
+    "TSR": 34.67
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 59,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 36,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 22.26,
+      "difference": -8.64
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 34.67,
+      "difference": -2.43
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "panchagarh",
+  "district": "Panchagarh",
+  "division": "Rangpur",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Rangpur",
+    "District": "Panchagarh",
+    "Slug": "panchagarh",
+    "Inst_Total": 302,
+    "Inst_Girls": 88,
+    "Tchr_Total": 3915,
+    "Tchr_Female": 991,
+    "Tchr_%Female": 25.31,
+    "Stud_Total": 86663,
+    "Stud_Girls": 49524,
+    "Stud_%Girls": 57.15,
+    "TSR": 22.14
+  },
+  "college": {
+    "Division": "Rangpur",
+    "District": "Panchagarh",
+    "Slug": "panchagarh",
+    "Inst_Total": 40,
+    "Inst_Girls": 10,
+    "Tchr_Total": 1194,
+    "Tchr_Female": 256,
+    "Tchr_%Female": 21.44,
+    "Stud_Total": 31227,
+    "Stud_Girls": 16905,
+    "Stud_%Girls": 54.14,
+    "TSR": 26.15
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 60,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 57,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 22.14,
+      "difference": -8.76
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 26.15,
+      "difference": -10.95
+    }
+  }
+}

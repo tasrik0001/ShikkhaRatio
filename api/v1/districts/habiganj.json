@@ -1,0 +1,56 @@
+{
+  "slug": "habiganj",
+  "district": "Habiganj",
+  "division": "Sylhet",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Sylhet",
+    "District": "Habiganj",
+    "Slug": "habiganj",
+    "Inst_Total": 203,
+    "Inst_Girls": 20,
+    "Tchr_Total": 2371,
+    "Tchr_Female": 638,
+    "Tchr_%Female": 26.91,
+    "Stud_Total": 110661,
+    "Stud_Girls": 65316,
+    "Stud_%Girls": 59.02,
+    "TSR": 46.67
+  },
+  "college": {
+    "Division": "Sylhet",
+    "District": "Habiganj",
+    "Slug": "habiganj",
+    "Inst_Total": 50,
+    "Inst_Girls": 7,
+    "Tchr_Total": 765,
+    "Tchr_Female": 196,
+    "Tchr_%Female": 25.62,
+    "Stud_Total": 54550,
+    "Stud_Girls": 31010,
+    "Stud_%Girls": 56.85,
+    "TSR": 71.31
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 4,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 4,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 46.67,
+      "difference": 15.77
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 71.31,
+      "difference": 34.21
+    }
+  }
+}

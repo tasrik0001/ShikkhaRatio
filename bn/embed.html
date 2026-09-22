@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="আরেকটি ওয়েবসাইটে ShikkhaRatio জেলা সংখ্যা ও চার্ট দেখানোর iframe স্নিপেট তৈরি করুন।">
+  <title>এমবেড ও শেয়ার | ShikkhaRatio</title>
+  <meta name="theme-color" content="#a12d23">
+  <link rel="icon" href="data:,">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../css/community.css">
+  <script defer src="../site.js"></script>
+  <script defer src="../js/export.js"></script>
+  <script defer src="../js/embed.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">বিষয়বস্তুতে যান</a>
+  <header class="site-header">
+    <div class="edition"><span>বাংলাদেশ · একটি স্বাধীন ছাত্র প্রকল্প</span><time id="today" datetime="2026-09-22">২২ সেপ্টেম্বর ২০২৬</time><a href="../embed.html" class="lang-toggle">English</a></div>
+    <a class="masthead" href="index.html">Shikkha<span>Ratio</span><span class="masthead-note">শিক্ষা, জেলা অনুযায়ী দেখা।</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">হোম</a><a href="explore.html" data-explore>তথ্য অনুসন্ধান</a><a href="distribute.html">বরাদ্দ সরঞ্জাম</a><a href="shortage.html">শিক্ষক ঘাটতি</a><a href="regions.html">আঞ্চলিক পার্থক্য</a><a href="story.html">আমাদের গল্প</a><a href="goals.html">লক্ষ্য</a><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a></nav>
+  </header>
+  <main id="main">
+
+    <header class="article-header">
+      <p class="eyebrow">এমবেড ও শেয়ার / ডাটা সেট ২০২৪</p>
+      <h1>আপনার নিজের পৃষ্ঠায় জেলা দৃশ্য আনুন।</h1>
+      <p class="lead">পৃষ্ঠার ধরন ও একটি জেলা বেছে নিন। নিচের স্নিপেট কপি করে ব্লগ, স্কুল প্রকল্প বা যেকোনো HTML গ্রহণকারী ওয়েবসাইটে পেস্ট করুন।</p>
+    </header>
+    <section id="embed-builder" aria-labelledby="builder-title">
+      <div class="section-heading"><h2 id="builder-title">০১ / স্নিপেট তৈরি করুন</h2><span class="label">নিচে সরাসরি প্রিভিউ</span></div>
+      <div class="embed-controls">
+        <div>
+          <label for="embed-src">এমবেড করার পৃষ্ঠা</label>
+          <select id="embed-src">
+            <option value="district">জেলা প্রোফাইল (district.html)</option>
+            <option value="explore">ডাটা এক্সপ্লোরার (explore.html)</option>
+            <option value="charts">চার্ট পৃষ্ঠা (charts.html)</option>
+          </select>
+        </div>
+        <div>
+          <label for="embed-district">জেলা</label>
+          <input id="embed-district" list="embed-districts" value="Dhaka" autocomplete="off">
+          <datalist id="embed-districts"></datalist>
+        </div>
+      </div>
+      <p id="embed-note" class="small" role="status"></p>
+      <pre class="embed-snippet"><code id="embed-code"></code></pre>
+      <div class="copy-row">
+        <button id="embed-copy" type="button">স্নিপেট কপি</button>
+        <span id="embed-status" class="status" role="status"></span>
+      </div>
+    </section>
+    <section id="embed-preview-section" aria-labelledby="preview-title">
+      <div class="section-heading"><h2 id="preview-title">০২ / সরাসরি দেখুন</h2><span class="label">800 x 600 ফ্রেম</span></div>
+      <iframe id="embed-preview" class="preview-frame" src="../district.html?d=dhaka" width="800" height="600" style="border:2px solid #111" title="ShikkhaRatio জেলা দৃশ্য: Dhaka"></iframe>
+      <p class="preview-caption">এই প্রিভিউ ঠিক সেভাবেই দেখায় যেভাবে অন্য সাইট দেখাবে। ভিন্ন পৃষ্ঠা দেখতে উপরের নিয়ন্ত্রণ বদলান।</p>
+    </section>
+    <section id="embed-howto" aria-labelledby="howto-title">
+      <div class="section-heading"><h2 id="howto-title">০৩ / কীভাবে কাজ করে</h2><span class="label">অ্যাকাউন্ট লাগে না</span></div>
+      <div class="community-panel">
+        <p>স্নিপেট এই সাইট থেকে সরাসরি ফ্রেম লোড করে, তাই ডাটা পৃষ্ঠা হালনাগাদ হলে সংখ্যাও হালনাগাদ থাকে। হাতে কোনো সংখ্যা কপি করতে হয় না।</p>
+        <p>আপনার পৃষ্ঠার HTML-তে লাইনটি পেস্ট করুন। বেশিরভাগ সাইট বিল্ডার ও ব্লগ কাঁচা HTML ব্লক নেয়। ফ্রেম ৮০০ পিক্সেল চওড়া এবং ৬০০ পিক্সেল উচ্চ, সাইটের সাথে মানানসই মজবুত বর্ডার।</p>
+        <p>পাঠক যেন জানেন সংখ্যা কোথা থেকে এসেছে, ফ্রেমের নিচে BANBEIS 2024 এবং ShikkhaRatio উল্লেখ করুন। জেলা প্রোফাইল <code>?d=slug</code> ব্যবহার করে, এক্সপ্লোরার <code>?district=Name</code> দিয়ে খোলে, এবং চার্ট পৃষ্ঠা একই জেলা স্লাগ নেয়।</p>
+        <p class="small"><a href="sources.html">উৎস অনুসরণ করুন</a> অথবা শেয়ারের আগে <a href="limitations.html">পরিমাপ সম্পর্কে পড়ুন</a>।</p>
+      </div>
+    </section>
+    <noscript><p>এই স্নিপেট বিল্ডারে JavaScript লাগে। তবুও <a href="sources.html#downloads">সংখ্যা ডাউনলোড</a> বা সরাসরি <a href="explore.html">এক্সপ্লোরারে</a> যেতে পারেন।</p></noscript>
+  </main>
+  <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. শিক্ষা সম্পর্কে একটি প্রশ্ন, দৃশ্যমান করা হয়েছে।</p><div><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div><p class="small">স্বাধীন প্রকল্প। সরকারি ড্যাশবোর্ড নয়।</p></footer>
+    <script src="../js/schema.js"></script>
+  <script src="../js/pwa-register.js"></script>
+</body>
+</html>

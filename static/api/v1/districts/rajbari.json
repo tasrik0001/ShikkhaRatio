@@ -1,0 +1,56 @@
+{
+  "slug": "rajbari",
+  "district": "Rajbari",
+  "division": "Dhaka",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Dhaka",
+    "District": "Rajbari",
+    "Slug": "rajbari",
+    "Inst_Total": 159,
+    "Inst_Girls": 23,
+    "Tchr_Total": 2049,
+    "Tchr_Female": 564,
+    "Tchr_%Female": 27.53,
+    "Stud_Total": 69957,
+    "Stud_Girls": 38724,
+    "Stud_%Girls": 55.35,
+    "TSR": 34.14
+  },
+  "college": {
+    "Division": "Dhaka",
+    "District": "Rajbari",
+    "Slug": "rajbari",
+    "Inst_Total": 38,
+    "Inst_Girls": 6,
+    "Tchr_Total": 1075,
+    "Tchr_Female": 284,
+    "Tchr_%Female": 26.42,
+    "Stud_Total": 32005,
+    "Stud_Girls": 17510,
+    "Stud_%Girls": 54.71,
+    "TSR": 29.77
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 22,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 46,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 34.14,
+      "difference": 3.24
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 29.77,
+      "difference": -7.33
+    }
+  }
+}

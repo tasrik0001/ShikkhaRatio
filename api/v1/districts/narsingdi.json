@@ -1,0 +1,56 @@
+{
+  "slug": "narsingdi",
+  "district": "Narsingdi",
+  "division": "Dhaka",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Dhaka",
+    "District": "Narsingdi",
+    "Slug": "narsingdi",
+    "Inst_Total": 288,
+    "Inst_Girls": 40,
+    "Tchr_Total": 4476,
+    "Tchr_Female": 1682,
+    "Tchr_%Female": 37.58,
+    "Stud_Total": 140136,
+    "Stud_Girls": 78195,
+    "Stud_%Girls": 55.8,
+    "TSR": 31.31
+  },
+  "college": {
+    "Division": "Dhaka",
+    "District": "Narsingdi",
+    "Slug": "narsingdi",
+    "Inst_Total": 80,
+    "Inst_Girls": 10,
+    "Tchr_Total": 1807,
+    "Tchr_Female": 559,
+    "Tchr_%Female": 30.94,
+    "Stud_Total": 76332,
+    "Stud_Girls": 39345,
+    "Stud_%Girls": 51.54,
+    "TSR": 42.24
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 34,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 27,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 31.31,
+      "difference": 0.41
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 42.24,
+      "difference": 5.14
+    }
+  }
+}

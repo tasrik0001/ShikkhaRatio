@@ -1,0 +1,56 @@
+{
+  "slug": "bogura",
+  "district": "Bogura",
+  "division": "Rajshahi",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Rajshahi",
+    "District": "Bogura",
+    "Slug": "bogura",
+    "Inst_Total": 503,
+    "Inst_Girls": 89,
+    "Tchr_Total": 6967,
+    "Tchr_Female": 2164,
+    "Tchr_%Female": 31.06,
+    "Stud_Total": 202864,
+    "Stud_Girls": 105385,
+    "Stud_%Girls": 51.95,
+    "TSR": 29.12
+  },
+  "college": {
+    "Division": "Rajshahi",
+    "District": "Bogura",
+    "Slug": "bogura",
+    "Inst_Total": 122,
+    "Inst_Girls": 27,
+    "Tchr_Total": 4190,
+    "Tchr_Female": 1084,
+    "Tchr_%Female": 25.87,
+    "Stud_Total": 131928,
+    "Stud_Girls": 62302,
+    "Stud_%Girls": 47.22,
+    "TSR": 31.49
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 38,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 40,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 29.12,
+      "difference": -1.78
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 31.49,
+      "difference": -5.61
+    }
+  }
+}

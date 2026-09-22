@@ -1,0 +1,56 @@
+{
+  "slug": "jhenaidah",
+  "district": "Jhenaidah",
+  "division": "Khulna",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Khulna",
+    "District": "Jhenaidah",
+    "Slug": "jhenaidah",
+    "Inst_Total": 309,
+    "Inst_Girls": 46,
+    "Tchr_Total": 4140,
+    "Tchr_Female": 1145,
+    "Tchr_%Female": 27.66,
+    "Stud_Total": 115079,
+    "Stud_Girls": 62534,
+    "Stud_%Girls": 54.34,
+    "TSR": 27.8
+  },
+  "college": {
+    "Division": "Khulna",
+    "District": "Jhenaidah",
+    "Slug": "jhenaidah",
+    "Inst_Total": 74,
+    "Inst_Girls": 8,
+    "Tchr_Total": 2415,
+    "Tchr_Female": 594,
+    "Tchr_%Female": 24.6,
+    "Stud_Total": 57538,
+    "Stud_Girls": 27464,
+    "Stud_%Girls": 47.73,
+    "TSR": 23.83
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 41,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 61,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 27.8,
+      "difference": -3.1
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 23.83,
+      "difference": -13.27
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "maulvibazar",
+  "district": "Maulvibazar",
+  "division": "Sylhet",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Sylhet",
+    "District": "Maulvibazar",
+    "Slug": "maulvibazar",
+    "Inst_Total": 231,
+    "Inst_Girls": 25,
+    "Tchr_Total": 2758,
+    "Tchr_Female": 788,
+    "Tchr_%Female": 28.57,
+    "Stud_Total": 122171,
+    "Stud_Girls": 71030,
+    "Stud_%Girls": 58.14,
+    "TSR": 44.3
+  },
+  "college": {
+    "Division": "Sylhet",
+    "District": "Maulvibazar",
+    "Slug": "maulvibazar",
+    "Inst_Total": 49,
+    "Inst_Girls": 7,
+    "Tchr_Total": 877,
+    "Tchr_Female": 232,
+    "Tchr_%Female": 26.45,
+    "Stud_Total": 58849,
+    "Stud_Girls": 32056,
+    "Stud_%Girls": 54.47,
+    "TSR": 67.1
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 7,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 7,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 44.3,
+      "difference": 13.4
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 67.1,
+      "difference": 30
+    }
+  }
+}

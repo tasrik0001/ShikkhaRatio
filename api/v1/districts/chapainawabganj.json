@@ -1,0 +1,56 @@
+{
+  "slug": "chapainawabganj",
+  "district": "Chapainawabganj",
+  "division": "Rajshahi",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Rajshahi",
+    "District": "Chapainawabganj",
+    "Slug": "chapainawabganj",
+    "Inst_Total": 253,
+    "Inst_Girls": 70,
+    "Tchr_Total": 3223,
+    "Tchr_Female": 899,
+    "Tchr_%Female": 27.89,
+    "Stud_Total": 101602,
+    "Stud_Girls": 56870,
+    "Stud_%Girls": 55.97,
+    "TSR": 31.52
+  },
+  "college": {
+    "Division": "Rajshahi",
+    "District": "Chapainawabganj",
+    "Slug": "chapainawabganj",
+    "Inst_Total": 60,
+    "Inst_Girls": 11,
+    "Tchr_Total": 2025,
+    "Tchr_Female": 392,
+    "Tchr_%Female": 19.36,
+    "Stud_Total": 47958,
+    "Stud_Girls": 22760,
+    "Stud_%Girls": 47.46,
+    "TSR": 23.68
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 32,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 62,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 31.52,
+      "difference": 0.62
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 23.68,
+      "difference": -13.42
+    }
+  }
+}

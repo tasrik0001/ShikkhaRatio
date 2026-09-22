@@ -1,0 +1,56 @@
+{
+  "slug": "shariatpur",
+  "district": "Shariatpur",
+  "division": "Dhaka",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Dhaka",
+    "District": "Shariatpur",
+    "Slug": "shariatpur",
+    "Inst_Total": 136,
+    "Inst_Girls": 15,
+    "Tchr_Total": 1618,
+    "Tchr_Female": 403,
+    "Tchr_%Female": 24.91,
+    "Stud_Total": 72669,
+    "Stud_Girls": 42250,
+    "Stud_%Girls": 58.14,
+    "TSR": 44.91
+  },
+  "college": {
+    "Division": "Dhaka",
+    "District": "Shariatpur",
+    "Slug": "shariatpur",
+    "Inst_Total": 33,
+    "Inst_Girls": 3,
+    "Tchr_Total": 576,
+    "Tchr_Female": 124,
+    "Tchr_%Female": 21.53,
+    "Stud_Total": 29403,
+    "Stud_Girls": 18494,
+    "Stud_%Girls": 62.9,
+    "TSR": 51.05
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 5,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 19,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 44.91,
+      "difference": 14.01
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 51.05,
+      "difference": 13.95
+    }
+  }
+}

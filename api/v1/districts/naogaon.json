@@ -1,0 +1,56 @@
+{
+  "slug": "naogaon",
+  "district": "Naogaon",
+  "division": "Rajshahi",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Rajshahi",
+    "District": "Naogaon",
+    "Slug": "naogaon",
+    "Inst_Total": 464,
+    "Inst_Girls": 72,
+    "Tchr_Total": 5857,
+    "Tchr_Female": 1406,
+    "Tchr_%Female": 24.01,
+    "Stud_Total": 143169,
+    "Stud_Girls": 74298,
+    "Stud_%Girls": 51.9,
+    "TSR": 24.44
+  },
+  "college": {
+    "Division": "Rajshahi",
+    "District": "Naogaon",
+    "Slug": "naogaon",
+    "Inst_Total": 87,
+    "Inst_Girls": 14,
+    "Tchr_Total": 2658,
+    "Tchr_Female": 499,
+    "Tchr_%Female": 18.77,
+    "Stud_Total": 69129,
+    "Stud_Girls": 29675,
+    "Stud_%Girls": 42.93,
+    "TSR": 26.01
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 51,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 58,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 24.44,
+      "difference": -6.46
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 26.01,
+      "difference": -11.09
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "jhalokati",
+  "district": "Jhalokati",
+  "division": "Barishal",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Barishal",
+    "District": "Jhalokati",
+    "Slug": "jhalokati",
+    "Inst_Total": 197,
+    "Inst_Girls": 60,
+    "Tchr_Total": 2166,
+    "Tchr_Female": 650,
+    "Tchr_%Female": 30.01,
+    "Stud_Total": 45670,
+    "Stud_Girls": 26774,
+    "Stud_%Girls": 58.62,
+    "TSR": 21.08
+  },
+  "college": {
+    "Division": "Barishal",
+    "District": "Jhalokati",
+    "Slug": "jhalokati",
+    "Inst_Total": 38,
+    "Inst_Girls": 10,
+    "Tchr_Total": 763,
+    "Tchr_Female": 229,
+    "Tchr_%Female": 30.01,
+    "Stud_Total": 20180,
+    "Stud_Girls": 11057,
+    "Stud_%Girls": 54.79,
+    "TSR": 26.45
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 63,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 55,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 21.08,
+      "difference": -9.82
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 26.45,
+      "difference": -10.65
+    }
+  }
+}

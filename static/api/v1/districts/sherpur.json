@@ -1,0 +1,56 @@
+{
+  "slug": "sherpur",
+  "district": "Sherpur",
+  "division": "Mymensingh",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Mymensingh",
+    "District": "Sherpur",
+    "Slug": "sherpur",
+    "Inst_Total": 192,
+    "Inst_Girls": 24,
+    "Tchr_Total": 2448,
+    "Tchr_Female": 680,
+    "Tchr_%Female": 27.78,
+    "Stud_Total": 81065,
+    "Stud_Girls": 42401,
+    "Stud_%Girls": 52.3,
+    "TSR": 33.11
+  },
+  "college": {
+    "Division": "Mymensingh",
+    "District": "Sherpur",
+    "Slug": "sherpur",
+    "Inst_Total": 32,
+    "Inst_Girls": 6,
+    "Tchr_Total": 832,
+    "Tchr_Female": 232,
+    "Tchr_%Female": 27.88,
+    "Stud_Total": 37692,
+    "Stud_Girls": 19611,
+    "Stud_%Girls": 52.03,
+    "TSR": 45.3
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 26,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 24,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 33.11,
+      "difference": 2.21
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 45.3,
+      "difference": 8.2
+    }
+  }
+}

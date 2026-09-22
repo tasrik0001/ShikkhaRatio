@@ -1,0 +1,56 @@
+{
+  "slug": "sirajganj",
+  "district": "Sirajganj",
+  "division": "Rajshahi",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Rajshahi",
+    "District": "Sirajganj",
+    "Slug": "sirajganj",
+    "Inst_Total": 403,
+    "Inst_Girls": 71,
+    "Tchr_Total": 4915,
+    "Tchr_Female": 1256,
+    "Tchr_%Female": 25.55,
+    "Stud_Total": 202866,
+    "Stud_Girls": 106676,
+    "Stud_%Girls": 52.58,
+    "TSR": 41.27
+  },
+  "college": {
+    "Division": "Rajshahi",
+    "District": "Sirajganj",
+    "Slug": "sirajganj",
+    "Inst_Total": 111,
+    "Inst_Girls": 16,
+    "Tchr_Total": 3615,
+    "Tchr_Female": 830,
+    "Tchr_%Female": 22.96,
+    "Stud_Total": 107963,
+    "Stud_Girls": 50391,
+    "Stud_%Girls": 46.67,
+    "TSR": 29.87
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 12,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 45,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 41.27,
+      "difference": 10.37
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 29.87,
+      "difference": -7.23
+    }
+  }
+}

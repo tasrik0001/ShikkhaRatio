@@ -1,0 +1,56 @@
+{
+  "slug": "pirojpur",
+  "district": "Pirojpur",
+  "division": "Barishal",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Barishal",
+    "District": "Pirojpur",
+    "Slug": "pirojpur",
+    "Inst_Total": 279,
+    "Inst_Girls": 60,
+    "Tchr_Total": 3180,
+    "Tchr_Female": 920,
+    "Tchr_%Female": 28.93,
+    "Stud_Total": 70249,
+    "Stud_Girls": 40689,
+    "Stud_%Girls": 57.92,
+    "TSR": 22.09
+  },
+  "college": {
+    "Division": "Barishal",
+    "District": "Pirojpur",
+    "Slug": "pirojpur",
+    "Inst_Total": 50,
+    "Inst_Girls": 8,
+    "Tchr_Total": 1229,
+    "Tchr_Female": 314,
+    "Tchr_%Female": 25.55,
+    "Stud_Total": 34798,
+    "Stud_Girls": 19328,
+    "Stud_%Girls": 55.54,
+    "TSR": 28.31
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 61,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 49,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 22.09,
+      "difference": -8.81
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 28.31,
+      "difference": -8.79
+    }
+  }
+}

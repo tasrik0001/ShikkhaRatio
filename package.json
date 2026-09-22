@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "python -m http.server 8000 --bind 127.0.0.1",
+    "build:api": "node tools/build-api.mjs",
     "lint": "eslint app.js site.js tests.mjs pages-check.mjs",
     "test": "node tests.mjs && node pages-check.mjs"
   },

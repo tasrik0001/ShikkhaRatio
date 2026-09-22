@@ -1,0 +1,477 @@
+{
+  "datasetYear": 2024,
+  "publishedTop5": [
+    {
+      "Sector": "School",
+      "Type": "Lowest",
+      "Rank": 1,
+      "Division": "Khulna",
+      "District": "Jessore",
+      "Slug": "jessore",
+      "TSR": 20.72
+    },
+    {
+      "Sector": "School",
+      "Type": "Lowest",
+      "Rank": 2,
+      "Division": "Barishal",
+      "District": "Jhalokati",
+      "Slug": "jhalokati",
+      "TSR": 21.08
+    },
+    {
+      "Sector": "School",
+      "Type": "Lowest",
+      "Rank": 3,
+      "Division": "Khulna",
+      "District": "Bagerhat",
+      "Slug": "bagerhat",
+      "TSR": 21.28
+    },
+    {
+      "Sector": "School",
+      "Type": "Lowest",
+      "Rank": 4,
+      "Division": "Barishal",
+      "District": "Pirojpur",
+      "Slug": "pirojpur",
+      "TSR": 22.09
+    },
+    {
+      "Sector": "School",
+      "Type": "Lowest",
+      "Rank": 5,
+      "Division": "Rangpur",
+      "District": "Panchagarh",
+      "Slug": "panchagarh",
+      "TSR": 22.14
+    },
+    {
+      "Sector": "School",
+      "Type": "Highest",
+      "Rank": 1,
+      "Division": "Sylhet",
+      "District": "Sunamganj",
+      "Slug": "sunamganj",
+      "TSR": 49.91
+    },
+    {
+      "Sector": "School",
+      "Type": "Highest",
+      "Rank": 2,
+      "Division": "Chattogram",
+      "District": "Brahmanbaria",
+      "Slug": "brahmanbaria",
+      "TSR": 48.13
+    },
+    {
+      "Sector": "School",
+      "Type": "Highest",
+      "Rank": 3,
+      "Division": "Dhaka",
+      "District": "Munshiganj",
+      "Slug": "munshiganj",
+      "TSR": 46.9
+    },
+    {
+      "Sector": "School",
+      "Type": "Highest",
+      "Rank": 4,
+      "Division": "Sylhet",
+      "District": "Habiganj",
+      "Slug": "habiganj",
+      "TSR": 46.67
+    },
+    {
+      "Sector": "School",
+      "Type": "Highest",
+      "Rank": 5,
+      "Division": "Dhaka",
+      "District": "Shariatpur",
+      "Slug": "shariatpur",
+      "TSR": 44.91
+    },
+    {
+      "Sector": "College",
+      "Type": "Lowest",
+      "Rank": 1,
+      "Division": "Rajshahi",
+      "District": "Natore",
+      "Slug": "natore",
+      "TSR": 17.47
+    },
+    {
+      "Sector": "College",
+      "Type": "Lowest",
+      "Rank": 2,
+      "Division": "Rajshahi",
+      "District": "Rajshahi",
+      "Slug": "rajshahi",
+      "TSR": 20.33
+    },
+    {
+      "Sector": "College",
+      "Type": "Lowest",
+      "Rank": 3,
+      "Division": "Rajshahi",
+      "District": "Chapainawabganj",
+      "Slug": "chapainawabganj",
+      "TSR": 23.68
+    },
+    {
+      "Sector": "College",
+      "Type": "Lowest",
+      "Rank": 4,
+      "Division": "Khulna",
+      "District": "Jhenaidah",
+      "Slug": "jhenaidah",
+      "TSR": 23.83
+    },
+    {
+      "Sector": "College",
+      "Type": "Lowest",
+      "Rank": 5,
+      "Division": "Rangpur",
+      "District": "Lalmonirhat",
+      "Slug": "lalmonirhat",
+      "TSR": 24.28
+    },
+    {
+      "Sector": "College",
+      "Type": "Highest",
+      "Rank": 1,
+      "Division": "Chattogram",
+      "District": "Bandarban",
+      "Slug": "bandarban",
+      "TSR": 77.71
+    },
+    {
+      "Sector": "College",
+      "Type": "Highest",
+      "Rank": 2,
+      "Division": "Chattogram",
+      "District": "Cox's Bazar",
+      "Slug": "cox-s-bazar",
+      "TSR": 75.49
+    },
+    {
+      "Sector": "College",
+      "Type": "Highest",
+      "Rank": 3,
+      "Division": "Dhaka",
+      "District": "Narayanganj",
+      "Slug": "narayanganj",
+      "TSR": 73.73
+    },
+    {
+      "Sector": "College",
+      "Type": "Highest",
+      "Rank": 4,
+      "Division": "Sylhet",
+      "District": "Habiganj",
+      "Slug": "habiganj",
+      "TSR": 71.31
+    },
+    {
+      "Sector": "College",
+      "Type": "Highest",
+      "Rank": 5,
+      "Division": "Chattogram",
+      "District": "Rangamati",
+      "Slug": "rangamati",
+      "TSR": 69.8
+    }
+  ],
+  "top10Highest": {
+    "School": [
+      {
+        "rank": 1,
+        "Division": "Sylhet",
+        "District": "Sunamganj",
+        "Slug": "sunamganj",
+        "TSR": 49.91
+      },
+      {
+        "rank": 2,
+        "Division": "Chattogram",
+        "District": "Brahmanbaria",
+        "Slug": "brahmanbaria",
+        "TSR": 48.13
+      },
+      {
+        "rank": 3,
+        "Division": "Dhaka",
+        "District": "Munshiganj",
+        "Slug": "munshiganj",
+        "TSR": 46.9
+      },
+      {
+        "rank": 4,
+        "Division": "Sylhet",
+        "District": "Habiganj",
+        "Slug": "habiganj",
+        "TSR": 46.67
+      },
+      {
+        "rank": 5,
+        "Division": "Dhaka",
+        "District": "Shariatpur",
+        "Slug": "shariatpur",
+        "TSR": 44.91
+      },
+      {
+        "rank": 6,
+        "Division": "Chattogram",
+        "District": "Cox's Bazar",
+        "Slug": "cox-s-bazar",
+        "TSR": 44.64
+      },
+      {
+        "rank": 7,
+        "Division": "Sylhet",
+        "District": "Maulvibazar",
+        "Slug": "maulvibazar",
+        "TSR": 44.3
+      },
+      {
+        "rank": 8,
+        "Division": "Chattogram",
+        "District": "Noakhali",
+        "Slug": "noakhali",
+        "TSR": 44.02
+      },
+      {
+        "rank": 9,
+        "Division": "Dhaka",
+        "District": "Kishoreganj",
+        "Slug": "kishoreganj",
+        "TSR": 43.78
+      },
+      {
+        "rank": 10,
+        "Division": "Chattogram",
+        "District": "Lakshmipur",
+        "Slug": "lakshmipur",
+        "TSR": 43.06
+      }
+    ],
+    "College": [
+      {
+        "rank": 1,
+        "Division": "Chattogram",
+        "District": "Bandarban",
+        "Slug": "bandarban",
+        "TSR": 77.71
+      },
+      {
+        "rank": 2,
+        "Division": "Chattogram",
+        "District": "Cox's Bazar",
+        "Slug": "cox-s-bazar",
+        "TSR": 75.49
+      },
+      {
+        "rank": 3,
+        "Division": "Dhaka",
+        "District": "Narayanganj",
+        "Slug": "narayanganj",
+        "TSR": 73.73
+      },
+      {
+        "rank": 4,
+        "Division": "Sylhet",
+        "District": "Habiganj",
+        "Slug": "habiganj",
+        "TSR": 71.31
+      },
+      {
+        "rank": 5,
+        "Division": "Chattogram",
+        "District": "Rangamati",
+        "Slug": "rangamati",
+        "TSR": 69.8
+      },
+      {
+        "rank": 6,
+        "Division": "Chattogram",
+        "District": "Chattogram",
+        "Slug": "chattogram",
+        "TSR": 67.42
+      },
+      {
+        "rank": 7,
+        "Division": "Sylhet",
+        "District": "Maulvibazar",
+        "Slug": "maulvibazar",
+        "TSR": 67.1
+      },
+      {
+        "rank": 8,
+        "Division": "Sylhet",
+        "District": "Sunamganj",
+        "Slug": "sunamganj",
+        "TSR": 66.93
+      },
+      {
+        "rank": 9,
+        "Division": "Chattogram",
+        "District": "Noakhali",
+        "Slug": "noakhali",
+        "TSR": 64.48
+      },
+      {
+        "rank": 10,
+        "Division": "Chattogram",
+        "District": "Feni",
+        "Slug": "feni",
+        "TSR": 63.61
+      }
+    ]
+  },
+  "top10Lowest": {
+    "School": [
+      {
+        "rank": 1,
+        "Division": "Khulna",
+        "District": "Jessore",
+        "Slug": "jessore",
+        "TSR": 20.72
+      },
+      {
+        "rank": 2,
+        "Division": "Barishal",
+        "District": "Jhalokati",
+        "Slug": "jhalokati",
+        "TSR": 21.08
+      },
+      {
+        "rank": 3,
+        "Division": "Khulna",
+        "District": "Bagerhat",
+        "Slug": "bagerhat",
+        "TSR": 21.28
+      },
+      {
+        "rank": 4,
+        "Division": "Barishal",
+        "District": "Pirojpur",
+        "Slug": "pirojpur",
+        "TSR": 22.09
+      },
+      {
+        "rank": 5,
+        "Division": "Rangpur",
+        "District": "Panchagarh",
+        "Slug": "panchagarh",
+        "TSR": 22.14
+      },
+      {
+        "rank": 6,
+        "Division": "Khulna",
+        "District": "Khulna",
+        "Slug": "khulna",
+        "TSR": 22.26
+      },
+      {
+        "rank": 7,
+        "Division": "Rangpur",
+        "District": "Thakurgaon",
+        "Slug": "thakurgaon",
+        "TSR": 22.34
+      },
+      {
+        "rank": 8,
+        "Division": "Rangpur",
+        "District": "Kurigram",
+        "Slug": "kurigram",
+        "TSR": 22.36
+      },
+      {
+        "rank": 9,
+        "Division": "Rajshahi",
+        "District": "Rajshahi",
+        "Slug": "rajshahi",
+        "TSR": 22.82
+      },
+      {
+        "rank": 10,
+        "Division": "Rangpur",
+        "District": "Dinajpur",
+        "Slug": "dinajpur",
+        "TSR": 23.15
+      }
+    ],
+    "College": [
+      {
+        "rank": 1,
+        "Division": "Rajshahi",
+        "District": "Natore",
+        "Slug": "natore",
+        "TSR": 17.47
+      },
+      {
+        "rank": 2,
+        "Division": "Rajshahi",
+        "District": "Rajshahi",
+        "Slug": "rajshahi",
+        "TSR": 20.33
+      },
+      {
+        "rank": 3,
+        "Division": "Rajshahi",
+        "District": "Chapainawabganj",
+        "Slug": "chapainawabganj",
+        "TSR": 23.68
+      },
+      {
+        "rank": 4,
+        "Division": "Khulna",
+        "District": "Jhenaidah",
+        "Slug": "jhenaidah",
+        "TSR": 23.83
+      },
+      {
+        "rank": 5,
+        "Division": "Rangpur",
+        "District": "Lalmonirhat",
+        "Slug": "lalmonirhat",
+        "TSR": 24.28
+      },
+      {
+        "rank": 6,
+        "Division": "Khulna",
+        "District": "Satkhira",
+        "Slug": "satkhira",
+        "TSR": 24.89
+      },
+      {
+        "rank": 7,
+        "Division": "Rajshahi",
+        "District": "Naogaon",
+        "Slug": "naogaon",
+        "TSR": 26.01
+      },
+      {
+        "rank": 8,
+        "Division": "Rangpur",
+        "District": "Panchagarh",
+        "Slug": "panchagarh",
+        "TSR": 26.15
+      },
+      {
+        "rank": 9,
+        "Division": "Rangpur",
+        "District": "Kurigram",
+        "Slug": "kurigram",
+        "TSR": 26.2
+      },
+      {
+        "rank": 10,
+        "Division": "Barishal",
+        "District": "Jhalokati",
+        "Slug": "jhalokati",
+        "TSR": 26.45
+      }
+    ]
+  }
+}

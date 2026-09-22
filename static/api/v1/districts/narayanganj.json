@@ -1,0 +1,56 @@
+{
+  "slug": "narayanganj",
+  "district": "Narayanganj",
+  "division": "Dhaka",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Dhaka",
+    "District": "Narayanganj",
+    "Slug": "narayanganj",
+    "Inst_Total": 221,
+    "Inst_Girls": 19,
+    "Tchr_Total": 4321,
+    "Tchr_Female": 1711,
+    "Tchr_%Female": 39.6,
+    "Stud_Total": 156112,
+    "Stud_Girls": 84195,
+    "Stud_%Girls": 53.93,
+    "TSR": 36.13
+  },
+  "college": {
+    "Division": "Dhaka",
+    "District": "Narayanganj",
+    "Slug": "narayanganj",
+    "Inst_Total": 56,
+    "Inst_Girls": 8,
+    "Tchr_Total": 1171,
+    "Tchr_Female": 473,
+    "Tchr_%Female": 40.39,
+    "Stud_Total": 86334,
+    "Stud_Girls": 43599,
+    "Stud_%Girls": 50.5,
+    "TSR": 73.73
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 20,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 3,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 36.13,
+      "difference": 5.23
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 73.73,
+      "difference": 36.63
+    }
+  }
+}

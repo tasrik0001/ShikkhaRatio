@@ -1,0 +1,56 @@
+{
+  "slug": "chandpur",
+  "district": "Chandpur",
+  "division": "Chattogram",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Chattogram",
+    "District": "Chandpur",
+    "Slug": "chandpur",
+    "Inst_Total": 309,
+    "Inst_Girls": 41,
+    "Tchr_Total": 3861,
+    "Tchr_Female": 1038,
+    "Tchr_%Female": 26.88,
+    "Stud_Total": 155645,
+    "Stud_Girls": 91998,
+    "Stud_%Girls": 59.11,
+    "TSR": 40.31
+  },
+  "college": {
+    "Division": "Chattogram",
+    "District": "Chandpur",
+    "Slug": "chandpur",
+    "Inst_Total": 69,
+    "Inst_Girls": 5,
+    "Tchr_Total": 1527,
+    "Tchr_Female": 407,
+    "Tchr_%Female": 26.65,
+    "Stud_Total": 72744,
+    "Stud_Girls": 41538,
+    "Stud_%Girls": 57.1,
+    "TSR": 47.64
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 13,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 21,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 40.31,
+      "difference": 9.41
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 47.64,
+      "difference": 10.54
+    }
+  }
+}

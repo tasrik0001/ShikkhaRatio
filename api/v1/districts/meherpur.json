@@ -1,0 +1,56 @@
+{
+  "slug": "meherpur",
+  "district": "Meherpur",
+  "division": "Khulna",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Khulna",
+    "District": "Meherpur",
+    "Slug": "meherpur",
+    "Inst_Total": 132,
+    "Inst_Girls": 28,
+    "Tchr_Total": 1910,
+    "Tchr_Female": 560,
+    "Tchr_%Female": 29.32,
+    "Stud_Total": 49267,
+    "Stud_Girls": 27667,
+    "Stud_%Girls": 56.16,
+    "TSR": 25.79
+  },
+  "college": {
+    "Division": "Khulna",
+    "District": "Meherpur",
+    "Slug": "meherpur",
+    "Inst_Total": 19,
+    "Inst_Girls": 3,
+    "Tchr_Total": 535,
+    "Tchr_Female": 109,
+    "Tchr_%Female": 20.37,
+    "Stud_Total": 18585,
+    "Stud_Girls": 9374,
+    "Stud_%Girls": 50.44,
+    "TSR": 34.74
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 47,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 35,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 25.79,
+      "difference": -5.11
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 34.74,
+      "difference": -2.36
+    }
+  }
+}

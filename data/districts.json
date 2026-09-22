@@ -1,0 +1,1558 @@
+{
+  "national": {
+    "schools": {
+      "tsr": 30.9,
+      "teachers": 293289,
+      "students": 9063422,
+      "institutions": 21232,
+      "teacherGirlPct": 31.54,
+      "studentGirlPct": 54.73
+    },
+    "colleges": {
+      "tsr": 37.1,
+      "teachers": 132789,
+      "students": 4926266,
+      "institutions": 4876,
+      "teacherGirlPct": 28.05,
+      "studentGirlPct": 51.52
+    }
+  },
+  "districts": {
+    "bagerhat": {
+      "name": "Bagerhat",
+      "division": "Khulna",
+      "schools": {
+        "tsr": 21.28,
+        "teachers": 3999,
+        "students": 85107,
+        "institutions": 338,
+        "teacherGirlPct": 28.26,
+        "studentGirlPct": 56.77,
+        "rank": 3,
+        "vsNational": -9.62
+      },
+      "colleges": {
+        "tsr": 28.24,
+        "teachers": 1380,
+        "students": 38976,
+        "institutions": 47,
+        "teacherGirlPct": 27.39,
+        "studentGirlPct": 52.45,
+        "rank": 15,
+        "vsNational": -8.86
+      }
+    },
+    "bandarban": {
+      "name": "Bandarban",
+      "division": "Chattogram",
+      "schools": {
+        "tsr": 32.4,
+        "teachers": 700,
+        "students": 22683,
+        "institutions": 66,
+        "teacherGirlPct": 21.14,
+        "studentGirlPct": 57.29,
+        "rank": 36,
+        "vsNational": 1.5
+      },
+      "colleges": {
+        "tsr": 77.71,
+        "teachers": 183,
+        "students": 14221,
+        "institutions": 14,
+        "teacherGirlPct": 21.31,
+        "studentGirlPct": 38.68,
+        "rank": 64,
+        "vsNational": 40.61
+      }
+    },
+    "barguna": {
+      "name": "Barguna",
+      "division": "Barishal",
+      "schools": {
+        "tsr": 27.91,
+        "teachers": 2011,
+        "students": 56127,
+        "institutions": 191,
+        "teacherGirlPct": 26.5,
+        "studentGirlPct": 55.8,
+        "rank": 25,
+        "vsNational": -2.99
+      },
+      "colleges": {
+        "tsr": 35.29,
+        "teachers": 878,
+        "students": 30988,
+        "institutions": 38,
+        "teacherGirlPct": 25.4,
+        "studentGirlPct": 55.6,
+        "rank": 31,
+        "vsNational": -1.81
+      }
+    },
+    "barishal": {
+      "name": "Barishal",
+      "division": "Barishal",
+      "schools": {
+        "tsr": 29.29,
+        "teachers": 5555,
+        "students": 162710,
+        "institutions": 474,
+        "teacherGirlPct": 34.15,
+        "studentGirlPct": 55.9,
+        "rank": 28,
+        "vsNational": -1.61
+      },
+      "colleges": {
+        "tsr": 38.53,
+        "teachers": 3087,
+        "students": 118941,
+        "institutions": 104,
+        "teacherGirlPct": 29.32,
+        "studentGirlPct": 53.34,
+        "rank": 32,
+        "vsNational": 1.43
+      }
+    },
+    "bhola": {
+      "name": "Bhola",
+      "division": "Barishal",
+      "schools": {
+        "tsr": 37.06,
+        "teachers": 2986,
+        "students": 110675,
+        "institutions": 291,
+        "teacherGirlPct": 20.16,
+        "studentGirlPct": 57.27,
+        "rank": 46,
+        "vsNational": 6.16
+      },
+      "colleges": {
+        "tsr": 29.95,
+        "teachers": 1729,
+        "students": 51785,
+        "institutions": 58,
+        "teacherGirlPct": 19.38,
+        "studentGirlPct": 51.66,
+        "rank": 21,
+        "vsNational": -7.15
+      }
+    },
+    "bogura": {
+      "name": "Bogura",
+      "division": "Rajshahi",
+      "schools": {
+        "tsr": 29.12,
+        "teachers": 6967,
+        "students": 202864,
+        "institutions": 503,
+        "teacherGirlPct": 31.06,
+        "studentGirlPct": 51.95,
+        "rank": 27,
+        "vsNational": -1.78
+      },
+      "colleges": {
+        "tsr": 31.49,
+        "teachers": 4190,
+        "students": 131928,
+        "institutions": 122,
+        "teacherGirlPct": 25.87,
+        "studentGirlPct": 47.22,
+        "rank": 25,
+        "vsNational": -5.61
+      }
+    },
+    "brahmanbaria": {
+      "name": "Brahmanbaria",
+      "division": "Chattogram",
+      "schools": {
+        "tsr": 48.13,
+        "teachers": 3825,
+        "students": 184080,
+        "institutions": 298,
+        "teacherGirlPct": 31.37,
+        "studentGirlPct": 59.09,
+        "rank": 63,
+        "vsNational": 17.23
+      },
+      "colleges": {
+        "tsr": 45.44,
+        "teachers": 1413,
+        "students": 64209,
+        "institutions": 69,
+        "teacherGirlPct": 24.77,
+        "studentGirlPct": 64.1,
+        "rank": 42,
+        "vsNational": 8.34
+      }
+    },
+    "chandpur": {
+      "name": "Chandpur",
+      "division": "Chattogram",
+      "schools": {
+        "tsr": 40.31,
+        "teachers": 3861,
+        "students": 155645,
+        "institutions": 309,
+        "teacherGirlPct": 26.88,
+        "studentGirlPct": 59.11,
+        "rank": 52,
+        "vsNational": 9.41
+      },
+      "colleges": {
+        "tsr": 47.64,
+        "teachers": 1527,
+        "students": 72744,
+        "institutions": 69,
+        "teacherGirlPct": 26.65,
+        "studentGirlPct": 57.1,
+        "rank": 44,
+        "vsNational": 10.54
+      }
+    },
+    "chapainawabganj": {
+      "name": "Chapainawabganj",
+      "division": "Rajshahi",
+      "schools": {
+        "tsr": 31.52,
+        "teachers": 3223,
+        "students": 101602,
+        "institutions": 253,
+        "teacherGirlPct": 27.89,
+        "studentGirlPct": 55.97,
+        "rank": 33,
+        "vsNational": 0.62
+      },
+      "colleges": {
+        "tsr": 23.68,
+        "teachers": 2025,
+        "students": 47958,
+        "institutions": 60,
+        "teacherGirlPct": 19.36,
+        "studentGirlPct": 47.46,
+        "rank": 3,
+        "vsNational": -13.42
+      }
+    },
+    "chattogram": {
+      "name": "Chattogram",
+      "division": "Chattogram",
+      "schools": {
+        "tsr": 41.99,
+        "teachers": 13347,
+        "students": 560399,
+        "institutions": 854,
+        "teacherGirlPct": 40.17,
+        "studentGirlPct": 55.69,
+        "rank": 54,
+        "vsNational": 11.09
+      },
+      "colleges": {
+        "tsr": 67.42,
+        "teachers": 4473,
+        "students": 301567,
+        "institutions": 202,
+        "teacherGirlPct": 38.21,
+        "studentGirlPct": 52.58,
+        "rank": 59,
+        "vsNational": 30.32
+      }
+    },
+    "chuadanga": {
+      "name": "Chuadanga",
+      "division": "Khulna",
+      "schools": {
+        "tsr": 34.41,
+        "teachers": 2030,
+        "students": 69851,
+        "institutions": 150,
+        "teacherGirlPct": 27.73,
+        "studentGirlPct": 54.46,
+        "rank": 44,
+        "vsNational": 3.51
+      },
+      "colleges": {
+        "tsr": 40.43,
+        "teachers": 807,
+        "students": 32623,
+        "institutions": 25,
+        "teacherGirlPct": 24.78,
+        "studentGirlPct": 49.47,
+        "rank": 37,
+        "vsNational": 3.33
+      }
+    },
+    "cox-s-bazar": {
+      "name": "Cox's Bazar",
+      "division": "Chattogram",
+      "schools": {
+        "tsr": 44.64,
+        "teachers": 3065,
+        "students": 136813,
+        "institutions": 240,
+        "teacherGirlPct": 26.85,
+        "studentGirlPct": 57.73,
+        "rank": 59,
+        "vsNational": 13.74
+      },
+      "colleges": {
+        "tsr": 75.49,
+        "teachers": 717,
+        "students": 54125,
+        "institutions": 34,
+        "teacherGirlPct": 25.1,
+        "studentGirlPct": 56.21,
+        "rank": 63,
+        "vsNational": 38.39
+      }
+    },
+    "cumilla": {
+      "name": "Cumilla",
+      "division": "Chattogram",
+      "schools": {
+        "tsr": 40.12,
+        "teachers": 8985,
+        "students": 360446,
+        "institutions": 661,
+        "teacherGirlPct": 31.35,
+        "studentGirlPct": 57.54,
+        "rank": 51,
+        "vsNational": 9.22
+      },
+      "colleges": {
+        "tsr": 39.51,
+        "teachers": 4022,
+        "students": 158922,
+        "institutions": 167,
+        "teacherGirlPct": 29.94,
+        "studentGirlPct": 54.95,
+        "rank": 34,
+        "vsNational": 2.41
+      }
+    },
+    "dhaka": {
+      "name": "Dhaka",
+      "division": "Dhaka",
+      "schools": {
+        "tsr": 24.29,
+        "teachers": 25468,
+        "students": 618573,
+        "institutions": 863,
+        "teacherGirlPct": 52.88,
+        "studentGirlPct": 52.56,
+        "rank": 12,
+        "vsNational": -6.61
+      },
+      "colleges": {
+        "tsr": 39.73,
+        "teachers": 13375,
+        "students": 531438,
+        "institutions": 412,
+        "teacherGirlPct": 45.56,
+        "studentGirlPct": 49.96,
+        "rank": 36,
+        "vsNational": 2.63
+      }
+    },
+    "dinajpur": {
+      "name": "Dinajpur",
+      "division": "Rangpur",
+      "schools": {
+        "tsr": 23.15,
+        "teachers": 9464,
+        "students": 219102,
+        "institutions": 719,
+        "teacherGirlPct": 25.93,
+        "studentGirlPct": 53.04,
+        "rank": 10,
+        "vsNational": -7.75
+      },
+      "colleges": {
+        "tsr": 27.74,
+        "teachers": 3784,
+        "students": 104969,
+        "institutions": 137,
+        "teacherGirlPct": 25.34,
+        "studentGirlPct": 50.39,
+        "rank": 14,
+        "vsNational": -9.36
+      }
+    },
+    "faridpur": {
+      "name": "Faridpur",
+      "division": "Dhaka",
+      "schools": {
+        "tsr": 31.95,
+        "teachers": 3655,
+        "students": 116777,
+        "institutions": 265,
+        "teacherGirlPct": 28.7,
+        "studentGirlPct": 55.52,
+        "rank": 35,
+        "vsNational": 1.05
+      },
+      "colleges": {
+        "tsr": 47.98,
+        "teachers": 1391,
+        "students": 66747,
+        "institutions": 47,
+        "teacherGirlPct": 29.26,
+        "studentGirlPct": 51.49,
+        "rank": 45,
+        "vsNational": 10.88
+      }
+    },
+    "feni": {
+      "name": "Feni",
+      "division": "Chattogram",
+      "schools": {
+        "tsr": 38.13,
+        "teachers": 2541,
+        "students": 96898,
+        "institutions": 210,
+        "teacherGirlPct": 29.04,
+        "studentGirlPct": 57.44,
+        "rank": 47,
+        "vsNational": 7.23
+      },
+      "colleges": {
+        "tsr": 63.61,
+        "teachers": 768,
+        "students": 48854,
+        "institutions": 42,
+        "teacherGirlPct": 29.43,
+        "studentGirlPct": 55.91,
+        "rank": 55,
+        "vsNational": 26.51
+      }
+    },
+    "gaibandha": {
+      "name": "Gaibandha",
+      "division": "Rangpur",
+      "schools": {
+        "tsr": 26.98,
+        "teachers": 6240,
+        "students": 168332,
+        "institutions": 434,
+        "teacherGirlPct": 27.61,
+        "studentGirlPct": 54.84,
+        "rank": 21,
+        "vsNational": -3.92
+      },
+      "colleges": {
+        "tsr": 27.18,
+        "teachers": 2516,
+        "students": 68395,
+        "institutions": 82,
+        "teacherGirlPct": 21.1,
+        "studentGirlPct": 46.75,
+        "rank": 12,
+        "vsNational": -9.92
+      }
+    },
+    "gazipur": {
+      "name": "Gazipur",
+      "division": "Dhaka",
+      "schools": {
+        "tsr": 27.24,
+        "teachers": 8351,
+        "students": 227469,
+        "institutions": 546,
+        "teacherGirlPct": 40.73,
+        "studentGirlPct": 52.3,
+        "rank": 22,
+        "vsNational": -3.66
+      },
+      "colleges": {
+        "tsr": 46.08,
+        "teachers": 2576,
+        "students": 118702,
+        "institutions": 117,
+        "teacherGirlPct": 34.01,
+        "studentGirlPct": 49.36,
+        "rank": 43,
+        "vsNational": 8.98
+      }
+    },
+    "gopalganj": {
+      "name": "Gopalganj",
+      "division": "Dhaka",
+      "schools": {
+        "tsr": 29.35,
+        "teachers": 2730,
+        "students": 80113,
+        "institutions": 211,
+        "teacherGirlPct": 25.9,
+        "studentGirlPct": 51.78,
+        "rank": 29,
+        "vsNational": -1.55
+      },
+      "colleges": {
+        "tsr": 53.58,
+        "teachers": 971,
+        "students": 52027,
+        "institutions": 42,
+        "teacherGirlPct": 23.17,
+        "studentGirlPct": 48.23,
+        "rank": 48,
+        "vsNational": 16.48
+      }
+    },
+    "habiganj": {
+      "name": "Habiganj",
+      "division": "Sylhet",
+      "schools": {
+        "tsr": 46.67,
+        "teachers": 2371,
+        "students": 110661,
+        "institutions": 203,
+        "teacherGirlPct": 26.91,
+        "studentGirlPct": 59.02,
+        "rank": 61,
+        "vsNational": 15.77
+      },
+      "colleges": {
+        "tsr": 71.31,
+        "teachers": 765,
+        "students": 54550,
+        "institutions": 50,
+        "teacherGirlPct": 25.62,
+        "studentGirlPct": 56.85,
+        "rank": 61,
+        "vsNational": 34.21
+      }
+    },
+    "jamalpur": {
+      "name": "Jamalpur",
+      "division": "Mymensingh",
+      "schools": {
+        "tsr": 32.7,
+        "teachers": 5226,
+        "students": 170882,
+        "institutions": 398,
+        "teacherGirlPct": 28.7,
+        "studentGirlPct": 51.13,
+        "rank": 38,
+        "vsNational": 1.8
+      },
+      "colleges": {
+        "tsr": 34.46,
+        "teachers": 2088,
+        "students": 71943,
+        "institutions": 83,
+        "teacherGirlPct": 26.87,
+        "studentGirlPct": 51.86,
+        "rank": 28,
+        "vsNational": -2.64
+      }
+    },
+    "jessore": {
+      "name": "Jessore",
+      "division": "Khulna",
+      "schools": {
+        "tsr": 20.72,
+        "teachers": 7900,
+        "students": 163672,
+        "institutions": 553,
+        "teacherGirlPct": 29.57,
+        "studentGirlPct": 54.11,
+        "rank": 1,
+        "vsNational": -10.18
+      },
+      "colleges": {
+        "tsr": 27.38,
+        "teachers": 3839,
+        "students": 105126,
+        "institutions": 116,
+        "teacherGirlPct": 23.37,
+        "studentGirlPct": 47.96,
+        "rank": 13,
+        "vsNational": -9.72
+      }
+    },
+    "jhalokati": {
+      "name": "Jhalokati",
+      "division": "Barishal",
+      "schools": {
+        "tsr": 21.08,
+        "teachers": 2166,
+        "students": 45670,
+        "institutions": 197,
+        "teacherGirlPct": 30.01,
+        "studentGirlPct": 58.62,
+        "rank": 2,
+        "vsNational": -9.82
+      },
+      "colleges": {
+        "tsr": 26.45,
+        "teachers": 763,
+        "students": 20180,
+        "institutions": 38,
+        "teacherGirlPct": 30.01,
+        "studentGirlPct": 54.79,
+        "rank": 10,
+        "vsNational": -10.65
+      }
+    },
+    "jhenaidah": {
+      "name": "Jhenaidah",
+      "division": "Khulna",
+      "schools": {
+        "tsr": 27.8,
+        "teachers": 4140,
+        "students": 115079,
+        "institutions": 309,
+        "teacherGirlPct": 27.66,
+        "studentGirlPct": 54.34,
+        "rank": 24,
+        "vsNational": -3.1
+      },
+      "colleges": {
+        "tsr": 23.83,
+        "teachers": 2415,
+        "students": 57538,
+        "institutions": 74,
+        "teacherGirlPct": 24.6,
+        "studentGirlPct": 47.73,
+        "rank": 4,
+        "vsNational": -13.27
+      }
+    },
+    "joypurhat": {
+      "name": "Joypurhat",
+      "division": "Rajshahi",
+      "schools": {
+        "tsr": 24.96,
+        "teachers": 2122,
+        "students": 52962,
+        "institutions": 165,
+        "teacherGirlPct": 27.85,
+        "studentGirlPct": 53.03,
+        "rank": 17,
+        "vsNational": -5.94
+      },
+      "colleges": {
+        "tsr": 28.47,
+        "teachers": 1135,
+        "students": 32315,
+        "institutions": 33,
+        "teacherGirlPct": 22.64,
+        "studentGirlPct": 48.98,
+        "rank": 17,
+        "vsNational": -8.63
+      }
+    },
+    "khagrachhari": {
+      "name": "Khagrachhari",
+      "division": "Chattogram",
+      "schools": {
+        "tsr": 31.42,
+        "teachers": 1352,
+        "students": 42479,
+        "institutions": 124,
+        "teacherGirlPct": 27.81,
+        "studentGirlPct": 55.19,
+        "rank": 32,
+        "vsNational": 0.52
+      },
+      "colleges": {
+        "tsr": 59.76,
+        "teachers": 326,
+        "students": 19483,
+        "institutions": 20,
+        "teacherGirlPct": 28.53,
+        "studentGirlPct": 49.15,
+        "rank": 53,
+        "vsNational": 22.66
+      }
+    },
+    "khulna": {
+      "name": "Khulna",
+      "division": "Khulna",
+      "schools": {
+        "tsr": 22.26,
+        "teachers": 6144,
+        "students": 136755,
+        "institutions": 438,
+        "teacherGirlPct": 32,
+        "studentGirlPct": 53.07,
+        "rank": 6,
+        "vsNational": -8.64
+      },
+      "colleges": {
+        "tsr": 34.67,
+        "teachers": 3318,
+        "students": 115035,
+        "institutions": 103,
+        "teacherGirlPct": 27.4,
+        "studentGirlPct": 48.91,
+        "rank": 29,
+        "vsNational": -2.43
+      }
+    },
+    "kishoreganj": {
+      "name": "Kishoreganj",
+      "division": "Dhaka",
+      "schools": {
+        "tsr": 43.78,
+        "teachers": 3826,
+        "students": 167507,
+        "institutions": 303,
+        "teacherGirlPct": 33.25,
+        "studentGirlPct": 56.02,
+        "rank": 56,
+        "vsNational": 12.88
+      },
+      "colleges": {
+        "tsr": 59.77,
+        "teachers": 1410,
+        "students": 84282,
+        "institutions": 69,
+        "teacherGirlPct": 31.13,
+        "studentGirlPct": 57.74,
+        "rank": 54,
+        "vsNational": 22.67
+      }
+    },
+    "kurigram": {
+      "name": "Kurigram",
+      "division": "Rangpur",
+      "schools": {
+        "tsr": 22.36,
+        "teachers": 5459,
+        "students": 122065,
+        "institutions": 397,
+        "teacherGirlPct": 22.2,
+        "studentGirlPct": 52.68,
+        "rank": 8,
+        "vsNational": -8.54
+      },
+      "colleges": {
+        "tsr": 26.2,
+        "teachers": 2406,
+        "students": 63042,
+        "institutions": 88,
+        "teacherGirlPct": 18.2,
+        "studentGirlPct": 46.03,
+        "rank": 9,
+        "vsNational": -10.9
+      }
+    },
+    "kushtia": {
+      "name": "Kushtia",
+      "division": "Khulna",
+      "schools": {
+        "tsr": 31.67,
+        "teachers": 4516,
+        "students": 143027,
+        "institutions": 321,
+        "teacherGirlPct": 32.02,
+        "studentGirlPct": 54.5,
+        "rank": 34,
+        "vsNational": 0.77
+      },
+      "colleges": {
+        "tsr": 32.46,
+        "teachers": 2316,
+        "students": 75169,
+        "institutions": 68,
+        "teacherGirlPct": 26.51,
+        "studentGirlPct": 51.35,
+        "rank": 27,
+        "vsNational": -4.64
+      }
+    },
+    "lakshmipur": {
+      "name": "Lakshmipur",
+      "division": "Chattogram",
+      "schools": {
+        "tsr": 43.06,
+        "teachers": 2289,
+        "students": 98563,
+        "institutions": 202,
+        "teacherGirlPct": 24.9,
+        "studentGirlPct": 58.8,
+        "rank": 55,
+        "vsNational": 12.16
+      },
+      "colleges": {
+        "tsr": 44.42,
+        "teachers": 904,
+        "students": 40156,
+        "institutions": 43,
+        "teacherGirlPct": 23.67,
+        "studentGirlPct": 54.98,
+        "rank": 40,
+        "vsNational": 7.32
+      }
+    },
+    "lalmonirhat": {
+      "name": "Lalmonirhat",
+      "division": "Rangpur",
+      "schools": {
+        "tsr": 25.8,
+        "teachers": 3445,
+        "students": 88897,
+        "institutions": 237,
+        "teacherGirlPct": 27.34,
+        "studentGirlPct": 56.45,
+        "rank": 19,
+        "vsNational": -5.1
+      },
+      "colleges": {
+        "tsr": 24.28,
+        "teachers": 1742,
+        "students": 42300,
+        "institutions": 59,
+        "teacherGirlPct": 21.35,
+        "studentGirlPct": 52.31,
+        "rank": 5,
+        "vsNational": -12.82
+      }
+    },
+    "madaripur": {
+      "name": "Madaripur",
+      "division": "Dhaka",
+      "schools": {
+        "tsr": 33.89,
+        "teachers": 2253,
+        "students": 76357,
+        "institutions": 184,
+        "teacherGirlPct": 27.12,
+        "studentGirlPct": 55,
+        "rank": 42,
+        "vsNational": 2.99
+      },
+      "colleges": {
+        "tsr": 51.93,
+        "teachers": 823,
+        "students": 42742,
+        "institutions": 30,
+        "teacherGirlPct": 26.73,
+        "studentGirlPct": 58.47,
+        "rank": 47,
+        "vsNational": 14.83
+      }
+    },
+    "magura": {
+      "name": "Magura",
+      "division": "Khulna",
+      "schools": {
+        "tsr": 24.49,
+        "teachers": 2367,
+        "students": 57956,
+        "institutions": 180,
+        "teacherGirlPct": 28.64,
+        "studentGirlPct": 56.4,
+        "rank": 15,
+        "vsNational": -6.41
+      },
+      "colleges": {
+        "tsr": 30.05,
+        "teachers": 1042,
+        "students": 31310,
+        "institutions": 39,
+        "teacherGirlPct": 23.9,
+        "studentGirlPct": 51.11,
+        "rank": 22,
+        "vsNational": -7.05
+      }
+    },
+    "manikganj": {
+      "name": "Manikganj",
+      "division": "Dhaka",
+      "schools": {
+        "tsr": 38.59,
+        "teachers": 2400,
+        "students": 92608,
+        "institutions": 181,
+        "teacherGirlPct": 26.25,
+        "studentGirlPct": 52.59,
+        "rank": 49,
+        "vsNational": 7.69
+      },
+      "colleges": {
+        "tsr": 58.48,
+        "teachers": 873,
+        "students": 51054,
+        "institutions": 33,
+        "teacherGirlPct": 27.61,
+        "studentGirlPct": 52.3,
+        "rank": 52,
+        "vsNational": 21.38
+      }
+    },
+    "maulvibazar": {
+      "name": "Maulvibazar",
+      "division": "Sylhet",
+      "schools": {
+        "tsr": 44.3,
+        "teachers": 2758,
+        "students": 122171,
+        "institutions": 231,
+        "teacherGirlPct": 28.57,
+        "studentGirlPct": 58.14,
+        "rank": 58,
+        "vsNational": 13.4
+      },
+      "colleges": {
+        "tsr": 67.1,
+        "teachers": 877,
+        "students": 58849,
+        "institutions": 49,
+        "teacherGirlPct": 26.45,
+        "studentGirlPct": 54.47,
+        "rank": 58,
+        "vsNational": 30
+      }
+    },
+    "meherpur": {
+      "name": "Meherpur",
+      "division": "Khulna",
+      "schools": {
+        "tsr": 25.79,
+        "teachers": 1910,
+        "students": 49267,
+        "institutions": 132,
+        "teacherGirlPct": 29.32,
+        "studentGirlPct": 56.16,
+        "rank": 18,
+        "vsNational": -5.11
+      },
+      "colleges": {
+        "tsr": 34.74,
+        "teachers": 535,
+        "students": 18585,
+        "institutions": 19,
+        "teacherGirlPct": 20.37,
+        "studentGirlPct": 50.44,
+        "rank": 30,
+        "vsNational": -2.36
+      }
+    },
+    "munshiganj": {
+      "name": "Munshiganj",
+      "division": "Dhaka",
+      "schools": {
+        "tsr": 46.9,
+        "teachers": 1985,
+        "students": 93090,
+        "institutions": 139,
+        "teacherGirlPct": 26.1,
+        "studentGirlPct": 53.1,
+        "rank": 62,
+        "vsNational": 16
+      },
+      "colleges": {
+        "tsr": 57.5,
+        "teachers": 621,
+        "students": 35707,
+        "institutions": 29,
+        "teacherGirlPct": 30.43,
+        "studentGirlPct": 57.71,
+        "rank": 50,
+        "vsNational": 20.4
+      }
+    },
+    "mymensingh": {
+      "name": "Mymensingh",
+      "division": "Mymensingh",
+      "schools": {
+        "tsr": 32.48,
+        "teachers": 8665,
+        "students": 281449,
+        "institutions": 683,
+        "teacherGirlPct": 33.95,
+        "studentGirlPct": 51.88,
+        "rank": 37,
+        "vsNational": 1.58
+      },
+      "colleges": {
+        "tsr": 44.21,
+        "teachers": 3599,
+        "students": 159106,
+        "institutions": 150,
+        "teacherGirlPct": 31.01,
+        "studentGirlPct": 52.56,
+        "rank": 39,
+        "vsNational": 7.11
+      }
+    },
+    "naogaon": {
+      "name": "Naogaon",
+      "division": "Rajshahi",
+      "schools": {
+        "tsr": 24.44,
+        "teachers": 5857,
+        "students": 143169,
+        "institutions": 464,
+        "teacherGirlPct": 24.01,
+        "studentGirlPct": 51.9,
+        "rank": 14,
+        "vsNational": -6.46
+      },
+      "colleges": {
+        "tsr": 26.01,
+        "teachers": 2658,
+        "students": 69129,
+        "institutions": 87,
+        "teacherGirlPct": 18.77,
+        "studentGirlPct": 42.93,
+        "rank": 7,
+        "vsNational": -11.09
+      }
+    },
+    "narail": {
+      "name": "Narail",
+      "division": "Khulna",
+      "schools": {
+        "tsr": 25.88,
+        "teachers": 1840,
+        "students": 47628,
+        "institutions": 134,
+        "teacherGirlPct": 31.63,
+        "studentGirlPct": 53.84,
+        "rank": 20,
+        "vsNational": -5.02
+      },
+      "colleges": {
+        "tsr": 38.89,
+        "teachers": 612,
+        "students": 23798,
+        "institutions": 24,
+        "teacherGirlPct": 25.33,
+        "studentGirlPct": 46.81,
+        "rank": 33,
+        "vsNational": 1.79
+      }
+    },
+    "narayanganj": {
+      "name": "Narayanganj",
+      "division": "Dhaka",
+      "schools": {
+        "tsr": 36.13,
+        "teachers": 4321,
+        "students": 156112,
+        "institutions": 221,
+        "teacherGirlPct": 39.6,
+        "studentGirlPct": 53.93,
+        "rank": 45,
+        "vsNational": 5.23
+      },
+      "colleges": {
+        "tsr": 73.73,
+        "teachers": 1171,
+        "students": 86334,
+        "institutions": 56,
+        "teacherGirlPct": 40.39,
+        "studentGirlPct": 50.5,
+        "rank": 62,
+        "vsNational": 36.63
+      }
+    },
+    "narsingdi": {
+      "name": "Narsingdi",
+      "division": "Dhaka",
+      "schools": {
+        "tsr": 31.31,
+        "teachers": 4476,
+        "students": 140136,
+        "institutions": 288,
+        "teacherGirlPct": 37.58,
+        "studentGirlPct": 55.8,
+        "rank": 31,
+        "vsNational": 0.41
+      },
+      "colleges": {
+        "tsr": 42.24,
+        "teachers": 1807,
+        "students": 76332,
+        "institutions": 80,
+        "teacherGirlPct": 30.94,
+        "studentGirlPct": 51.54,
+        "rank": 38,
+        "vsNational": 5.14
+      }
+    },
+    "natore": {
+      "name": "Natore",
+      "division": "Rajshahi",
+      "schools": {
+        "tsr": 24.36,
+        "teachers": 4500,
+        "students": 109606,
+        "institutions": 322,
+        "teacherGirlPct": 27.4,
+        "studentGirlPct": 53.01,
+        "rank": 13,
+        "vsNational": -6.54
+      },
+      "colleges": {
+        "tsr": 17.47,
+        "teachers": 3325,
+        "students": 58082,
+        "institutions": 92,
+        "teacherGirlPct": 23.79,
+        "studentGirlPct": 49.13,
+        "rank": 1,
+        "vsNational": -19.63
+      }
+    },
+    "netrokona": {
+      "name": "Netrokona",
+      "division": "Mymensingh",
+      "schools": {
+        "tsr": 33.42,
+        "teachers": 3436,
+        "students": 114838,
+        "institutions": 292,
+        "teacherGirlPct": 27.39,
+        "studentGirlPct": 49.11,
+        "rank": 41,
+        "vsNational": 2.52
+      },
+      "colleges": {
+        "tsr": 56.45,
+        "teachers": 1075,
+        "students": 60686,
+        "institutions": 50,
+        "teacherGirlPct": 26.42,
+        "studentGirlPct": 53.26,
+        "rank": 49,
+        "vsNational": 19.35
+      }
+    },
+    "nilphamari": {
+      "name": "Nilphamari",
+      "division": "Rangpur",
+      "schools": {
+        "tsr": 30.03,
+        "teachers": 4634,
+        "students": 139171,
+        "institutions": 335,
+        "teacherGirlPct": 26.65,
+        "studentGirlPct": 54.83,
+        "rank": 30,
+        "vsNational": -0.87
+      },
+      "colleges": {
+        "tsr": 26.79,
+        "teachers": 2341,
+        "students": 62720,
+        "institutions": 97,
+        "teacherGirlPct": 21.19,
+        "studentGirlPct": 51.65,
+        "rank": 11,
+        "vsNational": -10.31
+      }
+    },
+    "noakhali": {
+      "name": "Noakhali",
+      "division": "Chattogram",
+      "schools": {
+        "tsr": 44.02,
+        "teachers": 4200,
+        "students": 184905,
+        "institutions": 340,
+        "teacherGirlPct": 26.69,
+        "studentGirlPct": 59.1,
+        "rank": 57,
+        "vsNational": 13.12
+      },
+      "colleges": {
+        "tsr": 64.48,
+        "teachers": 1302,
+        "students": 83951,
+        "institutions": 59,
+        "teacherGirlPct": 23.89,
+        "studentGirlPct": 49.74,
+        "rank": 56,
+        "vsNational": 27.38
+      }
+    },
+    "pabna": {
+      "name": "Pabna",
+      "division": "Rajshahi",
+      "schools": {
+        "tsr": 38.36,
+        "teachers": 4595,
+        "students": 176257,
+        "institutions": 353,
+        "teacherGirlPct": 31.25,
+        "studentGirlPct": 55.76,
+        "rank": 48,
+        "vsNational": 7.46
+      },
+      "colleges": {
+        "tsr": 30.52,
+        "teachers": 3082,
+        "students": 94068,
+        "institutions": 98,
+        "teacherGirlPct": 28.33,
+        "studentGirlPct": 51.98,
+        "rank": 24,
+        "vsNational": -6.58
+      }
+    },
+    "panchagarh": {
+      "name": "Panchagarh",
+      "division": "Rangpur",
+      "schools": {
+        "tsr": 22.14,
+        "teachers": 3915,
+        "students": 86663,
+        "institutions": 302,
+        "teacherGirlPct": 25.31,
+        "studentGirlPct": 57.15,
+        "rank": 5,
+        "vsNational": -8.76
+      },
+      "colleges": {
+        "tsr": 26.15,
+        "teachers": 1194,
+        "students": 31227,
+        "institutions": 40,
+        "teacherGirlPct": 21.44,
+        "studentGirlPct": 54.14,
+        "rank": 8,
+        "vsNational": -10.95
+      }
+    },
+    "patuakhali": {
+      "name": "Patuakhali",
+      "division": "Barishal",
+      "schools": {
+        "tsr": 27.64,
+        "teachers": 3403,
+        "students": 94072,
+        "institutions": 313,
+        "teacherGirlPct": 26.18,
+        "studentGirlPct": 53.55,
+        "rank": 23,
+        "vsNational": -3.26
+      },
+      "colleges": {
+        "tsr": 28.47,
+        "teachers": 1957,
+        "students": 55718,
+        "institutions": 68,
+        "teacherGirlPct": 27.03,
+        "studentGirlPct": 50.22,
+        "rank": 17,
+        "vsNational": -8.63
+      }
+    },
+    "pirojpur": {
+      "name": "Pirojpur",
+      "division": "Barishal",
+      "schools": {
+        "tsr": 22.09,
+        "teachers": 3180,
+        "students": 70249,
+        "institutions": 279,
+        "teacherGirlPct": 28.93,
+        "studentGirlPct": 57.92,
+        "rank": 4,
+        "vsNational": -8.81
+      },
+      "colleges": {
+        "tsr": 28.31,
+        "teachers": 1229,
+        "students": 34798,
+        "institutions": 50,
+        "teacherGirlPct": 25.55,
+        "studentGirlPct": 55.54,
+        "rank": 16,
+        "vsNational": -8.79
+      }
+    },
+    "rajbari": {
+      "name": "Rajbari",
+      "division": "Dhaka",
+      "schools": {
+        "tsr": 34.14,
+        "teachers": 2049,
+        "students": 69957,
+        "institutions": 159,
+        "teacherGirlPct": 27.53,
+        "studentGirlPct": 55.35,
+        "rank": 43,
+        "vsNational": 3.24
+      },
+      "colleges": {
+        "tsr": 29.77,
+        "teachers": 1075,
+        "students": 32005,
+        "institutions": 38,
+        "teacherGirlPct": 26.42,
+        "studentGirlPct": 54.71,
+        "rank": 19,
+        "vsNational": -7.33
+      }
+    },
+    "rajshahi": {
+      "name": "Rajshahi",
+      "division": "Rajshahi",
+      "schools": {
+        "tsr": 22.82,
+        "teachers": 7901,
+        "students": 180303,
+        "institutions": 586,
+        "teacherGirlPct": 31.01,
+        "studentGirlPct": 52.88,
+        "rank": 9,
+        "vsNational": -8.08
+      },
+      "colleges": {
+        "tsr": 20.33,
+        "teachers": 7045,
+        "students": 143218,
+        "institutions": 176,
+        "teacherGirlPct": 25.95,
+        "studentGirlPct": 47.32,
+        "rank": 2,
+        "vsNational": -16.77
+      }
+    },
+    "rangamati": {
+      "name": "Rangamati",
+      "division": "Chattogram",
+      "schools": {
+        "tsr": 28.58,
+        "teachers": 1480,
+        "students": 42294,
+        "institutions": 152,
+        "teacherGirlPct": 26.76,
+        "studentGirlPct": 53.16,
+        "rank": 26,
+        "vsNational": -2.32
+      },
+      "colleges": {
+        "tsr": 69.8,
+        "teachers": 352,
+        "students": 24570,
+        "institutions": 22,
+        "teacherGirlPct": 27.84,
+        "studentGirlPct": 48.69,
+        "rank": 60,
+        "vsNational": 32.7
+      }
+    },
+    "rangpur": {
+      "name": "Rangpur",
+      "division": "Rangpur",
+      "schools": {
+        "tsr": 24.86,
+        "teachers": 7452,
+        "students": 185253,
+        "institutions": 528,
+        "teacherGirlPct": 28.72,
+        "studentGirlPct": 54.28,
+        "rank": 16,
+        "vsNational": -6.04
+      },
+      "colleges": {
+        "tsr": 30.47,
+        "teachers": 3876,
+        "students": 118105,
+        "institutions": 133,
+        "teacherGirlPct": 26.16,
+        "studentGirlPct": 52.22,
+        "rank": 23,
+        "vsNational": -6.63
+      }
+    },
+    "satkhira": {
+      "name": "Satkhira",
+      "division": "Khulna",
+      "schools": {
+        "tsr": 23.17,
+        "teachers": 4576,
+        "students": 106004,
+        "institutions": 331,
+        "teacherGirlPct": 22.62,
+        "studentGirlPct": 54.61,
+        "rank": 11,
+        "vsNational": -7.73
+      },
+      "colleges": {
+        "tsr": 24.89,
+        "teachers": 2618,
+        "students": 65167,
+        "institutions": 75,
+        "teacherGirlPct": 17.27,
+        "studentGirlPct": 44.47,
+        "rank": 6,
+        "vsNational": -12.21
+      }
+    },
+    "shariatpur": {
+      "name": "Shariatpur",
+      "division": "Dhaka",
+      "schools": {
+        "tsr": 44.91,
+        "teachers": 1618,
+        "students": 72669,
+        "institutions": 136,
+        "teacherGirlPct": 24.91,
+        "studentGirlPct": 58.14,
+        "rank": 60,
+        "vsNational": 14.01
+      },
+      "colleges": {
+        "tsr": 51.05,
+        "teachers": 576,
+        "students": 29403,
+        "institutions": 33,
+        "teacherGirlPct": 21.53,
+        "studentGirlPct": 62.9,
+        "rank": 46,
+        "vsNational": 13.95
+      }
+    },
+    "sherpur": {
+      "name": "Sherpur",
+      "division": "Mymensingh",
+      "schools": {
+        "tsr": 33.11,
+        "teachers": 2448,
+        "students": 81065,
+        "institutions": 192,
+        "teacherGirlPct": 27.78,
+        "studentGirlPct": 52.3,
+        "rank": 39,
+        "vsNational": 2.21
+      },
+      "colleges": {
+        "tsr": 45.3,
+        "teachers": 832,
+        "students": 37692,
+        "institutions": 32,
+        "teacherGirlPct": 27.88,
+        "studentGirlPct": 52.03,
+        "rank": 41,
+        "vsNational": 8.2
+      }
+    },
+    "sirajganj": {
+      "name": "Sirajganj",
+      "division": "Rajshahi",
+      "schools": {
+        "tsr": 41.27,
+        "teachers": 4915,
+        "students": 202866,
+        "institutions": 403,
+        "teacherGirlPct": 25.55,
+        "studentGirlPct": 52.58,
+        "rank": 53,
+        "vsNational": 10.37
+      },
+      "colleges": {
+        "tsr": 29.87,
+        "teachers": 3615,
+        "students": 107963,
+        "institutions": 111,
+        "teacherGirlPct": 22.96,
+        "studentGirlPct": 46.67,
+        "rank": 20,
+        "vsNational": -7.23
+      }
+    },
+    "sunamganj": {
+      "name": "Sunamganj",
+      "division": "Sylhet",
+      "schools": {
+        "tsr": 49.91,
+        "teachers": 2683,
+        "students": 133910,
+        "institutions": 278,
+        "teacherGirlPct": 21.58,
+        "studentGirlPct": 55.78,
+        "rank": 64,
+        "vsNational": 19.01
+      },
+      "colleges": {
+        "tsr": 66.93,
+        "teachers": 765,
+        "students": 51203,
+        "institutions": 61,
+        "teacherGirlPct": 15.69,
+        "studentGirlPct": 57.94,
+        "rank": 57,
+        "vsNational": 29.83
+      }
+    },
+    "sylhet": {
+      "name": "Sylhet",
+      "division": "Sylhet",
+      "schools": {
+        "tsr": 39.92,
+        "teachers": 5147,
+        "students": 205455,
+        "institutions": 417,
+        "teacherGirlPct": 28.7,
+        "studentGirlPct": 56.2,
+        "rank": 50,
+        "vsNational": 9.02
+      },
+      "colleges": {
+        "tsr": 57.64,
+        "teachers": 2173,
+        "students": 125261,
+        "institutions": 147,
+        "teacherGirlPct": 29.82,
+        "studentGirlPct": 56.01,
+        "rank": 51,
+        "vsNational": 20.54
+      }
+    },
+    "tangail": {
+      "name": "Tangail",
+      "division": "Dhaka",
+      "schools": {
+        "tsr": 33.12,
+        "teachers": 7163,
+        "students": 237210,
+        "institutions": 555,
+        "teacherGirlPct": 27.77,
+        "studentGirlPct": 51.57,
+        "rank": 40,
+        "vsNational": 2.22
+      },
+      "colleges": {
+        "tsr": 39.55,
+        "teachers": 3005,
+        "students": 118833,
+        "institutions": 106,
+        "teacherGirlPct": 29.05,
+        "studentGirlPct": 53.67,
+        "rank": 35,
+        "vsNational": 2.45
+      }
+    },
+    "thakurgaon": {
+      "name": "Thakurgaon",
+      "division": "Rangpur",
+      "schools": {
+        "tsr": 22.34,
+        "teachers": 5203,
+        "students": 116247,
+        "institutions": 399,
+        "teacherGirlPct": 24.77,
+        "studentGirlPct": 53.73,
+        "rank": 7,
+        "vsNational": -8.56
+      },
+      "colleges": {
+        "tsr": 31.71,
+        "teachers": 1495,
+        "students": 47412,
+        "institutions": 60,
+        "teacherGirlPct": 21.2,
+        "studentGirlPct": 50.63,
+        "rank": 26,
+        "vsNational": -5.39
+      }
+    }
+  }
+}

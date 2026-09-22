@@ -1,0 +1,56 @@
+{
+  "slug": "dhaka",
+  "district": "Dhaka",
+  "division": "Dhaka",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Dhaka",
+    "District": "Dhaka",
+    "Slug": "dhaka",
+    "Inst_Total": 863,
+    "Inst_Girls": 88,
+    "Tchr_Total": 25468,
+    "Tchr_Female": 13467,
+    "Tchr_%Female": 52.88,
+    "Stud_Total": 618573,
+    "Stud_Girls": 325143,
+    "Stud_%Girls": 52.56,
+    "TSR": 24.29
+  },
+  "college": {
+    "Division": "Dhaka",
+    "District": "Dhaka",
+    "Slug": "dhaka",
+    "Inst_Total": 412,
+    "Inst_Girls": 62,
+    "Tchr_Total": 13375,
+    "Tchr_Female": 6093,
+    "Tchr_%Female": 45.56,
+    "Stud_Total": 531438,
+    "Stud_Girls": 265515,
+    "Stud_%Girls": 49.96,
+    "TSR": 39.73
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 53,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 29,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 24.29,
+      "difference": -6.61
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 39.73,
+      "difference": 2.63
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "kurigram",
+  "district": "Kurigram",
+  "division": "Rangpur",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Rangpur",
+    "District": "Kurigram",
+    "Slug": "kurigram",
+    "Inst_Total": 397,
+    "Inst_Girls": 96,
+    "Tchr_Total": 5459,
+    "Tchr_Female": 1212,
+    "Tchr_%Female": 22.2,
+    "Stud_Total": 122065,
+    "Stud_Girls": 64300,
+    "Stud_%Girls": 52.68,
+    "TSR": 22.36
+  },
+  "college": {
+    "Division": "Rangpur",
+    "District": "Kurigram",
+    "Slug": "kurigram",
+    "Inst_Total": 88,
+    "Inst_Girls": 18,
+    "Tchr_Total": 2406,
+    "Tchr_Female": 438,
+    "Tchr_%Female": 18.2,
+    "Stud_Total": 63042,
+    "Stud_Girls": 29020,
+    "Stud_%Girls": 46.03,
+    "TSR": 26.2
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 57,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 56,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 22.36,
+      "difference": -8.54
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 26.2,
+      "difference": -10.9
+    }
+  }
+}

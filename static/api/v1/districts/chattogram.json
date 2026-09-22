@@ -1,0 +1,56 @@
+{
+  "slug": "chattogram",
+  "district": "Chattogram",
+  "division": "Chattogram",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Chattogram",
+    "District": "Chattogram",
+    "Slug": "chattogram",
+    "Inst_Total": 854,
+    "Inst_Girls": 126,
+    "Tchr_Total": 13347,
+    "Tchr_Female": 5361,
+    "Tchr_%Female": 40.17,
+    "Stud_Total": 560399,
+    "Stud_Girls": 312060,
+    "Stud_%Girls": 55.69,
+    "TSR": 41.99
+  },
+  "college": {
+    "Division": "Chattogram",
+    "District": "Chattogram",
+    "Slug": "chattogram",
+    "Inst_Total": 202,
+    "Inst_Girls": 38,
+    "Tchr_Total": 4473,
+    "Tchr_Female": 1709,
+    "Tchr_%Female": 38.21,
+    "Stud_Total": 301567,
+    "Stud_Girls": 158568,
+    "Stud_%Girls": 52.58,
+    "TSR": 67.42
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 11,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 6,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 41.99,
+      "difference": 11.09
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 67.42,
+      "difference": 30.32
+    }
+  }
+}

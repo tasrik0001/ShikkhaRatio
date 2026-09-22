@@ -1,0 +1,56 @@
+{
+  "slug": "jessore",
+  "district": "Jessore",
+  "division": "Khulna",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Khulna",
+    "District": "Jessore",
+    "Slug": "jessore",
+    "Inst_Total": 553,
+    "Inst_Girls": 96,
+    "Tchr_Total": 7900,
+    "Tchr_Female": 2336,
+    "Tchr_%Female": 29.57,
+    "Stud_Total": 163672,
+    "Stud_Girls": 88570,
+    "Stud_%Girls": 54.11,
+    "TSR": 20.72
+  },
+  "college": {
+    "Division": "Khulna",
+    "District": "Jessore",
+    "Slug": "jessore",
+    "Inst_Total": 116,
+    "Inst_Girls": 19,
+    "Tchr_Total": 3839,
+    "Tchr_Female": 897,
+    "Tchr_%Female": 23.37,
+    "Stud_Total": 105126,
+    "Stud_Girls": 50423,
+    "Stud_%Girls": 47.96,
+    "TSR": 27.38
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 64,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 52,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 20.72,
+      "difference": -10.18
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 27.38,
+      "difference": -9.72
+    }
+  }
+}

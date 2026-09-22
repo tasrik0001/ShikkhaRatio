@@ -1,0 +1,56 @@
+{
+  "slug": "sylhet",
+  "district": "Sylhet",
+  "division": "Sylhet",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Sylhet",
+    "District": "Sylhet",
+    "Slug": "sylhet",
+    "Inst_Total": 417,
+    "Inst_Girls": 39,
+    "Tchr_Total": 5147,
+    "Tchr_Female": 1477,
+    "Tchr_%Female": 28.7,
+    "Stud_Total": 205455,
+    "Stud_Girls": 115458,
+    "Stud_%Girls": 56.2,
+    "TSR": 39.92
+  },
+  "college": {
+    "Division": "Sylhet",
+    "District": "Sylhet",
+    "Slug": "sylhet",
+    "Inst_Total": 147,
+    "Inst_Girls": 24,
+    "Tchr_Total": 2173,
+    "Tchr_Female": 648,
+    "Tchr_%Female": 29.82,
+    "Stud_Total": 125261,
+    "Stud_Girls": 70158,
+    "Stud_%Girls": 56.01,
+    "TSR": 57.64
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 15,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 14,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 39.92,
+      "difference": 9.02
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 57.64,
+      "difference": 20.54
+    }
+  }
+}

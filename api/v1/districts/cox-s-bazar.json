@@ -1,0 +1,56 @@
+{
+  "slug": "cox-s-bazar",
+  "district": "Cox's Bazar",
+  "division": "Chattogram",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Chattogram",
+    "District": "Cox's Bazar",
+    "Slug": "cox-s-bazar",
+    "Inst_Total": 240,
+    "Inst_Girls": 26,
+    "Tchr_Total": 3065,
+    "Tchr_Female": 823,
+    "Tchr_%Female": 26.85,
+    "Stud_Total": 136813,
+    "Stud_Girls": 78984,
+    "Stud_%Girls": 57.73,
+    "TSR": 44.64
+  },
+  "college": {
+    "Division": "Chattogram",
+    "District": "Cox's Bazar",
+    "Slug": "cox-s-bazar",
+    "Inst_Total": 34,
+    "Inst_Girls": 5,
+    "Tchr_Total": 717,
+    "Tchr_Female": 180,
+    "Tchr_%Female": 25.1,
+    "Stud_Total": 54125,
+    "Stud_Girls": 30422,
+    "Stud_%Girls": 56.21,
+    "TSR": 75.49
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 6,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 2,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 44.64,
+      "difference": 13.74
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 75.49,
+      "difference": 38.39
+    }
+  }
+}

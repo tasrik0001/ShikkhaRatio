@@ -1,0 +1,152 @@
+/* Shared styles for the embed builder and the watchlist widget. */
+
+.community-panel {
+  border: 1px solid var(--ink);
+  background: var(--white);
+  padding: 22px;
+}
+
+.embed-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: end;
+}
+
+.embed-controls > div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.embed-controls label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.embed-controls select,
+.embed-controls input {
+  width: 100%;
+}
+
+.embed-snippet {
+  display: block;
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  padding: 16px;
+  margin: 18px 0 0;
+  overflow-x: auto;
+  font: 13px/1.6 "Courier New", Courier, monospace;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.copy-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.copy-row .status {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.preview-frame {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  height: 600px;
+  border: 2px solid #111;
+  background: var(--white);
+}
+
+.preview-caption {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 10px 0 0;
+}
+
+.widget-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: end;
+}
+
+.widget-picker > div {
+  flex: 1;
+  min-width: 220px;
+}
+
+.widget-picker label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.widget-picker input {
+  width: 100%;
+}
+
+.watchlist-empty {
+  border: 2px dashed var(--ink);
+  background: var(--white);
+  padding: 30px 24px;
+  text-align: center;
+  font: 20px/1.5 Georgia, serif;
+}
+
+.watchlist-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.watchlist-diff {
+  font-variant-numeric: tabular-nums;
+}
+
+.row-remove {
+  border: 1px solid var(--ink);
+  background: var(--white);
+  color: var(--ink);
+  padding: 2px 8px;
+  margin-left: 10px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.row-remove:hover {
+  background: var(--red);
+  border-color: var(--red);
+  color: var(--white);
+}
+
+.widget-note {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 14px;
+}
+
+@media (max-width: 550px) {
+  .preview-frame {
+    height: 420px;
+  }
+  .widget-picker {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .widget-picker > div {
+    min-width: 0;
+  }
+  .embed-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

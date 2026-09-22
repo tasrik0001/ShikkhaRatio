@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ShikkhaRatio-এর জেলা শিক্ষা সংখ্যা সরল JSON ফাইল হিসেবে ডাউনলোড করুন: ৬৪টি জেলার জন্য বিদ্যালয় ও কলেজ অনুপাত।">
+  <title>ডাটা ডাউনলোড | ShikkhaRatio</title>
+  <meta name="theme-color" content="#a12d23">
+  <link rel="icon" href="data:,">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="../style.css">
+  
+  <script defer src="../site.js"></script>
+  
+</head>
+<body>
+<a class="skip-link" href="#main">বিষয়বস্তুতে যান</a>
+  <header class="site-header">
+    <div class="edition"><span>বাংলাদেশ · একটি স্বাধীন ছাত্র প্রকল্প</span><time id="today" datetime="2026-09-22">২২ সেপ্টেম্বর ২০২৬</time><a href="../api.html" class="lang-toggle">English</a></div>
+    <a class="masthead" href="index.html">Shikkha<span>Ratio</span><span class="masthead-note">শিক্ষা, জেলা অনুযায়ী দেখা।</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">হোম</a><a href="explore.html" data-explore>তথ্য অনুসন্ধান</a><a href="distribute.html">বরাদ্দ সরঞ্জাম</a><a href="shortage.html">শিক্ষক ঘাটতি</a><a href="regions.html">আঞ্চলিক পার্থক্য</a><a href="story.html">আমাদের গল্প</a><a href="goals.html">লক্ষ্য</a><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a></nav>
+  </header>
+  <main id="main">
+
+    <article aria-labelledby="article-title">
+      <header class="article-header">
+        <p class="eyebrow">ডাটা ডাউনলোড / JSON ফাইল</p>
+        <h1 id="article-title">আপনার নিজের প্রকল্পের জন্য সংখ্যা প্রস্তুত।</h1>
+        <p class="lead">ShikkhaRatio-এর প্রতিটি সংখ্যা দুইবার প্রকাশিত: এই পৃষ্ঠায় এবং সরল JSON ফাইল হিসেবে। ব্রাউজারে লিংক খুলুন, অথবা নিজের সাইট থেকে তুলুন। সংখ্যা শেয়ার করার সময় BANBEIS ২০২৪-এর কৃতজ্ঞতা দিন।</p>
+      </header>
+      <div class="article-grid">
+        <div class="article-body">
+          <p class="notice">এগুলো এমন সরল ডাটা ফাইল যেকোনো ওয়েবসাইট পড়তে পারে।</p>
+          <p>ফাইলগুলো এই সাইটেই থাকে, তাই যেকোনো পৃষ্ঠা তুলতে পারে। কোনো সাইন-আপ নেই, কী নেই, বিশেষ সেটআপ নেই।</p>
+          <h2 id="endpoints">লিংকগুলো</h2>
+          <div class="table-scroll">
+            <table class="endpoint-table">
+              <caption>২০২৪ সালের জেলা অনুযায়ী বিদ্যালয় ও কলেজ সংখ্যা। কপি করতে Copy চাপুন।</caption>
+              <thead>
+                <tr><th scope="col">Method</th><th scope="col">কী পাবেন</th><th scope="col">ঠিকানা</th><th scope="col">Copy</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>GET</td><td>সাইট সংস্করণ, বিল্ড তারিখ, জাতীয় অনুপাত ও সারি সংখ্যা</td><td><a href="../api/v1/meta.json"><code>/api/v1/meta.json</code></a></td><td><button type="button" class="copy-btn" data-copy="/api/v1/meta.json">Copy</button></td></tr>
+                <tr><td>GET</td><td>৬৪টি জেলার বিদ্যালয় সারি</td><td><a href="../api/v1/schools.json"><code>/api/v1/schools.json</code></a></td><td><button type="button" class="copy-btn" data-copy="/api/v1/schools.json">Copy</button></td></tr>
+                <tr><td>GET</td><td>৬৪টি জেলার কলেজ সারি</td><td><a href="../api/v1/colleges.json"><code>/api/v1/colleges.json</code></a></td><td><button type="button" class="copy-btn" data-copy="/api/v1/colleges.json">Copy</button></td></tr>
+                <tr><td>GET</td><td>একটি জেলা: বিদ্যালয় ও কলেজ, র‍্যাংক ও জাতীয় তুলনা</td><td><a href="../api/v1/districts/dhaka.json"><code>/api/v1/districts/{slug}.json</code></a></td><td><button type="button" class="copy-btn" data-copy="/api/v1/districts/dhaka.json">Copy</button></td></tr>
+                <tr><td>GET</td><td>খাত অনুযায়ী সর্বনিম্ন, সর্বোচ্চ, মধ্যমা ও গড়</td><td><a href="../api/v1/stats.json"><code>/api/v1/stats.json</code></a></td><td><button type="button" class="copy-btn" data-copy="/api/v1/stats.json">Copy</button></td></tr>
+                <tr><td>GET</td><td>প্রকাশিত শীর্ষ ৫ তালিকা এবং ১০ সর্বোচ্চ ও ১০ সর্বনিম্ন জেলা</td><td><a href="../api/v1/top-pressure.json"><code>/api/v1/top-pressure.json</code></a></td><td><button type="button" class="copy-btn" data-copy="/api/v1/top-pressure.json">Copy</button></td></tr>
+                <tr><td>GET</td><td>আটটি বিভাগ ও গড় জেলা অনুপাত</td><td><a href="../api/v1/divisions.json"><code>/api/v1/divisions.json</code></a></td><td><button type="button" class="copy-btn" data-copy="/api/v1/divisions.json">Copy</button></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>প্রতিটি জেলার নিজের ফাইল আছে। নামটি ছোট হাতের অক্ষরে, অ্যাপোস্ট্রফি বাদ দিয়ে, স্পেসকে হাইফেনে বদলে: <a href="../api/v1/districts/dhaka.json"><code>/api/v1/districts/dhaka.json</code></a> এবং <a href="../api/v1/districts/cox-s-bazar.json"><code>/api/v1/districts/cox-s-bazar.json</code></a>। প্রতিটি সারিতে পাথ তৈরির জন্য <code>Slug</code> আছে।</p>
+          <h2 id="samples">নমুনা উত্তর</h2>
+          <div class="sample-list">
+            <details>
+              <summary>meta.json: এই সাইট কী প্রকাশ করে</summary>
+              <pre><code>{
+  "site": "ShikkhaRatio",
+  "version": "0.1.0",
+  "datasetYear": 2024,
+  "national": { "schoolTsr": 30.9, "collegeTsr": 37.1 },
+  "counts": { "districts": 64, "divisions": 8, "schoolRows": 64, "collegeRows": 64, "districtFiles": 64 }
+}</code></pre>
+              <p class="sample-note">পূর্ণ ফাইল। শুধু এই ফাইলে জেনারেট করার সময় থাকে।</p>
+            </details>
+            <details>
+              <summary>districts/dhaka.json: দুই খাত, র‍্যাংক ও জাতীয় তুলনা</summary>
+              <pre><code>{
+  "slug": "dhaka",
+  "district": "Dhaka",
+  "school": { "TSR": 24.29 },
+  "college": { "TSR": 39.73 },
+  "ranks": { "school": { "byTsr": 53, "of": 64 }, "college": { "byTsr": 29, "of": 64 } }
+}</code></pre>
+              <p class="sample-note">র‍্যাংক ১ মানে ৬৪ জেলার মধ্যে সর্বোচ্চ অনুপাত। ঋণাত্মক পার্থক্য জাতীয় অনুপাতের নিচে।</p>
+            </details>
+          </div>
+          <h2 id="fields">সংখ্যাগুলো কী বোঝায়</h2>
+          <p>বিদ্যালয় ও কলেজ সারির ফিল্ড নাম CSV ডাউনলোডের মতোই, তাই দুই ফরম্যাট মেলে।</p>
+          <dl class="field-list">
+            <div><dt>Division</dt><dd>আটটি প্রশাসনিক বিভাগের একটি।</dd></div>
+            <div><dt>District</dt><dd>৬৪ জেলার একটি।</dd></div>
+            <div><dt>Slug</dt><dd>এই জেলার ছোট হাতের ফাইল নাম।</dd></div>
+            <div><dt>Inst_Total</dt><dd>জেলার প্রতিষ্ঠান।</dd></div>
+            <div><dt>Tchr_Total</dt><dd>শিক্ষক।</dd></div>
+            <div><dt>Tchr_Female</dt><dd>নারী শিক্ষক।</dd></div>
+            <div><dt>Stud_Total</dt><dd>ছাত্র।</dd></div>
+            <div><dt>TSR</dt><dd>প্রতি শিক্ষকে ছাত্র, সাইটজুড়ে দেখানো অনুপাত।</dd></div>
+          </dl>
+          <h2 id="map">মানচিত্র ফাইল ও স্প্রেডশিট</h2>
+          <p>জেলা মানচিত্রের ফাইল বড়, তাই API-তে কপি করা হয়নি। সেটি <a href="../data/bgd-admin2.geojson"><code>data/bgd-admin2.geojson</code></a>-তে আছে। স্প্রেডশিট পছন্দ? CSV ডাউনলোড <a href="sources.html">উৎস</a> পৃষ্ঠায়, এবং কভারেজ সম্পর্কে <a href="limitations.html">সীমাবদ্ধতা</a> পড়ুন।</p>
+        </div>
+        <aside class="article-aside" aria-labelledby="aside-title">
+          <p class="eyebrow">এক নজরে</p>
+          <h2 id="aside-title">এই ডাটা সেট</h2>
+          <dl class="metrics"><div><dt>বছর</dt><dd>2024</dd></div><div><dt>লিংক</dt><dd>7</dd></div><div><dt>জেলা ফাইল</dt><dd>64</dd></div></dl>
+          <p>এক্সপ্লোরারের একই CSV থেকে তৈরি সরল JSON।</p>
+          <hr>
+          <a href="../api/v1/meta.json">meta.json দিয়ে শুরু করুন</a>
+        </aside>
+      </div>
+      <div class="related" aria-label="Related reading"><a href="sources.html">উৎস দেখুন</a><a href="limitations.html">সীমাবদ্ধতা বুঝুন</a><a href="explore.html" data-explore>সংখ্যা অনুসন্ধান করুন</a></div>
+    </article>
+  </main>
+  <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. শিক্ষা সম্পর্কে একটি প্রশ্ন, দৃশ্যমান করা হয়েছে।</p><div><a href="sources.html">উৎস</a><a href="limitations.html">সীমাবদ্ধতা</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div><p class="small">স্বাধীন প্রকল্প। সরকারি ড্যাশবোর্ড নয়।</p></footer>
+  <script>
+    document.querySelectorAll("[data-copy]").forEach((button) => {
+      button.addEventListener("click", async () => {
+        const url = new URL(button.dataset.copy, window.location.href).href;
+        const original = button.textContent;
+        try {
+          await navigator.clipboard.writeText(url);
+          button.textContent = "Copied";
+        } catch (error) {
+          window.prompt("Copy this address:", url);
+        }
+        setTimeout(() => { button.textContent = original; }, 1500);
+      });
+    });
+  </script>
+    <script src="../js/schema.js"></script>
+  <script src="../js/pwa-register.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,56 @@
+{
+  "slug": "khagrachhari",
+  "district": "Khagrachhari",
+  "division": "Chattogram",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Chattogram",
+    "District": "Khagrachhari",
+    "Slug": "khagrachhari",
+    "Inst_Total": 124,
+    "Inst_Girls": 8,
+    "Tchr_Total": 1352,
+    "Tchr_Female": 376,
+    "Tchr_%Female": 27.81,
+    "Stud_Total": 42479,
+    "Stud_Girls": 23444,
+    "Stud_%Girls": 55.19,
+    "TSR": 31.42
+  },
+  "college": {
+    "Division": "Chattogram",
+    "District": "Khagrachhari",
+    "Slug": "khagrachhari",
+    "Inst_Total": 20,
+    "Inst_Girls": 1,
+    "Tchr_Total": 326,
+    "Tchr_Female": 93,
+    "Tchr_%Female": 28.53,
+    "Stud_Total": 19483,
+    "Stud_Girls": 9576,
+    "Stud_%Girls": 49.15,
+    "TSR": 59.76
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 33,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 12,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 31.42,
+      "difference": 0.52
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 59.76,
+      "difference": 22.66
+    }
+  }
+}

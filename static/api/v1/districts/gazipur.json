@@ -1,0 +1,56 @@
+{
+  "slug": "gazipur",
+  "district": "Gazipur",
+  "division": "Dhaka",
+  "datasetYear": 2024,
+  "school": {
+    "Division": "Dhaka",
+    "District": "Gazipur",
+    "Slug": "gazipur",
+    "Inst_Total": 546,
+    "Inst_Girls": 36,
+    "Tchr_Total": 8351,
+    "Tchr_Female": 3401,
+    "Tchr_%Female": 40.73,
+    "Stud_Total": 227469,
+    "Stud_Girls": 118971,
+    "Stud_%Girls": 52.3,
+    "TSR": 27.24
+  },
+  "college": {
+    "Division": "Dhaka",
+    "District": "Gazipur",
+    "Slug": "gazipur",
+    "Inst_Total": 117,
+    "Inst_Girls": 9,
+    "Tchr_Total": 2576,
+    "Tchr_Female": 876,
+    "Tchr_%Female": 34.01,
+    "Stud_Total": 118702,
+    "Stud_Girls": 58593,
+    "Stud_%Girls": 49.36,
+    "TSR": 46.08
+  },
+  "ranks": {
+    "school": {
+      "byTsr": 43,
+      "of": 64
+    },
+    "college": {
+      "byTsr": 22,
+      "of": 64
+    }
+  },
+  "vsNational": {
+    "school": {
+      "nationalTsr": 30.9,
+      "districtTsr": 27.24,
+      "difference": -3.66
+    },
+    "college": {
+      "nationalTsr": 37.1,
+      "districtTsr": 46.08,
+      "difference": 8.98
+    }
+  }
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Build an iframe snippet to show ShikkhaRatio district figures and charts on another website.">
+  <title>Embed ShikkhaRatio | ShikkhaRatio</title>
+  <meta name="theme-color" content="#a12d23">
+  <link rel="icon" href="data:,">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/community.css">
+  <script defer src="site.js"></script>
+  <script defer src="js/export.js"></script>
+  <script defer src="js/embed.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="edition"><span>Bangladesh · An independent student project</span><time id="today"></time><a href="bn/embed.html" class="lang-toggle">বাংলা</a></div>
+    <a class="masthead" href="index.html">Shikkha<span>Ratio</span><span class="masthead-note">Education, seen district by district.</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="explore.html" data-explore>Explore data</a><a href="distribute.html">Allocation tool</a><a href="shortage.html">Teacher shortage</a><a href="regions.html">Regional differences</a><a href="story.html">Our story</a><a href="goals.html">Goals</a><a href="sources.html">Sources</a><a href="limitations.html">Limitations</a></nav>
+  </header>
+  <main id="main">
+    <header class="article-header">
+      <p class="eyebrow">Embed and share / Dataset year 2024</p>
+      <h1>Bring a district view to your own page.</h1>
+      <p class="lead">Choose a page type and a district. Copy the snippet below and paste it into a blog, a school project, or any website that accepts HTML.</p>
+    </header>
+    <section id="embed-builder" aria-labelledby="builder-title">
+      <div class="section-heading"><h2 id="builder-title">01 / Build your snippet</h2><span class="label">Live preview below</span></div>
+      <div class="embed-controls">
+        <div>
+          <label for="embed-src">Page to embed</label>
+          <select id="embed-src">
+            <option value="district">District profile (district.html)</option>
+            <option value="explore">Data explorer (explore.html)</option>
+            <option value="charts">Charts page (charts.html)</option>
+          </select>
+        </div>
+        <div>
+          <label for="embed-district">District</label>
+          <input id="embed-district" list="embed-districts" value="Dhaka" autocomplete="off">
+          <datalist id="embed-districts"></datalist>
+        </div>
+      </div>
+      <p id="embed-note" class="small" role="status"></p>
+      <pre class="embed-snippet"><code id="embed-code"></code></pre>
+      <div class="copy-row">
+        <button id="embed-copy" type="button">Copy snippet</button>
+        <span id="embed-status" class="status" role="status"></span>
+      </div>
+    </section>
+    <section id="embed-preview-section" aria-labelledby="preview-title">
+      <div class="section-heading"><h2 id="preview-title">02 / See it live</h2><span class="label">800 x 600 frame</span></div>
+      <iframe id="embed-preview" class="preview-frame" src="district.html?d=dhaka" width="800" height="600" style="border:2px solid #111" title="ShikkhaRatio district view: Dhaka"></iframe>
+      <p class="preview-caption">This preview shows the frame exactly as another site would show it. Change the controls above to try a different page.</p>
+    </section>
+    <section id="embed-howto" aria-labelledby="howto-title">
+      <div class="section-heading"><h2 id="howto-title">03 / How it works</h2><span class="label">No account needed</span></div>
+      <div class="community-panel">
+        <p>The snippet loads a live frame from this site, so the figures stay up to date whenever the data page updates. You do not need to copy any numbers by hand.</p>
+        <p>Paste the line into the HTML of your page. Most site builders and blogs accept a raw HTML block. The frame is 800 pixels wide and 600 pixels tall, with a strong border that matches the look of this site.</p>
+        <p>Please credit BANBEIS 2024 and ShikkhaRatio under the frame so readers know where the figures come from. The district profile uses <code>?d=slug</code>, the explorer can open with <code>?district=Name</code>, and the charts page accepts the same district slug.</p>
+        <p class="small"><a href="sources.html">Follow the sources</a> or <a href="limitations.html">read about the measures</a> before you share.</p>
+      </div>
+    </section>
+    <noscript><p>This snippet builder needs JavaScript. You can still <a href="sources.html#downloads">download the figures</a> or link straight to <a href="explore.html">the explorer</a>.</p></noscript>
+  </main>
+  <footer><a class="footer-brand" href="index.html">ShikkhaRatio</a><p>Made by Tasrik. A question about education, made visible.</p><div><a href="sources.html">Sources</a><a href="limitations.html">Limitations</a><a href="https://github.com/tasrik0001/ShikkhaRatio">GitHub</a><a href="https://banbeis.gov.bd/">BANBEIS</a></div><p class="small">Independent project. Not an official government dashboard.</p></footer>
+  <script src="js/schema.js"></script>
+  <script src="js/pwa-register.js"></script>
+</body>
+</html>
