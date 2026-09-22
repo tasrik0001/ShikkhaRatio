@@ -1,6 +1,6 @@
 {
   "name": "shikkharatio-web",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "start": "python -m http.server 8000 --bind 127.0.0.1",
